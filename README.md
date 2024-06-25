@@ -6,7 +6,7 @@
 > #### Estudo técnico do modelo e levantamento de informações de hardware, isto é, processador, memória, soc, board, suporte para periféricos.
 
 ## Etapa 2
-> #### Descaracterização voltada para a instalação de um novo sistema operacional, que seja compatível segundo as informações do hardware e dos softwares futuramente utilizados para a etapa final.
+&nbsp;&nbsp;&nbsp;&nbsp; #### Descaracterização voltada para a instalação de um novo sistema operacional, que seja compatível segundo as informações do hardware e dos softwares futuramente utilizados para a etapa final.
 
 ## Etapa 3
 > #### Avaliação de desempenho dos aparelhos com os recém-instalados sistemas operacionais. Verificação de suporte para ações de alto nível (Renderização de imagens e vídeos, tempo de resposta otimizado, etc).
