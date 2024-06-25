@@ -10,7 +10,7 @@
 
 ## Etapa 3
 
-#### Avaliação de desempenho dos aparelhos com os recém-instalados sistemas operacionais. Verificação de suporte para ações de alto nível (Renderização de imagens e vídeos, tempo de resposta otimizado, etc).
+####   Avaliação de desempenho dos aparelhos com os recém-instalados sistemas operacionais. Verificação de suporte para ações de alto nível (Renderização de imagens e vídeos, tempo de resposta otimizado, etc).
 
 ## Etapa 4
 >#### Mapeamento e instalação de softwares de propósito educacional dependendo das características finais dos dispositivos após descaracterização e análise.
