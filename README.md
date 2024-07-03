@@ -17,4 +17,4 @@
 
 # Organização do respositório
 
-#### &nbsp;&nbsp; O respositório foi organizado de forma que os receptores de memso SoC (System on Chip) estão agrupados no mesmo diretório. Para este projeto foram considerados três fabricantes de SoC: Amlogic, Rockchip e Allwinner.
+#### &nbsp;&nbsp; O respositório foi organizado de forma que os receptores de mesmo SoC (System on Chip) estão agrupados no mesmo diretório. Para este projeto foram considerados três fabricantes de SoC: Amlogic, Rockchip e Allwinner.
