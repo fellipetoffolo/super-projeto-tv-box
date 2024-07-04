@@ -1,9 +1,9 @@
 # Modelos e respectivos hardwares
 
 ## X plus! in
-- SoC:
-- Armazenamento interno:
-- Memória RAM:
+- SoC:rk3228A
+- Armazenamento interno: 8GB (eMMC)
+- Memória RAM: 2GB
 - Módulo de rede:
 
 ## TouroBox
