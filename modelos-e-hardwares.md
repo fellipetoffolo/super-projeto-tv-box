@@ -5,7 +5,7 @@
 - Armazenamento interno: 8GB (eMMC)
 - Memória RAM: 2GB
 - Módulo de rede:
-  <img src="![Modelo](https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e0ca0a01-190d-4a30-965b-7800edc9b1ee)" alt="Captura de tela do projeto" width="400">
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e0ca0a01-190d-4a30-965b-7800edc9b1ee" alt="Captura de tela do projeto" width="400">
   ![Placa front](https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02)
   ![Placa back](https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459)
 
