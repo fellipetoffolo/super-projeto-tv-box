@@ -5,7 +5,7 @@
 - Armazenamento interno: 8GB (eMMC)
 - Memória RAM: 2GB
 - Módulo de rede:
-  <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e0ca0a01-190d-4a30-965b-7800edc9b1ee" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02" alt="Captura de tela do projeto" width="500">
@@ -19,6 +19,7 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/139fb182-7b0e-4f01-837a-1aacb53d6f76" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/18a54a2e-c5f0-46d1-af30-db2af0cadd23" alt="Captura de tela do projeto" width="500">
@@ -32,7 +33,7 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
-  <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/a5b1cb7a-97ac-46d9-bac0-661c22a256e2" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/79895df2-1dbb-400e-a43a-b70b7789051f" alt="Captura de tela do projeto" width="500">
@@ -46,7 +47,7 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
-  <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/61c6658d-ffc7-492e-be36-54f600e48fb0" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/1a015ab4-131d-4f54-ace4-f8bd1c54741f" alt="Captura de tela do projeto" width="500">
@@ -60,7 +61,7 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:  
-  <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/90ae544b-2a1b-4026-af9b-ab922d14a63e" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/074e15db-e88b-4f8a-b52e-e4bf18889623" alt="Captura de tela do projeto" width="500">
