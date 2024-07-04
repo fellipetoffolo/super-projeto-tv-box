@@ -1,9 +1,9 @@
 ## Fotografias dos modelos:
 ##### Tourobox: True
-##### X plus in: False
+##### X plus in: True
 ##### H8: False
-##### H7: False
+##### H7: True
 ##### Ximibox plus: False
-##### btv: False
+##### btv: True
 ##### TG3: False
 
