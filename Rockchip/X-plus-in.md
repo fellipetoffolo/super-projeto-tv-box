@@ -10,7 +10,8 @@ Pela descrição do tutorial, alguns requisitos eram necessários:
 2. Uma imagem de sistema operacional compatível;
 3. Um cartão SD.
 
-   bootamos multitool no sd pelo balena etcher
-   inserimos o sd na tv box. Expandiu a partição. backup opcional.
-   inserimos arquivo .img construido pelo repositorio oficial...
+  O Multitool, cuja imagem foi obtida no link de download pelo tutorial, foi bootado no cartão SD pelo Balena Etcher.
+  O objetivo seria copiar o arquivo de imagem do sistema que se pretende instalar para a pasta "images" do Multitool, agora bootado no cartão SD. Isto, no entanto não foi possível em um primeiro momento, dado que a partição "MULTITOOL" do cartão SD que continha o arquivo "images" não era grande o suficiente para comportar um arquivo .img. Esse problema foi resolvido apenas inserindo o cartão SD na tvbox, que fez com que a partição "MULTITOOL" fosse expandida. Também foi dada a opção de salvar um backup do sistema presenta na SBC naquele dado momento. Com a partição expandido, foi possível inserir o arquivo .img obtido pela build do repositório Armbian no github.
+   
+ 
    
