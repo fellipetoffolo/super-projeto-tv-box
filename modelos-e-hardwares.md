@@ -14,6 +14,15 @@
   <br>
 
 
+## X plus! pro
+- SoC: s905x4
+- Armazenamento interno: 64GB 
+- Memória RAM: 4GB
+- Módulo de rede:
+  <br> <br>
+  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <br>
+  
 ## TouroBox
 - SoC:
 - Armazenamento interno:
