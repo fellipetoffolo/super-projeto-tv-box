@@ -1,7 +1,7 @@
 # Modelos e respectivos hardwares
 
 ## X plus! in
-- SoC: rk3228A
+- SoC: Rockchip rk3228A
 - Armazenamento interno: 8GB (eMMC)
 - Memória RAM: 2GB
 - Módulo de rede:
@@ -15,16 +15,20 @@
 
 
 ## X plus! pro
-- SoC: s905x4
+- SoC: Amlogic s905x4
 - Armazenamento interno: 64GB 
 - Memória RAM: 4GB
 - Módulo de rede:
   <br> <br>
   <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
   <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <br>
   
 ## TouroBox
-- SoC:
+- SoC: Allwinner H313
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
@@ -52,7 +56,7 @@
 
 
 ## Ximi tv stick plus
-- SoC:
+- SoC: Allwinner H313
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
