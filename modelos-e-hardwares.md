@@ -26,6 +26,15 @@
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
   <br>
+
+
+## R69 8k
+- SoC: Rockchip rk3228A
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede:
+
+
   
 ## TouroBox
 - SoC: Allwinner H313
@@ -53,8 +62,14 @@
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/f7f78bda-2245-435e-be00-382df3051778" alt="Captura de tela do projeto" width="500">
   <br>
+  
+## Ximi box plus b11
+- SoC: Allwinner H313
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede:
 
-
+  
 ## Ximi tv stick plus
 - SoC: Allwinner H313
 - Armazenamento interno:
@@ -82,7 +97,20 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/144398e4-7458-4847-9052-e0e414a419bf" alt="Captura de tela do projeto" width="500">
   <br>
 
+## Tigre T10
+- SoC: Allwinner H313
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede:
 
+
+## RedOne
+- SoC: Allwinner H313
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede:
+
+  
 
 
   
