@@ -33,6 +33,13 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
+<br> <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/4445ddfd-a6ba-45df-8e68-186b23a1cea8" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/953e7e64-8775-403f-8211-faf16b97c120" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e36079f0-2330-4d8c-9ec4-a6846896d813" alt="Captura de tela do projeto" width="500">
+  <br>
 
 
   
@@ -69,6 +76,16 @@
 - Memória RAM:
 - Módulo de rede:
 
+
+<br> <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/3d12f967-fc58-491c-93c1-153ebe4c0d31" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/758d5a07-7a75-4c8d-97d4-b9642770898b" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/b6d49688-02c8-4d42-bf5e-a245d1261402" alt="Captura de tela do projeto" width="500">
+  <br>
+
+
   
 ## Ximi tv stick plus
 - SoC: Allwinner H313
@@ -102,6 +119,13 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
+<br> <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/636775bd-e89b-4939-96a1-2f0730b5c079" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/b622fac9-ba63-4950-b746-a0a69affa114" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/3b149a9d-868e-44b6-8dd1-a64a7170871c" alt="Captura de tela do projeto" width="500">
+  <br>
 
 
 ## RedOne
@@ -109,8 +133,14 @@
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede:
+<br> <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/7a31d68e-dae5-45b5-bc09-9e1a3a656fec" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/6c52b0c4-1734-4c73-a7c1-035bbc4a4937" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/08cdf9af-64d2-4a81-bff7-c81b3d9f2817" alt="Captura de tela do projeto" width="500">
+  <br>
 
-  
 
 
   
