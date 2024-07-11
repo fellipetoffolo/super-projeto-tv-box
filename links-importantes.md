@@ -6,3 +6,5 @@
 ### https://github.com/ophub/amlogic-s9xxx-armbian/tree/main/.github
 # Link de Imagens prontas RK/Amlogic 
 ### https://fi.mirror.armbian.de/archive/rk322x-box/archive/
+# Armbian para iniciantes NicoD ( armbian-config)
+### https://www.youtube.com/watch?v=i9KyATAmfwQ&t=2s
