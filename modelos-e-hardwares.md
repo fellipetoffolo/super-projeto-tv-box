@@ -28,7 +28,7 @@
   <br>
 
 
-## R69 8k
+## R69 8k com Worldtv na caixa
 - SoC: Rockchip rk3228A
 - Armazenamento interno:
 - Memória RAM:
