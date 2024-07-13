@@ -10,18 +10,13 @@ A tentativa de entrar no DFU no dia 5 não deu retorno por vídeo, mas será tes
 Não foi possível reconhecer o dispositivo por cabo USB macho-macho no computador através da ferramenta USB burning tool. Foi constatado um problema no cabo HDMI, isso será verificado para aquele dispositivo em específico no dia 11/07/2024, porém é mais certo que algo deja descoberto utilizando o cabo com adaptador USB UART para acessar o console de log serial, conforme explicado por Nico D. e Werner no vídeo https://www.youtube.com/watch?v=UpVMO7gbnYM&t=250s .
 
 ### Dia 10/07/2024:
-O uso de uma outra imagem pré-construída e do multitool deu retorno para um outro modelo de x plus. Foi possível acessar algumas funcionalidades dessa vez, como as aplicações, além da interação do desktop com o mouse. Uma tentativa insistente de fazer com que o dispositivo reconheça o wi-fi sem ancoragem está sendo feita e uma familiaridade com a interface de usuário está sendo adquirida.
+O uso de uma outra imagem pré-construída e descaracterização pelo processo do multitool deu retorno para um outro exemplar de X plus. Foi possível acessar algumas funcionalidades dessa vez, como as aplicações, além da interação do desktop com o mouse. Uma tentativa insistente de fazer com que o dispositivo reconheça o wi-fi sem ancoragem está sendo feita e uma familiaridade com a interface de usuário está sendo adquirida. Também foi descoberto que o exemplar inicial da X plus, supostamente "brickado", na verdade não estava retornando vídeo devido a um problema no monitor, no entanto uma mensagem pedia para reinstalar o sistema e após isso o terminal se tornou inacessível.
 
-## Fotografias dos modelos:
-##### Tourobox: True
-##### X plus in: True
-##### X plus pro: True
-##### H8: False
-##### H7: True
-##### H6: False
-##### Ximibox plus: False
-##### btv: True
-##### TG3: False
+### Dia 11/07/2024:
+
+Ainda não foi possível conectar o wifi e mais estudo deve ser voltado para esse propósito.
+
+
 
 
 
