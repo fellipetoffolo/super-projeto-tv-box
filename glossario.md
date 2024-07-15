@@ -1,34 +1,62 @@
 
 ## Glossário
 
-#### Armazenamento interno
+#### Armazenamento interno:
 
-#### Boot
+#### BIOS (Basic Input Output System):
 
-#### Bootloader
+#### Boot:
 
-#### Driver
+#### Bootloader:
 
-#### eMCP (embedde Multi-Chip Package)
+#### DRAM (Dynamic RAM):
 
-#### eMMC (embedded MultiMediaCard)
+#### Driver:
 
-#### Kernel
+#### eMCP (embedde Multi-Chip Package):
 
-#### NAND
+#### eMMC (embedded MultiMediaCard):
 
-#### NAND Flash
+#### EPROM (Erasable PROM):
+
+#### FAT32 (File Allocation table):
+
+#### Firmware:
+
+#### initrd:
+
+#### initramfs:
+
+#### Kernel:
+
+#### NAND:
+
+#### NAND Flash:
 
 #### NVMe (non-volatile memory express):
 
-#### SATA
+#### NTFS (New Technology File System):
 
-#### U-boot
+#### PROM (Programmable ROM):
+
+#### RAM (Random-access memory):
+
+#### ROM (Read-only memory):
+
+#### rootfs (root file system):
+
+#### SATA:
+
+#### Soc (System on a Chip):
+
+#### SRAM (Static RAM):
+
+#### U-boot (Universal boot):
 
 #### U-boot SPL (secondary program loader)
 
-#### Soc
+#### UEFI (Unified Extensible Firmware Interface):
 
-#### TV box
+#### TV box:
 
 
