@@ -3,6 +3,10 @@
 
 #### Armazenamento interno
 
+#### Boot
+
+#### Bootloader
+
 #### Driver
 
 #### eMCP (embedde Multi-Chip Package)
@@ -18,6 +22,10 @@
 #### NVMe (non-volatile memory express):
 
 #### SATA
+
+#### U-boot
+
+#### U-boot SPL (secondary program loader)
 
 #### Soc
 
