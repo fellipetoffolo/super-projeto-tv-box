@@ -27,11 +27,11 @@ Software que permite que o sistema operacional e outros programas interajam com 
 
 #### eMCP (embedded Multi-Chip Package):
 <!-- eMCP -->
-Tecnologia que combina eMMC (armazenamento) e DRAM (memória) em um único pacote, economizando espaço e simplificando o design do PCB.
+Tecnologia que combina eMMC (armazenamento) e DRAM (memória) em um único pacote, economizando espaço e simplificando o design do PCB. Junto do eMMC e do NAND é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### eMMC (embedded MultiMediaCard):
 <!-- eMMC -->
-Tipo de armazenamento flash integrado que combina memória NAND e um controlador de memória em um único pacote.
+Tipo de armazenamento flash integrado que combina memória NAND e um controlador de memória em um único pacote. Junto do eMCP e do NAND é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### EPROM (Erasable PROM):
 <!-- EPROM -->
@@ -39,7 +39,7 @@ Tipo de memória ROM programável que pode ser apagada por exposição à luz UV
 
 #### FAT32 (File Allocation Table):
 <!-- FAT32 -->
-Sistema de arquivos usado para organizar e gerenciar arquivos em unidades de armazenamento, popular em dispositivos como cartões SD e pen drives.
+Sistema de arquivos usado para organizar e gerenciar arquivos em unidades de armazenamento, popular em dispositivos de mídia externos, como cartões SD e pen drives.
 
 #### Firmware:
 <!-- Firmware -->
@@ -59,7 +59,7 @@ Parte central de um sistema operacional que gerencia operações do sistema e co
 
 #### NAND:
 <!-- NAND -->
-Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória.
+Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória. Junto do eMMC e do eMCP é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### NAND Flash:
 <!-- NAND Flash -->
