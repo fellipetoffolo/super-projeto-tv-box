@@ -1,4 +1,12 @@
 # Processos em andamento da X plus
+
+## META DA SEMANA: 
+
+### Grupo Felherme
+#### Buscar soluções para o problema de conexão da X plus após identificação do problema.
+### Grupo Relyton
+#### Buscar imagens prontas do sistema Armbian que tenham as funcionalidades de rede operantes. Sugestão de bootar um SD e testar previamente a imagem antes de flashar com multitool.
+
 ### Dia 05/07/2024:
 Tentaremos entrar em DFU (mask rom mode) criando um curto no sétimo pino do armazenamento eMMC da x plus. caso não seja possível, tentaremos introduzir o cartão SD com o backup como imagem de sistema. Esta última opção se mostra promissora, ao passo que apesar de não ocorrer nada apenas iniciando o sistema com o cartão SD e o backup na pasta image do multitool, é possível parar o processo de boot e bootar de uma mídia externa.
 
@@ -13,8 +21,10 @@ Não foi possível reconhecer o dispositivo por cabo USB macho-macho no computad
 O uso de uma outra imagem pré-construída e descaracterização pelo processo do multitool deu retorno para um outro exemplar de X plus. Foi possível acessar algumas funcionalidades dessa vez, como as aplicações, além da interação do desktop com o mouse. Uma tentativa insistente de fazer com que o dispositivo reconheça o wi-fi sem ancoragem está sendo feita e uma familiaridade com a interface de usuário está sendo adquirida. Também foi descoberto que o exemplar inicial da X plus, supostamente "brickado", na verdade não estava retornando vídeo devido a um problema no monitor, no entanto uma mensagem pedia para reinstalar o sistema e após isso o terminal se tornou inacessível.
 
 ### Dia 11/07/2024:
+Ainda não foi possível conectar o wifi e mais estudo deve ser voltado para esse propósito. Foi feita a apresentação para os voluntários.
 
-Ainda não foi possível conectar o wifi e mais estudo deve ser voltado para esse propósito.
+### Dia 15/07/2024
+Organização de questões operacionais, divisão e planejamento foram feitos para otimizar a busca pela solução na jornada da X plus. Divisão de duas equipes. A partir deste momento as equipes serão identificadas no log diário.
 
 
 
