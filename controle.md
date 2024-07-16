@@ -2,9 +2,9 @@
 
 ## META DA SEMANA: 
 
-### Grupo Felherme
+### Equipe Felherme
 #### Buscar soluções para o problema de conexão da X plus após identificação do problema.
-### Grupo Relyton
+### Equipe Relyton
 #### Buscar imagens prontas do sistema Armbian que tenham as funcionalidades de rede operantes. Sugestão de bootar um SD e testar previamente a imagem antes de flashar com multitool.
 
 ### Dia 05/07/2024:
