@@ -25,6 +25,10 @@ Tipo de memória volátil que armazena cada bit de dados em um capacitor, necess
 <!-- Driver -->
 Software que permite que o sistema operacional e outros programas interajam com dispositivos de hardware específicos.
 
+### DTB (Device Tree Blob):
+<!-- DTB -->
+O DTB é um banco de dados em formato de arquivo que representa os componentes de hardware em uma determinada placa. Ele é derivado das especificações IBM OpenFirmware e foi escolhido como o mecanismo padrão para passar informações de hardware de baixo nível do bootloader para o kernel.
+
 #### eMCP (embedded Multi-Chip Package):
 <!-- eMCP -->
 Tecnologia que combina eMMC (armazenamento) e DRAM (memória) em um único pacote, economizando espaço e simplificando o design do PCB. Junto do eMMC e do NAND é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
