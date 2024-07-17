@@ -3,10 +3,16 @@
 ## META DA SEMANA: 
 
 ### Equipe Felherme
+### Guilherme:
 #### Buscar imagens prontas do sistema Armbian que tenham as funcionalidades de rede operantes. Sugestão de bootar um SD e testar previamente a imagem antes de flashar com multitool.
+### Fellipe:
+#### Buscar soluções para o problema de conexão da X plus após identificação do problema.
+
+
 ### Equipe Relyton
 #### Buscar soluções para o problema de conexão da X plus após identificação do problema.
 
+Houve uma revolução levantada pelos membros de algumas das equipes devido a falta de interesse. A abordagem das imagens foi vista como representante de um retrocesso, pois dependia da sorte, tomava tempo, e não ensinava nada. A equipe Felherme agora está dividida em duas equipes. 
 
 ### Dia 15/07/2024
 Organização de questões operacionais, divisão e planejamento foram feitos para otimizar a busca pela solução na jornada da X plus. Divisão de duas equipes. A partir deste momento as equipes serão identificadas no log diário.
