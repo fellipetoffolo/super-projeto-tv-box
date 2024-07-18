@@ -14,6 +14,10 @@
 
 Houve uma revolução levantada pelos membros de algumas das equipes devido a falta de interesse. A abordagem das imagens foi vista como representante de um retrocesso, pois dependia da sorte, tomava tempo, e não ensinava nada. A equipe Felherme agora está dividida em duas equipes. 
 
+### Dia 18/09/2024
+Após erros e mais erros por falta de atenção, foi descoberta uma forma de suceder que está para ser testada. A imagem pronta Armbian_24.2.5_Rk322x-box_bookworm_current_6.6.22_xfce_desktop.img não funcionou corretamente para o modelo X plus
+
+
 ### Dia 15/07/2024
 Organização de questões operacionais, divisão e planejamento foram feitos para otimizar a busca pela solução na jornada da X plus. Divisão de duas equipes. A partir deste momento as equipes serão identificadas no log diário.
 
