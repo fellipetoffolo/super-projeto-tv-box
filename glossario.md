@@ -15,7 +15,7 @@
 
 #### Bootloader:
 <!-- Bootloader -->
-> Pequeno programa que carrega o sistema operacional na memória após a inicialização do BIOS/firmware.
+> Pequeno programa que carrega o sistema operacional na memória após a inicialização do [BIOS](#bios-basic-input-output-system)/firmware.
 
 #### DRAM (Dynamic RAM):
 <!-- DRAM -->
@@ -59,7 +59,7 @@
 
 #### Kernel:
 <!-- Kernel -->
-> Parte central de um sistema operacional que gerencia operações do sistema e comunicação entre hardware e software.
+> Parte central de um sistema operacional que gerencia operações do sistema (como escalonamento de processos) e comunicação entre hardware e software.
 
 #### NAND:
 <!-- NAND -->
