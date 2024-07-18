@@ -3,11 +3,11 @@
 
 #### Armazenamento interno:
 <!-- Armazenamento interno -->
-Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem eMMC, NAND, e NVMe.
+   Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem eMMC, NAND, e NVMe.
 
 #### BIOS (Basic Input Output System):
 <!-- BIOS -->
-Firmware essencial que inicializa o hardware durante o processo de boot e fornece serviços de runtime para sistemas operacionais e programas.
+   Firmware essencial que inicializa o hardware durante o processo de boot e fornece serviços de runtime para sistemas operacionais e programas.
 
 #### Boot:
 <!-- Boot -->
