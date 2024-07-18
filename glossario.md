@@ -3,11 +3,11 @@
 
 #### Armazenamento interno:
 <!-- Armazenamento interno -->
-> Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem eMMC, NAND, e NVMe.
+> Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem [eMMC](#emmc-embedded-multimediacard), NAND, e NVMe.
 
 #### BIOS (Basic Input Output System):
 <!-- BIOS -->
-> Firmware essencial que inicializa o hardware durante o processo de boot e fornece serviços de runtime para sistemas operacionais e programas.
+> Firmware essencial que inicializa o hardware durante o processo de [boot](#boot) e fornece serviços de runtime para sistemas operacionais e programas.
 
 #### Boot:
 <!-- Boot -->
@@ -15,7 +15,7 @@
 
 #### Bootloader:
 <!-- Bootloader -->
-> Pequeno programa que carrega o sistema operacional na memória após a inicialização do [BIOS](#bios-basic-input-output-system)/firmware.
+> Pequeno programa que carrega o [kernel](#kernel) do sistema operacional na memória [RAM](#ram-random-access-memory) após a inicialização do [BIOS](#bios-basic-input-output-system)/firmware.
 
 #### DRAM (Dynamic RAM):
 <!-- DRAM -->
@@ -27,11 +27,11 @@
 
 ### DTB (Device Tree Blob):
 <!-- DTB -->
-> O DTB é um banco de dados em formato de arquivo que representa os componentes de hardware em uma determinada placa. Ele é derivado das especificações IBM OpenFirmware e foi escolhido como o mecanismo padrão para passar informações de hardware de baixo nível do bootloader para o kernel.
+> O DTB é um banco de dados em formato de arquivo que representa os componentes de hardware em uma determinada placa. Ele é derivado das especificações IBM OpenFirmware e foi escolhido como o mecanismo padrão para passar informações de hardware de baixo nível do [bootloader](#bootloader) para o kernel.
 
 #### eMCP (embedded Multi-Chip Package):
 <!-- eMCP -->
-> Tecnologia que combina eMMC (armazenamento) e DRAM (memória) em um único pacote, economizando espaço e simplificando o design do PCB. Junto do eMMC e do NAND é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
+> Tecnologia que combina [eMMC](#emmc-embedded-multimediacard) (armazenamento interno) e DRAM (memória RAM) em um único pacote, economizando espaço e simplificando o design do PCB. Junto do eMMC e do NAND é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### eMMC (embedded MultiMediaCard):
 <!-- eMMC -->
@@ -39,7 +39,7 @@
 
 #### EPROM (Erasable PROM):
 <!-- EPROM -->
-> Tipo de memória ROM programável que pode ser apagada por exposição à luz UV e reprogramada.
+> Tipo de memória [ROM](#rom-read-only-memory) programável que pode ser apagada por exposição à luz UV e reprogramada.
 
 #### FAT32 (File Allocation Table):
 <!-- FAT32 -->
@@ -51,23 +51,23 @@
 
 #### initrd (initial RAM Disk):
 <!-- initrd -->
-> Sistema de arquivos temporário usado pelo kernel durante a inicialização de um sistema antes que o rootfs esteja disponível. Ajuda a carregar módulos do kernel e a preparar o ambiente para o rootfs, que é o sistema de arquivos principal.
+> Sistema de arquivos temporário usado pelo [kernel](#kernel) durante a inicialização de um sistema antes que o rootfs esteja disponível. Ajuda a carregar módulos do kernel e a preparar o ambiente para o rootfs, que é o sistema de arquivos principal.
 
 #### initramfs (initial RAM Filesystem):
 <!-- initramfs -->
-> Sistema de arquivos temporários, que advém de um arquivo .cpio (copy in, copy out), que é montado diretamente na RAM. É uma melhoria em relação ao initrd, pois pode ser compactado de forma mais eficiente e permite que o kernel faça a transição para o rootfs de forma mais suave.
+> Sistema de arquivos temporários, que advém de um arquivo .cpio (copy in, copy out), que é montado diretamente na [RAM](#ram-random-access-memory). É uma melhoria em relação ao initrd, pois pode ser compactado de forma mais eficiente e permite que o kernel faça a transição para o rootfs de forma mais suave.
 
 #### Kernel:
 <!-- Kernel -->
-> Parte central de um sistema operacional que gerencia operações do sistema (como escalonamento de processos) e comunicação entre hardware e software.
+> Parte central de um sistema operacional que gerencia operações do sistema (como escalonamento de processos e gerenciamento de memória) e comunicação entre hardware e software.
 
 #### NAND:
 <!-- NAND -->
-> Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória. Junto do eMMC e do eMCP é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
+> Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória. Junto do [eMMC](#emmc-embedded-multimediacard) e do [eMCP](#emcp-embedded-multi-chip-package)) é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### NAND Flash:
 <!-- NAND Flash -->
-> Tecnologia de armazenamento não volátil que armazena dados em células de memória, comum em SSDs, eMMC, e outros dispositivos.
+> Tecnologia de armazenamento não volátil que armazena dados em células de memória, comum em SSDs, [eMMC](#emmc-embedded-multimediacard), e outros dispositivos.
 
 #### NVMe (Non-Volatile Memory Express):
 <!-- NVMe -->
@@ -79,7 +79,7 @@
 
 #### PROM (Programmable ROM):
 <!-- PROM -->
-> Tipo de memória ROM que pode ser programada uma vez após a fabricação.
+> Tipo de memória [ROM](#rom-read-only-memory) que pode ser programada apenas uma vez após a fabricação.
 
 #### RAM (Random-Access Memory):
 <!-- RAM -->
@@ -107,7 +107,7 @@
 
 #### U-Boot (Universal Boot):
 <!-- U-Boot -->
-> Bootloader utilizado em sistemas embarcados para carregar o kernel do sistema operacional e inicializar o hardware.
+> [Bootloader](#bootloader) utilizado em sistemas embarcados para carregar o kernel do sistema operacional e inicializar o hardware.
 
 #### U-Boot SPL (Secondary Program Loader):
 <!-- U-Boot SPL -->
@@ -115,7 +115,7 @@
 
 #### UEFI (Unified Extensible Firmware Interface):
 <!-- UEFI -->
-> Firmware que substitui a BIOS tradicional em muitos computadores modernos, oferecendo uma interface mais rica, suporte para inicialização segura e tempos de inicialização mais rápidos.
+> Firmware que substitui a [BIOS](#bios-basic-input-output-system) tradicional em muitos computadores modernos, oferecendo uma interface mais rica, suporte para inicialização segura e tempos de inicialização mais rápidos.
 
 #### TV Box:
 <!-- TV Box -->
