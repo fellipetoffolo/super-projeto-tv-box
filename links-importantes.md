@@ -8,3 +8,5 @@
 ### https://fi.mirror.armbian.de/archive/rk322x-box/archive/
 # Armbian para iniciantes NicoD ( armbian-config )
 ### https://www.youtube.com/watch?v=i9KyATAmfwQ&t=2s
+# Descaracterização e correção de bug da internet
+### https://hackmd.io/@lbecher/SkPOdsNZ6
