@@ -2,20 +2,13 @@
 
 ## META DA SEMANA: 
 
-### Equipe Felherme
-### Guilherme:
-#### Buscar imagens prontas do sistema Armbian que tenham as funcionalidades de rede operantes. Sugestão de bootar um SD e testar previamente a imagem antes de flashar com multitool.
-### Fellipe:
 #### Buscar soluções para o problema de conexão da X plus após identificação do problema.
+ 
+### Dia 19/07/2024
+Pesquisas sobre como recompilar o kernel do sistema Armbian com um driver de rede compatível estão sendo feitas.
 
-
-### Equipe Relyton
-#### Buscar soluções para o problema de conexão da X plus após identificação do problema.
-
-Houve uma revolução levantada pelos membros de algumas das equipes devido a falta de interesse. A abordagem das imagens foi vista como representante de um retrocesso, pois dependia da sorte, tomava tempo, e não ensinava nada. A equipe Felherme agora está dividida em duas equipes. 
-
-### Dia 18/09/2024
-Após erros e mais erros por falta de atenção, foi descoberta uma forma de suceder que está para ser testada. A imagem pronta Armbian_24.2.5_Rk322x-box_bookworm_current_6.6.22_xfce_desktop.img não funcionou corretamente para o modelo X plus
+### Dia 18/07/2024
+Após erros e mais erros por falta de atenção, foi descoberta uma forma de suceder que está para ser testada. A imagem pronta Armbian_24.2.5_Rk322x-box_bookworm_current_6.6.22_xfce_desktop.img não funcionou corretamente para o modelo X plus.
 
 
 ### Dia 15/07/2024
