@@ -27,7 +27,12 @@
 
 ### DTB (Device Tree Blob):
 <!-- DTB -->
-> O DTB é um banco de dados em formato de arquivo que representa os componentes de hardware em uma determinada placa. Ele é derivado das especificações IBM OpenFirmware e foi escolhido como o mecanismo padrão para passar informações de hardware de baixo nível do [bootloader](#bootloader) para o kernel.
+> DTB é um arquivo "device tree blob", que representa os componentes de hardware em uma determinada placa. Ele é derivado das especificações IBM OpenFirmware e foi escolhido como o mecanismo padrão para passar informações de hardware de baixo nível do [bootloader](#bootloader) para o kernel.
+
+### DTS (Device Tree Source):
+<!-- DTS -->
+> DTS é um arquivo [DTB](#dtb-device-tree-blob) que ainda não foi compilado. Sua especificações são escritas em formato textual.
+
 
 #### eMCP (embedded Multi-Chip Package):
 <!-- eMCP -->
