@@ -82,7 +82,7 @@
 <!-- NTFS -->
 > Sistema de arquivos desenvolvido pela Microsoft, usado principalmente em sistemas Windows para organizar e gerenciar arquivos em unidades de armazenamento.
 
-### MBR (Master Boot Record):
+#### MBR (Master Boot Record):
 <!-- MBR -->
 > Setor principal de inicialização de um disco rígido ou dipositivo de armazenamento, sua estrutura é composta por bootloader, assinatura de disco e tabela de partições: Contendo 4 partições primárias que armazenam informações necessárias para que o computador possa encontrar e carregar o sistema operacional.
 
