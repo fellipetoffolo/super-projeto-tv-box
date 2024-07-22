@@ -2,7 +2,7 @@
 
 ## META DA SEMANA: 
 
-#### Buscar soluções para o problema de conexão da X plus após identificação do problema.
+#### Recompilar o kernel do Armbian para X-plus com os drivers de rede corretos.
  
 ### Dia 19/07/2024
 Pesquisas sobre como recompilar o kernel do sistema Armbian com um driver de rede compatível estão sendo feitas.
