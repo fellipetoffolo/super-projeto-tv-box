@@ -85,6 +85,9 @@
 #### MBR (Master Boot Record):
 <!-- MBR -->
 > Setor principal de inicialização de um disco rígido ou dipositivo de armazenamento. Sua estrutura é composta por bootloader, assinatura de disco e tabela de partições contendo 4 partições primárias que armazenam informações necessárias para que o computador possa encontrar e carregar o sistema operacional.
+#### OpenWrt
+<!--OpenWrt-->
+> Uma distribuição linux embarcada usada em roteadores wireless, com o objetivo de criar diversas funcionalidades e ser um sistema operacional de fácil modificação.
 
 #### PROM (Programmable ROM):
 <!-- PROM -->
