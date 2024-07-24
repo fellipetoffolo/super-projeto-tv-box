@@ -5,7 +5,20 @@
 #### Recompilar o kernel do Armbian para X-plus com os drivers de rede corretos.
 
 ### Dia 23/07/2024
-Fizeram alguma coisa no dia em que faltei, mas pra variar esqueceram de documentar. Quando lerem isso eles vão lembrar  👍
+Foi seguido o tutorial do site: https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndice para compilação do kernel.
+
+ 1º passo: Clonar o seguinte repositório: git clone --depth 1 --branch v6.1 
+  Link utilizado: https://github.com/torvalds/linux.git. 
+  Explicação: 
+              *depth 1: Especifica que a a clonagem do histórico é a mais recente;
+              *branch v6.1: Baixa apenas o código do ramo v6.1;
+              *Repositório oficial linux suportado por Linus Torvald.
+              
+ 2º passo: Baixar um compilador cruzado devido a incompatibilidade da arquitetura x86 com a  arquitetura ARM: sudo apt install crossbuild-essential-armhf libncurses5-dev libssl-dev bison flex.
+ 3º passo: Baixar um patch para SoC rockchip rk3228 e copiar para pasta linux do repositório clonado:
+  Link utilizado: https://www.dropbox.com/scl/fi/dftz18hi1ywb0f8kaz1m2/0001-linux-6.1.57.patch?   rlkey=to2zzcpytcpxk5mn3y45u7j42&e=1&dl=0.
+ 4° passo: Aplicar o patch baixado/copiado através do comando git apply /caminho/para/o/arquivo.patch --reject.
+ 5° passo: Especificação da arquitetura que será compilada. Obs: Devem ser definidos sempre   que o terminal for fechado: export ARCH=arm || export CROSS_COMPILE=arm-linux-gnueabihf- 
  
 ### Dia 19/07/2024
 Pesquisas sobre como recompilar o kernel do sistema Armbian com um driver de rede compatível estão sendo feitas.
