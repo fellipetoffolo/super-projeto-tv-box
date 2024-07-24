@@ -15,6 +15,7 @@ Foi seguido o tutorial do site: https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndi
   - Repositório oficial linux suportado por Linus Torvald.
               
  2º Passo: Baixar um compilador cruzado devido a incompatibilidade da arquitetura x86 com a  arquitetura ARM: sudo apt install crossbuild-essential-armhf libncurses5-dev libssl-dev bison flex.
+ 
  3º Passo: Baixar um patch para SoC rockchip rk3228 e copiar para pasta linux do repositório clonado:
   - Link utilizado: https://www.dropbox.com/scl/fi/dftz18hi1ywb0f8kaz1m2/0001-linux-6.1.57.patch?   rlkey=to2zzcpytcpxk5mn3y45u7j42&e=1&dl=0.
     
