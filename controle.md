@@ -10,7 +10,7 @@ Foi seguido o tutorial do site: https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndi
  1º passo: Clonar o seguinte repositório: git clone --depth 1 --branch v6.1 
   Link utilizado: https://github.com/torvalds/linux.git. 
   Explicação: 
-  >>>depth 1: Especifica que a a clonagem do histórico é a mais recente;
+  >depth 1: Especifica que a a clonagem do histórico é a mais recente;
               *branch v6.1: Baixa apenas o código do ramo v6.1;
               *Repositório oficial linux suportado por Linus Torvald.
               
