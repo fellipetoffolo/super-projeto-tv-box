@@ -10,9 +10,9 @@ Foi seguido o tutorial do site: https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndi
 1º passo: Clonar o seguinte repositório: git clone --depth 1 --branch v6.1 
   Link utilizado: https://github.com/torvalds/linux.git. 
   Explicação: 
-  -Depth 1: Especifica que a a clonagem do histórico é a mais recente;
-  -branch v6.1: Baixa apenas o código do ramo v6.1;
-  -Repositório oficial linux suportado por Linus Torvald.
+  - Depth 1: Especifica que a a clonagem do histórico é a mais recente;
+  - branch v6.1: Baixa apenas o código do ramo v6.1;
+  - Repositório oficial linux suportado por Linus Torvald.
               
  2º passo: Baixar um compilador cruzado devido a incompatibilidade da arquitetura x86 com a  arquitetura ARM: sudo apt install crossbuild-essential-armhf libncurses5-dev libssl-dev bison flex.
  3º passo: Baixar um patch para SoC rockchip rk3228 e copiar para pasta linux do repositório clonado:
