@@ -10,7 +10,7 @@
 ### https://www.youtube.com/watch?v=i9KyATAmfwQ&t=2s
 # Descaracterização e correção de bug da internet
 ### https://hackmd.io/@lbecher/SkPOdsNZ6
-# Distribuiçao Libre-Elec (ainda em teste)
+# Distribuiçao Libre-Elec Media Center(ainda em teste)
 ### https://github.com/knaerzche/LibreELEC.tv/releases/tag/b7186bc
 # Instalação do manjaro em modelos amlogic s905
 ### https://wiki.manjaro.org/index.php/Amlogic_TV_boxes
