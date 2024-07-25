@@ -4,28 +4,52 @@
 
 #### Recompilar o kernel do Armbian para X-plus com os drivers de rede corretos.
 
-### Dia 23/07/2024
-Foi seguido o tutorial do site: https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndice para compilação do kernel.
+### Dia 25/07/2024
 
-1º Passo: Clonar o seguinte repositório: git clone --depth 1 --branch v6.1 
-  - Link utilizado: https://github.com/torvalds/linux.git. 
+Algumas questões não explicadas do tutorial seguido no dia 23 foram melhor entendidas, como  os "Links úteis" da seção "caçando o bug da interface de rede". Na realidade aqueles links só contém os NOMES das FLAGS para o driver de ETHERNET que devem ser inseridos no arquivo config-6.6.22-current-rockchip, que pode ser encontrado ao entrar no diretório /boot. Mas no caso da imagem utilizada, essas flags já estavam setadas. Mesmo assim não foi tão trivial identificá-las a partir do arquivo imagem e será explicado brevemente como fazer isso através da montagem do sistema de arquivo do arquivo de imagem.
+
+Para montar o sistema de arquivos de um arquivo de imagem de sistema operacional, antes é necessário preparar um diretório em que isso será feito, além de possuir esse arquivo de imagem. Vamos supor que o arquivo de imagem tenha o nome imagem.img e deseja-se montar o sistema de arquivos dessa imagem no diretório mnt/armbian. Para montar o sistema de arquivos é necessário ter conhecimento da partição em que esse sistema se encontra no disco de inicialização constante no arquivo de imagem. Isso pode ser realizado com o comando "sudo fdisk -l imagem.img". Explicação:
+- fdisk: ferramenta de manipulação de tabelas de partição.
+- -l: lista as tabelas de partição de todos os dispositivos de bloco (dispositivo de armazenamento de dados que gerencia dados em segmentos de tamanho fixo).
+- imagem.img: Especifica o arquivo de imagem o qual deseja-se listar as tabelas de partição.
+
+Supondo que o retorno do primeiro comando seja algo parecido com:
+
+<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="300">
+Temos que o dispositivo de bloco do arquivo de imagem tem um offset (deslocamento) de 8192 setores, sendo que cada setor equivale a 512 bytes.
+Por esse motivo defini-se a variável offset, com o valor 512*8192 através do comando "offset=$((512 * 8192))". 
+
+Agora sim, é possível executar o comando para montar o sistema de arquivos do arquivo de imagem imagem.img no diretório mnt/armbian através do comando "sudo mount -o loop,offset=$offset imagem.img /mnt/armbian". Explicação:
+- mount: comando para montar sistema de arquivos.
+- -o: especifica opções de montagem.
+- loop: trata o arquivo de imagem como um dispositivo de bloco (loop device).
+- offset: especifica o deslocamento do início da partição dentro do arquivo de imagem.
+- /mnt/armbian: Ponto de montagem onde o sistema estará acessível.
+
+  Finalmente, o sistema de arquivos presente na imagem pode ser explorado, e no diretório usado como ponto de montagem (no caso mnt/armbian), podemos encontrar sub diretórios como o seguinte:
+  <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="300">
+
+
+### Dia 23/07/2024
+Foi seguido o tutorial do site https://hackmd.io/@lbecher/SkPOdsNZ6#Ap%C3%AAndice para compilação do kernel, que apresentou os seguintes passos:
+
+1º Passo: Clonar o repositório com o seguinte comando: git clone --depth 1 --branch v6.1 https://github.com/torvalds/linux.git. 
   Explicação: 
   - Depth 1: Clonagem do histórico mais recente;
   - branch v6.1: Baixa apenas o código do ramo v6.1;
   - Repositório oficial linux suportado por Linus Torvald.
               
  2º Passo: Baixar um compilador cruzado devido a incompatibilidade da arquitetura x86 com a  arquitetura ARM.
- - Link utilizado: sudo apt install crossbuild-essential-armhf libncurses5-dev libssl-dev bison flex.
+Para isso foi utilizado o comando: "sudo apt install crossbuild-essential-armhf libncurses5-dev libssl-dev bison flex".
  
- 3º Passo: Baixar um patch para SoC rockchip rk3228 e copiar para pasta linux do repositório clonado:
-  - Link utilizado: https://www.dropbox.com/scl/fi/dftz18hi1ywb0f8kaz1m2/0001-linux-6.1.57.patch?   rlkey=to2zzcpytcpxk5mn3y45u7j42&e=1&dl=0.
+ 3º Passo: Baixar um patch para SoC rockchip rk3228 e copiar para pasta "linux" do repositório clonado.
+   o Patch pode ser encontrado nesse link: https://www.dropbox.com/scl/fi/dftz18hi1ywb0f8kaz1m2/0001-linux-6.1.57.patch?   rlkey=to2zzcpytcpxk5mn3y45u7j42&e=1&dl=0.
     
- 4° Passo: Aplicar o patch baixado/copiado através do comando git apply /caminho/para/o/arquivo.patch --reject.
+ 4° Passo: Aplicar o patch baixado/copiado através do comando "git apply /caminho/para/o/arquivo.patch --reject". O "--reject" é necessário para forçar atualizações.
 
- 5° Passo: Especificação da arquitetura que será compilada. Obs: Devem aplicados sempre   que o terminal for fechado.
- - Comandos:
- - export ARCH=arm
- - export CROSS_COMPILE=arm-linux-gnueabihf- 
+ 5° Passo: Especificar a arquitetura em que será compilado o kernel. Obs: Devem aplicados sempre que o terminal for fechado. Os comandos utilizados para tal são: "export ARCH=arm" e "export CROSS_COMPILE=arm-linux-gnueabihf-".
+
+ O tutorial, no entanto, não foi seguido até o final, ficando algumas questões em aberto.
  
 ### Dia 19/07/2024
 Pesquisas sobre como recompilar o kernel do sistema Armbian com um driver de rede compatível estão sendo feitas.
@@ -35,7 +59,7 @@ Após erros e mais erros por falta de atenção, foi descoberta uma forma de suc
 
 
 ### Dia 15/07/2024
-Organização de questões operacionais, divisão e planejamento foram feitos para otimizar a busca pela solução na jornada da X plus. Divisão de duas equipes. A partir deste momento as equipes serão identificadas no log diário.
+Organização de questões operacionais, divisão e planejamento foram feitos para otimizar a busca pela solução na jornada da X plus.
 
 ### Dia 11/07/2024:
 Ainda não foi possível conectar o wifi e mais estudo deve ser voltado para esse propósito. Foi feita a apresentação para os voluntários.
