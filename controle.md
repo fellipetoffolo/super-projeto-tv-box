@@ -16,7 +16,7 @@ Para montar o sistema de arquivos de um arquivo de imagem de sistema operacional
 Supondo que o retorno do primeiro comando seja algo parecido com:
 
 
-<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="900">
+<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="900" border="50">
 
 
 Temos que o dispositivo de bloco do arquivo de imagem tem um offset (deslocamento) de 8192 setores, sendo que cada setor equivale a 512 bytes.
@@ -30,7 +30,7 @@ Agora sim, é possível executar o comando para montar o sistema de arquivos do 
 - /mnt/armbian: Ponto de montagem onde o sistema estará acessível.
 
   Finalmente, o sistema de arquivos presente na imagem pode ser explorado, e no diretório usado como ponto de montagem (no caso mnt/armbian), podemos encontrar sub diretórios como o seguinte:
-  <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="900">
+  <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="900" border="90">
 
 
 ### Dia 23/07/2024
