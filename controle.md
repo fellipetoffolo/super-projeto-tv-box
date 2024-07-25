@@ -15,7 +15,8 @@ Para montar o sistema de arquivos de um arquivo de imagem de sistema operacional
 
 Supondo que o retorno do primeiro comando seja algo parecido com:
 
-<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="700">
+<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="700px">
+
 Temos que o dispositivo de bloco do arquivo de imagem tem um offset (deslocamento) de 8192 setores, sendo que cada setor equivale a 512 bytes.
 Por esse motivo defini-se a variável offset, com o valor 512*8192 através do comando "offset=$((512 * 8192))". 
 
