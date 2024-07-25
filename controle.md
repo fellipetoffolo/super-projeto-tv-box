@@ -16,7 +16,7 @@ Para montar o sistema de arquivos de um arquivo de imagem de sistema operacional
 Supondo que o retorno do primeiro comando seja algo parecido com:
 
 
-<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="900" justify-content="right">
+<img src="https://github.com/user-attachments/assets/197abad8-9c0d-4350-8671-a232f676fa54" width="900">
 
 
 Temos que o dispositivo de bloco do arquivo de imagem tem um offset (deslocamento) de 8192 setores, sendo que cada setor equivale a 512 bytes.
