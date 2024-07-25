@@ -30,7 +30,7 @@ Agora sim, é possível executar o comando para montar o sistema de arquivos do 
 - /mnt/armbian: Ponto de montagem onde o sistema estará acessível.
 
   Finalmente, o sistema de arquivos presente na imagem pode ser explorado, e no diretório usado como ponto de montagem (no caso mnt/armbian), podemos encontrar sub diretórios como o seguinte:
-  <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="900" border="90">
+  <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="900" border="90" margin="90" padding="90">
 
 
 ### Dia 23/07/2024
