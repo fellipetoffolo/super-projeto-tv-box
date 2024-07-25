@@ -35,7 +35,7 @@ Agora sim, é possível executar o comando para montar o sistema de arquivos do 
   <img src="https://github.com/user-attachments/assets/aae0710f-b398-4781-b732-5292b523a0ee" width="900">
 
 
-  Para finalizar, o trabalho desenvolvido nesse dia foi, decerta forma, complementar ao que foi desenvolvido no dia 23, pois agora o kernel da imagem original pode ser acessado e alterado de acordo com as novas configurações do kernel recompilado. E é isso que precisa ser feito para que o ciclo de sofrimento e cobrança termine.
+  Para finalizar, o trabalho desenvolvido nesse dia foi, de certa forma, complementar ao que foi desenvolvido no dia 23, pois agora o kernel da imagem original pode ser acessado e alterado de acordo com as novas configurações do kernel recompilado. E é isso que precisa ser feito para que o ciclo de sofrimento e cobrança termine.
 
 
 ### Dia 23/07/2024
