@@ -2,7 +2,7 @@
 
 ## META DA SEMANA: 
 
-#### Recompilar o kernel do Armbian para X-plus com os drivers de rede corretos.
+#### Recompilar o kernel do Armbian para a X-plus com os patches aplicados e remontar o arquivo imagem.
 
 ### Dia 25/07/2024
 
