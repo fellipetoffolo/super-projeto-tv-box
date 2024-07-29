@@ -5,6 +5,12 @@
 <!-- Armazenamento interno -->
 > Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem [eMMC](#emmc-embedded-multimediacard), NAND, e NVMe.
 
+#### armeabi (ARM application binary interface):
+
+#### ARMvx (ARMv4, ARMv5...):
+<!-- ARMvx -->
+> Representa a versão da arquitetura ARM utilizada por uma máquina desta arquitetura. As versões ARMv4 até ARMv7 utilizam conjuntos de instruções de linguagem de máquina de 16 e 32 bits. A partir da versão ARMv8, introduzida em 2011, passou-se a utilizar conjuntos de instruções de 16, 32 e 64 bits.
+
 #### BIOS (Basic Input Output System):
 <!-- BIOS -->
 > Firmware essencial que inicializa o hardware durante o processo de [boot](#boot) e fornece serviços de runtime para sistemas operacionais e programas.
