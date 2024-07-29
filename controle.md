@@ -84,6 +84,8 @@ A tentativa de entrar no DFU no dia 5 não deu retorno por vídeo, mas será tes
 ### Dia 05/07/2024:
 Tentaremos entrar em DFU (mask rom mode) criando um curto no sétimo pino do armazenamento eMMC da x plus. caso não seja possível, tentaremos introduzir o cartão SD com o backup como imagem de sistema. Esta última opção se mostra promissora, ao passo que apesar de não ocorrer nada apenas iniciando o sistema com o cartão SD e o backup na pasta image do multitool, é possível parar o processo de boot e bootar de uma mídia externa.
 
+### Dia 29/07/2024:
+Foi realizado uma tentativa de flash de uma imagem do Manjaro na tv box, instalamos ela no sd e inserimos na tv box H-A. Após isso, o cartão sd foi recolhecido e fizemos o processo de configuração do Manjaro na tv box. Igual aos outros modelos que estão sendo testado não apareceu a opção de conectar na rede, vale ressaltar que a imagem não conseguiu ser salvar na rom, sendo assim o sistema só ta boot pelo cartão sd.
 
 
 
