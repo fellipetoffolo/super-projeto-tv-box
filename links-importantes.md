@@ -16,3 +16,5 @@
 ### https://wiki.manjaro.org/index.php/Amlogic_TV_boxes
 # Lista de tv box com amlogic
 ### https://www.lavneteletronicos.com.br/pagina/lista-de-tv-box-compativeis-com-emuelec.html
+
+### https://osdn.net/projects/manjaro-arm/storage/vim2/kde-plasma/20.08/
