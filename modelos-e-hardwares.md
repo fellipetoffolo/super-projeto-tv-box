@@ -30,9 +30,9 @@
 
 ## R69 8k com Worldtv na caixa
 - SoC: Rockchip rk3228A
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- Armazenamento interno: Samsung KLM8G1GEAC-B031. Módulo eMMC com 8gb.
+- Memória RAM: Samsung K4B2G0446C-HYH9. Chip de memória DDR3 SDRAM 1gb total.
+- Módulo de rede: iCOMM-SEMI SV6051P 1W951PS. Módulo para Wi-Fi e Bluetooth.
 <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/4445ddfd-a6ba-45df-8e68-186b23a1cea8" alt="Captura de tela do projeto" width="500">
   <br>
@@ -58,10 +58,10 @@
 
 
 ## htv H7
-- SoC:
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- SoC: Amlogic S905X3.
+- Armazenamento interno: Módulo de 16gb eMMC.
+- Memória RAM: Hynix H5TQ4G63EFR-RDC. Chip de memória DDR3 SDRAM com 2gb.
+- Módulo de rede: Realtek RTL8822CS. Módulo com suporte a Wi-Fi e Bluetooth.
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/a5b1cb7a-97ac-46d9-bac0-661c22a256e2" alt="Captura de tela do projeto" width="500">
   <br>
@@ -72,9 +72,9 @@
   
 ## Ximi box plus b11
 - SoC: Allwinner H313
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- Armazenamento interno: Samsung KLM8G1GETF. Chip com 8gb eMMC NAND Flash.
+- Memória RAM: Micron D9JNC. Chip de memória DDR3 SDRAM com 2gb.
+- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 
 
 <br> <br>
@@ -90,8 +90,8 @@
 ## Ximi tv stick plus
 - SoC: Allwinner H313
 - Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- Memória RAM: Hynix H9TQ64A8GTAC. Chip de 1gb DDR3 SDRAM.
+- Módulo de rede: Realtek 8189FTV. Módulo Wi-Fi e Bluetooth.
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/61c6658d-ffc7-492e-be36-54f600e48fb0" alt="Captura de tela do projeto" width="500">
   <br>
@@ -102,10 +102,10 @@
 
 
 ## btv Express
-- SoC:
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:  
+- SoC: Amlogic S905W2
+- Armazenamento interno: Samsung KLM8GIGETF. Chip de 8gb eMMC.
+- Memória RAM: Samsung K4B2G0446D. Chip de 1gb DDR2 SDRAM.
+- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/90ae544b-2a1b-4026-af9b-ab922d14a63e" alt="Captura de tela do projeto" width="500">
   <br>
@@ -116,9 +116,9 @@
 
 ## Tigre T10
 - SoC: Allwinner H313
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- Armazenamento interno: Chip de 8gb eMMC.
+- Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
+- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/636775bd-e89b-4939-96a1-2f0730b5c079" alt="Captura de tela do projeto" width="500">
   <br>
@@ -130,9 +130,9 @@
 
 ## RedOne
 - SoC: Allwinner H313
-- Armazenamento interno:
-- Memória RAM:
-- Módulo de rede:
+- Armazenamento interno: Toshiba IC58TEG6DDLBAOW. Chip de 8gb NAND Flash.
+- Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
+- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/7a31d68e-dae5-45b5-bc09-9e1a3a656fec" alt="Captura de tela do projeto" width="500">
   <br>
