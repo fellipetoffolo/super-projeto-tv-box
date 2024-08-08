@@ -2,10 +2,21 @@
 
 ## META DA SEMANA: 
 
-#### Recompilar o kernel do Armbian para a X-plus com os patches aplicados e remontar o arquivo imagem.
+#### Buscar imagens compatíveis no caso de modelos da amlogic.
+
+### Dia 31/07/2024:
+Após encontrar e executar um script de instalação em um dos diretórios do próprio sistema presente no cartão sd, o burn do sistema foi efetivado no hardware da tv box. O script de instalação foi obtido após navegar para o diretório /root como super usuário. Deve-se notar que ao listar os arquivos, vários scripts podem ser encontrados. O usuário deve executar aquela que correponda ao processador da TV box.
+
+
+### Dia 30/07/2024:
+Seguindo a saga do modelo HA, foram encontradas e testadas imagens em um repositório do github que permitem a escolha do dtb e do bootloader correpondente a um determinado modelo. Uma dessas imagens foi bootada em um cartão SD e assim que o cartão SD foi colocado na tv box, o sistema funcionou. Algumas mensagens de erro foram apresentadas, porém nenhum problema foi identificado no teste superficial feito após o boot do sistema. O Wi-fi conectou normalmente. O único problema é que ao remover o cartão SD, o sistema também era removido, pois não estava efetivamente presente no hardware da TV box.
+
+### Dia 29/07/2024:
+Após uma troca de informações com os responsáveis pelo projeto do modelo X-plus foi constatado que algumas funcionalidades do arquivo de patch estão desatualizadas, portanto foi estabelecido de comum acordo entre os membros que a jornada da X-plus sofrerá um hiato até que sejam encontrados arquivos compatíveis ou outras metodologias.
+
+Além disso, foi realizado uma tentativa de flash de uma imagem do Manjaro na tv box, instalamos ela no sd e inserimos na tv box HA. Após isso, o cartão sd foi recolhecido e fizemos o processo de configuração do Manjaro na tv box. De forma semelhante aos outros modelos testados não foi mostrada a opção de conectar na rede. Vale ressaltar que a imagem não conseguiu ser salvar na rom e no armazenamento interno, sendo assim o sistema só opera pelo cartão sd.
 
 ### Dia 25/07/2024
-
 Algumas questões não explicadas do tutorial seguido no dia 23 foram melhor entendidas, como  os "Links úteis" da seção "caçando o bug da interface de rede". Na realidade aqueles links só contém os NOMES das FLAGS para o driver de ETHERNET que devem ser inseridos no arquivo config-6.6.22-current-rockchip, que pode ser encontrado ao entrar no diretório /boot. Mas no caso da imagem utilizada, essas flags já estavam setadas. Mesmo assim não foi tão trivial identificá-las a partir do arquivo imagem e será explicado brevemente como fazer isso através da montagem do sistema de arquivo do arquivo de imagem.
 
 Para montar o sistema de arquivos de um arquivo de imagem de sistema operacional, antes é necessário preparar um diretório em que isso será feito, além de possuir esse arquivo de imagem. Vamos supor que o arquivo de imagem tenha o nome imagem.img e deseja-se montar o sistema de arquivos dessa imagem no diretório mnt/armbian. Para montar o sistema de arquivos é necessário ter conhecimento da partição em que esse sistema se encontra no disco de inicialização constante no arquivo de imagem. Isso pode ser realizado com o comando "sudo fdisk -l imagem.img". Explicação:
@@ -83,10 +94,6 @@ A tentativa de entrar no DFU no dia 5 não deu retorno por vídeo, mas será tes
 
 ### Dia 05/07/2024:
 Tentaremos entrar em DFU (mask rom mode) criando um curto no sétimo pino do armazenamento eMMC da x plus. caso não seja possível, tentaremos introduzir o cartão SD com o backup como imagem de sistema. Esta última opção se mostra promissora, ao passo que apesar de não ocorrer nada apenas iniciando o sistema com o cartão SD e o backup na pasta image do multitool, é possível parar o processo de boot e bootar de uma mídia externa.
-
-### Dia 29/07/2024:
-Foi realizado uma tentativa de flash de uma imagem do Manjaro na tv box, instalamos ela no sd e inserimos na tv box H-A. Após isso, o cartão sd foi recolhecido e fizemos o processo de configuração do Manjaro na tv box. Igual aos outros modelos que estão sendo testado não apareceu a opção de conectar na rede, vale ressaltar que a imagem não conseguiu ser salvar na rom, sendo assim o sistema só ta boot pelo cartão sd.
-
 
 
 
