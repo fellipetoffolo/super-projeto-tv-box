@@ -4,9 +4,14 @@
 
 #### Buscar imagens compatíveis no caso de modelos da amlogic.
 
+### Dia 09/08/2024:
+Após encontrar um repositório do github chamado "tvbox", criado a partir de um projeto cujos objetivos sáo semelhantes aos desse, foram encontrados arquivos compatíveis com os modelos H7 e Btv 11. O único problema, que não é realmente um problema, é que o arquivo de imagem passado naquele projeto é um arquivo para sistema do tipo "server", que não contém um desktop nativo e funciona apenas através de linha de comando.
+
+### Dia 08/08/2024:
+Algumas tentativas de encontrar arquivos compatíveis para os modelos com SoC Amlogic foram realizadas. Após o sucesso da HA, o modelo objetivo foi a H7, que conta com SoC de modelo s905x3. Mesmo com muitas tentativas envolvendo vários arquivos DTB's diferentes, não foi possível passar da tela de boot, que ficava em loop.
+
 ### Dia 31/07/2024:
 Após encontrar e executar um script de instalação em um dos diretórios do próprio sistema presente no cartão sd, o burn do sistema foi efetivado no hardware da tv box. O script de instalação foi obtido após navegar para o diretório /root como super usuário. Deve-se notar que ao listar os arquivos, vários scripts podem ser encontrados. O usuário deve executar aquela que correponda ao processador da TV box.
-
 
 ### Dia 30/07/2024:
 Seguindo a saga do modelo HA, foram encontradas e testadas imagens em um repositório do github que permitem a escolha do dtb e do bootloader correpondente a um determinado modelo. Uma dessas imagens foi bootada em um cartão SD e assim que o cartão SD foi colocado na tv box, o sistema funcionou. Algumas mensagens de erro foram apresentadas, porém nenhum problema foi identificado no teste superficial feito após o boot do sistema. O Wi-fi conectou normalmente. O único problema é que ao remover o cartão SD, o sistema também era removido, pois não estava efetivamente presente no hardware da TV box.
@@ -14,7 +19,7 @@ Seguindo a saga do modelo HA, foram encontradas e testadas imagens em um reposit
 ### Dia 29/07/2024:
 Após uma troca de informações com os responsáveis pelo projeto do modelo X-plus foi constatado que algumas funcionalidades do arquivo de patch estão desatualizadas, portanto foi estabelecido de comum acordo entre os membros que a jornada da X-plus sofrerá um hiato até que sejam encontrados arquivos compatíveis ou outras metodologias.
 
-Além disso, foi realizado uma tentativa de flash de uma imagem do Manjaro na tv box, instalamos ela no sd e inserimos na tv box HA. Após isso, o cartão sd foi recolhecido e fizemos o processo de configuração do Manjaro na tv box. De forma semelhante aos outros modelos testados não foi mostrada a opção de conectar na rede. Vale ressaltar que a imagem não conseguiu ser salvar na rom e no armazenamento interno, sendo assim o sistema só opera pelo cartão sd.
+Além disso, foi realizada uma tentativa de flash de uma imagem do Manjaro na tv box a partir do boot do cartão SD e da inserção na tv box HA. Após isso, o cartão sd foi recolhecido e fizemos o processo de configuração do Manjaro na tv box. De forma semelhante aos outros modelos testados não foi mostrada a opção de conectar na rede. Vale ressaltar que a imagem não conseguiu ser salvar na rom e no armazenamento interno, sendo assim o sistema só opera pelo cartão sd.
 
 ### Dia 25/07/2024
 Algumas questões não explicadas do tutorial seguido no dia 23 foram melhor entendidas, como  os "Links úteis" da seção "caçando o bug da interface de rede". Na realidade aqueles links só contém os NOMES das FLAGS para o driver de ETHERNET que devem ser inseridos no arquivo config-6.6.22-current-rockchip, que pode ser encontrado ao entrar no diretório /boot. Mas no caso da imagem utilizada, essas flags já estavam setadas. Mesmo assim não foi tão trivial identificá-las a partir do arquivo imagem e será explicado brevemente como fazer isso através da montagem do sistema de arquivo do arquivo de imagem.
