@@ -14,7 +14,8 @@
 ### https://github.com/knaerzche/LibreELEC.tv/releases/tag/b7186bc
 # Instalação do manjaro em modelos amlogic s905
 ### https://wiki.manjaro.org/index.php/Amlogic_TV_boxes
-# Lista de tv box com amlogic
+# Lista de dtbs tv box com amlogic
+### https://coreelec.org/dtb/
 ### https://www.lavneteletronicos.com.br/pagina/lista-de-tv-box-compativeis-com-emuelec.html
 # Imagem do manjaro para s905x-s905w
 ### https://osdn.net/projects/manjaro-arm/storage/vim2/kde-plasma/20.08/
