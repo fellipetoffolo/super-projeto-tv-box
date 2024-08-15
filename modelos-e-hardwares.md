@@ -169,8 +169,27 @@
   ## RedPro2
 - SoC: Amlogic S905X3
 - Armazenamento interno: 
-- Memória RAM: 
+- Memória RAM:
+
+  ## EAI TV
+- SoC: Amlogic S905W.
+- Armazenamento interno: 16gb eMMC.
+- Memória RAM: 2gb.
 - Módulo de rede: 
+- Arquivo dtb:
+
+  ## Knbox R69
+- SoC: Allwinner H3
+- Armazenamento interno: 8gb eMMC.
+- Memória RAM: 1gb DDR3.
+- Módulo de rede:
+- Arquivo dtb:
+
+  ## Xplus Stick
+- SoC: Rockchip RK3229.
+- Armazenamento interno: 8gb eMMC.
+- Memória RAM: 1gb DDR3.
+- Módulo de rede:
 - Arquivo dtb:
 
 
