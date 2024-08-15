@@ -175,20 +175,20 @@
 - SoC: Amlogic S905W.
 - Armazenamento interno: 16gb eMMC.
 - Memória RAM: 2gb.
-- Módulo de rede: 
+- Módulo de rede: Realtek RTL8822BS. Módulo com suporte a Wi-Fi e Bluetooth.
 - Arquivo dtb:
 
   ## Knbox R69
 - SoC: Allwinner H3
-- Armazenamento interno: 8gb eMMC.
-- Memória RAM: 1gb DDR3.
-- Módulo de rede:
+- Armazenamento interno: Toshiba TRGBMAG6A2JBAIR. Chip de 8gb eMMC.
+- Memória RAM: Micron D9PFK. Chip de 1gb DDR3 SDRAM
+- Módulo de rede: iCOMM-SEMI SV6051P TTB2116. Módulo de Wi-Fi e Bluetooth.
 - Arquivo dtb:
 
   ## Xplus Stick
 - SoC: Rockchip RK3229.
-- Armazenamento interno: 8gb eMMC.
-- Memória RAM: 1gb DDR3.
+- Armazenamento interno: Samsung 437 KLM8G1GEAC-B001. Chip de 8gb eMMC.
+- Memória RAM: Samsung SEC 919 K4E8E304EBEGCF. Chip de 1gb LPDDR4.
 - Módulo de rede:
 - Arquivo dtb:
 
