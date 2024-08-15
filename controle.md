@@ -4,8 +4,11 @@
 
 #### Buscar imagens compatíveis no caso de modelos da amlogic.
 
+### Dia 15/08/2024:
+Novos modelos de tv box foram encontrados e os exemplares com SoC da Amlogic têm se mostrado extremamente promissores para descaracterização.
+
 ### Dia 09/08/2024:
-Após encontrar um repositório do github chamado "tvbox", criado a partir de um projeto cujos objetivos sáo semelhantes aos desse, foram encontrados arquivos compatíveis com os modelos H7 e Btv 11. O único problema, que não é realmente um problema, é que o arquivo de imagem passado naquele projeto é um arquivo para sistema do tipo "server", que não contém um desktop nativo e funciona apenas através de linha de comando.
+Após encontrar um repositório do github chamado "tvbox", criado a partir de um projeto cujos objetivos sáo semelhantes aos deste, foram encontrados arquivos compatíveis com os modelos H7 e Btv 11. O único problema, que não é realmente um problema, é que o arquivo de imagem passado naquele projeto é um arquivo para sistema do tipo "server", que não fornece um desktop nativo e funciona apenas através de linha de comando.
 
 ### Dia 08/08/2024:
 Algumas tentativas de encontrar arquivos compatíveis para os modelos com SoC Amlogic foram realizadas. Após o sucesso da HA, o modelo objetivo foi a H7, que conta com SoC de modelo s905x3. Mesmo com muitas tentativas envolvendo vários arquivos DTB's diferentes, não foi possível passar da tela de boot, que ficava em loop.
