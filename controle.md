@@ -8,7 +8,7 @@
 O modelo investigado no dia em questão foi o RedPro2, cujas características podem ser verificadas no [modelos-e-hardwares](modelos-e-hardwares.md). Caracterizado pelo SoC amlogic s905x3, alguns testes foram efetuados seguindo o tutorial de [ophub](https://github.com/ophub/amlogic-s9xxx-armbian). E para seguir esse tutorial, foi escolhida a imagem  Armbian_24.8.0_amlogic_s905x3_noble_6.6.43_server_2024.08.01.img.gz.
 Conforme explica o tutorial, duas coisas devem ser feitas para encontrar uma compatibilidade entre o software da imagem e a tv box: após flashar a imagem em um cartão sd, nos arquivos aparentes devem ser definidos u-boot e dtb (para saber mais sobre esse processo, verifique [desc-ha](Amlogic/desc-ha.md) ). O u-boot escolhido foi o arquivo u-boot-s905x3.bin, e todos os dtb's da família SM1 constantes no arquivo [model_database.conf](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-files/common-files/etc/model_database.conf) foram testados. Infelizmente sem sucesso.
 Aqui está uma print do início da tabela com os dtb's, encontrada a partir da linha 146 do arquivo .conf:
-<img src=https://github.com/user-attachments/assets/46131425-5e56-4260-9142-7eba62bd484f" width=800>
+<img src="https://github.com/user-attachments/assets/46131425-5e56-4260-9142-7eba62bd484f" width=800>
 
 
 
