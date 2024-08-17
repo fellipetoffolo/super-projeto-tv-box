@@ -6,6 +6,8 @@
 > Memória dentro de um dispositivo usada para armazenar dados permanentemente, como sistemas operacionais, aplicativos e arquivos de usuário. Exemplos incluem [eMMC](#emmc-embedded-multimediacard), NAND, e NVMe.
 
 #### armeabi (ARM application binary interface):
+<!-- armeabi -->
+> Uma ABI para dispositivo ARM é usada para definir como o código binário de um programa (compilado) deve interagir com o sistema operacional e o hardware subjacente. Isso inclui detalhes sobre a chamada de funções, passagem de parâmetros, estrutura de memória, e outras interações entre software e hardware.
 
 #### ARMvx (ARMv4, ARMv5...):
 <!-- ARMvx -->
@@ -38,7 +40,6 @@
 #### DTS (Device Tree Source):
 <!-- DTS -->
 > DTS é um arquivo [DTB](#dtb-device-tree-blob) que ainda não foi compilado. Sua especificações são escritas em formato textual.
-
 
 #### eMCP (embedded Multi-Chip Package):
 <!-- eMCP -->
@@ -91,6 +92,7 @@
 #### MBR (Master Boot Record):
 <!-- MBR -->
 > Setor principal de inicialização de um disco rígido ou dipositivo de armazenamento. Sua estrutura é composta por bootloader, assinatura de disco e tabela de partições contendo 4 partições primárias que armazenam informações necessárias para que o computador possa encontrar e carregar o sistema operacional.
+
 #### OpenWrt
 <!--OpenWrt-->
 > Uma distribuição linux embarcada usada em roteadores wireless, com o objetivo de criar diversas funcionalidades e ser um sistema operacional de fácil modificação.
