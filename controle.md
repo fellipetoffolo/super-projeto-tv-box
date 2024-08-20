@@ -4,6 +4,9 @@
 
 #### Entender melhor e mapear arquivos dtb para os SoC amlogic s905x3, s905x4, s905w2 e s905y2
 
+### Dia 19/08/2024:
+Foi realizados testes dos aplicativos educacionais : Kalzium(química), KBruch(matemática básica), KLetters(alfabetização). Na TVbox Tiger 3. Todos os 3 funcionam.
+
 ### Dia 15/08/2024:
 O modelo investigado no dia em questão foi o RedPro2, cujas características podem ser verificadas no [modelos-e-hardwares](modelos-e-hardwares.md). Caracterizado pelo SoC amlogic s905x3, alguns testes foram efetuados seguindo o tutorial de [ophub](https://github.com/ophub/amlogic-s9xxx-armbian). E para seguir esse tutorial, foi escolhida a imagem  Armbian_24.8.0_amlogic_s905x3_noble_6.6.43_server_2024.08.01.img.gz.
 Conforme explica o tutorial, duas coisas devem ser feitas para encontrar uma compatibilidade entre o software da imagem e a tv box: após flashar a imagem em um cartão sd, nos arquivos aparentes devem ser definidos u-boot e dtb (para saber mais sobre esse processo, verifique [desc-ha](Amlogic/HA/desc-ha.md) ). O u-boot escolhido foi o arquivo u-boot-s905x3.bin, e todos os dtb's da família SM1 constantes no arquivo [model_database.conf](https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/build-armbian/armbian-files/common-files/etc/model_database.conf) foram testados. Infelizmente sem sucesso.
