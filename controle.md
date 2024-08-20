@@ -4,6 +4,9 @@
 
 #### Entender melhor e mapear arquivos dtb para os SoC amlogic s905x3, s905x4, s905w2 e s905y2
 
+### Dia 20/08/2024:
+Foi realizado um teste do aplicativo Kanagram( alfabetização) e o CodeBlocks. O kanagram rodou, no codeblocks apenas códigos simples foram testados, os quais funcionaram tranquilamente. 
+
 ### Dia 19/08/2024:
 Foi realizados testes dos aplicativos educacionais : Kalzium(química), KBruch(matemática básica), KLetters(alfabetização). Na TVbox Tiger 3. Todos os 3 funcionam.
 
