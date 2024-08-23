@@ -1,6 +1,6 @@
 # Modelos e respectivos hardwares
 
-## X plus! in
+## in X plus!
 - SoC: Rockchip rk3228A
 - Armazenamento interno: SAMSUNG KLM8G1GEAC-B001. Módulo de eMMC com 8GB.
 - Memória RAM: Micron Tech 3TE77 D9PQL, 3EE77 D9PQL, 4LE77 D9PQL e 5HE77 D9PQL. Chips de memória DDR3 DRAM, cada um com 512MB, somando 2GB.
@@ -15,7 +15,7 @@
   <br>
 
 
-## X plus! pro
+## in X plus! pro
 - SoC: Amlogic s905x4
 - Armazenamento interno: 64GB 
 - Memória RAM: 4GB
@@ -44,8 +44,6 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e36079f0-2330-4d8c-9ec4-a6846896d813" alt="Captura de tela do projeto" width="500">
   <br>
 
-
-  
 ## TouroBox
 - SoC: Allwinner H313
 - Armazenamento interno: HDTSHINE S16037G. Módulo de eMMC com 8GB.
@@ -83,10 +81,24 @@
 
 ## htv H8
 - SoC: Amlogic s905x4.
-- Armazenamento 
+- Armazenamento interno:
 - Memória RAM:
 - Módulo de rede: 
 - Arquivo dtb:
+
+## UniTV S1
+- Soc: rk3228a
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede: 
+- Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/user-attachments/assets/157b3595-0164-40b1-91a3-173149086742" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/fec4cae6-b867-4363-aa18-de6e1e3649e8" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/8cfe32bd-6a0e-4850-938c-f75ef9fc0b29" alt="Captura de tela do projeto" width="500">
+  <br>
 
   
 ## Ximi box plus b11
