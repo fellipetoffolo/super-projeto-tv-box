@@ -61,14 +61,14 @@
   <br>
 
 ## htv HA
-- SoC: Amlogic S905X.
+- SoC: Amlogic s905x.
 - Armazenamento interno: 
 - Memória RAM: 
 - Módulo de rede:
 - Arquivo dtb:
 
 ## htv H7
-- SoC: Amlogic S905X3.
+- SoC: Amlogic s905x3.
 - Armazenamento interno: Módulo de 16gb eMMC.
 - Memória RAM: Hynix H5TQ4G63EFR-RDC. Chip de memória DDR3 SDRAM com 2gb.
 - Módulo de rede: Realtek RTL8822CS. Módulo com suporte a Wi-Fi e Bluetooth.
@@ -82,7 +82,7 @@
   <br>
 
 ## htv H8
-- SoC: Amlogic S905X4.
+- SoC: Amlogic s905x4.
 - Armazenamento 
 - Memória RAM:
 - Módulo de rede: 
@@ -108,7 +108,7 @@
 ## Ximi tv stick plus
 - SoC: Allwinner H313
 - Armazenamento interno:
-- Memória RAM: Hynix H9TQ64A8GTAC. Chip de 1gb DDR3 SDRAM.
+- Memória RAM: SK Hynix H9TQ64A8GTAC. Chip de 1gb DDR3 SDRAM.
 - Módulo de rede: Realtek 8189FTV. Módulo Wi-Fi e Bluetooth.
 - Arquivo dtb:
   <br> <br>
@@ -122,9 +122,21 @@
 ## btv 11
 
 ## btv 13
+- SoC: Amlogic s905x4
+- Armazenamento interno: 
+- Memória RAM: 
+- Módulo de rede: 
+- Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/user-attachments/assets/7819a708-e012-4bc6-81ab-c25b0f840598" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/7ea193ac-1d6b-4aec-805a-8f93aca6505b" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/56c367be-2241-48d7-9b97-b135050a4dd3" alt="Captura de tela do projeto" width="500">
+  <br>
 
 ## btv Express
-- SoC: Amlogic S905W2
+- SoC: Amlogic s905w2
 - Armazenamento interno: Samsung KLM8GIGETF. Chip de 8gb eMMC.
 - Memória RAM: Samsung K4B2G0446D. Chip de 1gb DDR2 SDRAM.
 - Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
@@ -143,7 +155,7 @@
 - Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
 - Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 - Arquivo dtb:
-<br> <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/636775bd-e89b-4939-96a1-2f0730b5c079" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/b622fac9-ba63-4950-b746-a0a69affa114" alt="Captura de tela do projeto" width="500">
@@ -158,7 +170,7 @@
 - Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
 - Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 - Arquivo dtb:
-<br> <br>
+  <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/7a31d68e-dae5-45b5-bc09-9e1a3a656fec" alt="Captura de tela do projeto" width="500">
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/6c52b0c4-1734-4c73-a7c1-035bbc4a4937" alt="Captura de tela do projeto" width="500">
@@ -167,12 +179,22 @@
   <br>
 
   ## RedPro2
-- SoC: Amlogic S905X3
+- SoC: Amlogic s905x3
 - Armazenamento interno: 
 - Memória RAM:
+- Módulo de rede: 
+- Arquivo dtb: sm1-ac213-2g
+  <br> <br>
+  <img src="https://github.com/user-attachments/assets/28ec5078-c9e9-4f60-8857-49067bb85c2f" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/5edcba2a-98e3-409b-bb17-23e844630e6f" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/user-attachments/assets/2093df6f-7346-4d6b-9035-64dbe94c167b" alt="Captura de tela do projeto" width="500">
+  <br>
+
 
   ## EAI TV
-- SoC: Amlogic S905W.
+- SoC: Amlogic s905w.
 - Armazenamento interno: 16gb eMMC.
 - Memória RAM: 2gb.
 - Módulo de rede: Realtek RTL8822BS. Módulo com suporte a Wi-Fi e Bluetooth.
@@ -186,7 +208,7 @@
 - Arquivo dtb:
 
   ## Xplus Stick
-- SoC: Rockchip RK3229.
+- SoC: Rockchip rk3229.
 - Armazenamento interno: Samsung 437 KLM8G1GEAC-B001. Chip de 8gb eMMC.
 - Memória RAM: Samsung SEC 919 K4E8E304EBEGCF. Chip de 1gb LPDDR4.
 - Módulo de rede:
