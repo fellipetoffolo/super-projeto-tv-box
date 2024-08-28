@@ -19,4 +19,7 @@
 ### https://www.lavneteletronicos.com.br/pagina/lista-de-tv-box-compativeis-com-emuelec.html
 # Imagem do manjaro para s905x-s905w
 ### https://osdn.net/projects/manjaro-arm/storage/vim2/kde-plasma/20.08/
-
+# Repositório tvbox com tutorial para H6+, H7, btv10 e btv11
+### https://github.com/lnrdsolutions/tvbox/blob/main/documentacao/guiainstalacao_amlogic.md
+# Repositório com arquivos dtb para amlogic s905x4 e diversos outros
+### https://sergiogracas.alphi.media/dtbs/
