@@ -19,4 +19,4 @@
 
 #### &nbsp;&nbsp; O respositório foi organizado de forma que as descrições dos processos de descaracterização para dispositivos do mesmo SoC (System on Chip) estão agrupados no mesmo diretório. Para este projeto foram considerados três fabricantes de SoC: Amlogic, Rockchip e Allwinner.
 
-#### &nbsp;&nbsp; Alguns outros arquivos contém informações importantes, como links de tutoriais e fotos de todos os modelos identificados no projeto atpe o momento.
+#### &nbsp;&nbsp; Alguns outros arquivos contém informações importantes, como links de tutoriais e fotos de todos os modelos identificados no projeto até o momento.
