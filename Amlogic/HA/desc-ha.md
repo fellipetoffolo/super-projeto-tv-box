@@ -11,6 +11,7 @@
 #### *Obs: Não confundir com "copiar a imagem para o cartão sd.
 #### *Utilizar o software Balena Etcher ou Rufus.
 ----> <a href="https://etcher.balena.io/">link do Balena Etcher<a>
+
 ----> <a href="https://rufus.ie/pt_BR/">link do Rufus<a>
 
 
