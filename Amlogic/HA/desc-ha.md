@@ -17,3 +17,5 @@
 
 ***
 ### 3º Passo: Escolher o Bootloader do Sistema.
+
+Por tratar-se de um dispositivo com SoC s905x 
