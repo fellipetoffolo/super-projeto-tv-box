@@ -12,5 +12,7 @@
 #### *Utilizar o software Balena Etcher ou Rufus.
 ----> <a href="https://etcher.balena.io/">link do Balena Etcher<a>
 ----> <a href="https://rufus.ie/pt_BR/">link do Rufus<a>
+
+
 ***
 ### 3º Passo: Escolher o Bootloader do Sistema.
