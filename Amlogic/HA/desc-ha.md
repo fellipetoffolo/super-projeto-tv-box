@@ -18,4 +18,4 @@
 ***
 ### 3º Passo: Escolher o Bootloader do Sistema.
 
-Por tratar-se de um dispositivo com SoC s905x 
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_imagem_selecionada.png">
