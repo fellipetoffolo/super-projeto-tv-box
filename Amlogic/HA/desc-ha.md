@@ -17,5 +17,6 @@
 
 ***
 ### 3º Passo: Escolher o Bootloader do Sistema.
-
-<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_imagem_selecionada.png">
+####Renomear u-boot-s905x-912 por u-boot.ext para que ele seja carregado ao inicializar o sistema:
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_imagem_selecionada.png height=500 width=500">
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_selecao_bootloader.png height=500 width=500">
