@@ -17,8 +17,18 @@
 
 ***
 ### 3º Passo: Escolher o Bootloader do Sistema.
-####Renomear u-boot-s905x-912 por u-boot.ext para que ele seja carregado ao inicializar o sistema:
+#### Renomear u-boot-s905x-912 por u-boot.ext para distingui-lo dos outros:
 
 <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_imagem_selecionada.png" height=500 width=900>
 
+
 <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/armbi_boot_selecao_bootloader.png" height=500 width=900>
+
+### 4º Passo: Selecionar o DTB para o hardware.
+#### Entrar no arquivo E:\extlinux\extlinux.conf.
+#### Por padrão o DTB FDT /dtb/amlogic/meson-gxl-s905w-tx3-mini.dtb é selecionado, basta comentar essa linha adicionando um '#'.
+#### Exemplo: #FDT /dtb/amlogic/meson-gxl-s905w-tx3-mini.dtb
+#### Após basta descomentar o DTB FDT /dtb/amlogic/meson-gxl-s905x-p212.dtb
+
+
+
