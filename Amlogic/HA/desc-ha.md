@@ -9,4 +9,4 @@
 
 ### 2º Passo: Gravar a imagem baixada para o cartão sd (obs: Não confundir com "copiar a imagem para o cartão sd").
 
-####*Utilizar o software Balena Etcher ou Rufus.
+####Utilizar o software Balena Etcher ou Rufus.
