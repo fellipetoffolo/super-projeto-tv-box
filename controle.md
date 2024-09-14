@@ -5,10 +5,10 @@
 #### Testar um processo semelhante ao que foi feito na H7 para tentar descaracterizar outros modelos de SoC s905x3; Verificar o mesmo processo da X plus em outros modelos de SoC rockchip.
 
 ### Dia 12/09/2024
-A solução para o problema de conectividade com Wi-Fi da X plus foi: Utilizar arquivos de imagen Armbian mais antigos (com o kernel legacy 4.4.194), procurar pelo driver de rede sem fio (que não estava presente em versões mais recentes do Armbian) e dar o comando "sudo insmod ssv6x5x.ko". Isso tornou possível o reconhecimento das redes e resolveu o problema que restava para a X plus operar corretamente. Porém, até que seja encontrado um outro método mais fundamental, foi necessário recarregar o driver módulo de kernel toda vez que o aparelho reiniciava, então como forma temporária de mitigar esse problema, foi utilizado o crontab para carregar o módulo em todo reinício do sistema.
+A solução para o problema de conectividade com Wi-Fi da X plus foi: utilizar arquivos de imagen Armbian mais antigos (em especial a versão rk322x 22.02.1, com o kernel legacy 4.4.194), procurar pelo driver de rede sem fio (que não estava presente em versões mais recentes do Armbian) e dar o comando ```sudo insmod ssv6x5x.ko``` . Isso tornou possível o reconhecimento das redes e resolveu o problema que restava para a X plus operar corretamente. Porém, até que seja encontrado um outro método mais fundamental, foi necessário recarregar o driver como módulo de kernel toda vez que o aparelho reiniciava, então como forma temporária de mitigar esse problema, foi utilizado o crontab para carregar o módulo em todo reinício do sistema.
 
 ### Dia 20/08/2024:
-Foi realizado um teste na TVbox Tiger 3 do aplicativo Kanagram( alfabetização) e o CodeBlocks. O kanagram rodou, no codeblocks apenas códigos simples foram testados, os quais funcionaram tranquilamente. 
+Foi realizado um teste na TVbox Tiger 3 do aplicativo Kanagram (alfabetização) e o CodeBlocks. O kanagram rodou, no codeblocks apenas códigos simples foram testados, os quais funcionaram tranquilamente. 
 
 ### Dia 19/08/2024:
 Foi realizados testes dos aplicativos educacionais : Kalzium(química), KBruch(matemática básica), KLetters(alfabetização). Na TVbox Tiger 3. Todos os 3 funcionam.
