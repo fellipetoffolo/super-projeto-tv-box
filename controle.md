@@ -1,4 +1,4 @@
-# Processos em andamento da X plus
+# Processos em andamento
 
 ## META DA SEMANA: 
 
@@ -6,6 +6,9 @@
 
 ### Dia 12/09/2024
 A solução para o problema de conectividade com Wi-Fi da X plus foi: utilizar arquivos de imagen Armbian mais antigos (em especial a versão rk322x 22.02.1, com o kernel legacy 4.4.194), procurar pelo driver de rede sem fio (que não estava presente em versões mais recentes do Armbian) e dar o comando ```sudo insmod ssv6x5x.ko``` . Isso tornou possível o reconhecimento das redes e resolveu o problema que restava para a X plus operar corretamente. Porém, até que seja encontrado um outro método mais fundamental, foi necessário recarregar o driver como módulo de kernel toda vez que o aparelho reiniciava, então como forma temporária de mitigar esse problema, foi utilizado o crontab para carregar o módulo em todo reinício do sistema.
+
+## Dia 11/09/2024
+H7
 
 ### Dia 20/08/2024:
 Foi realizado um teste na TVbox Tiger 3 do aplicativo Kanagram (alfabetização) e o CodeBlocks. O kanagram rodou, no codeblocks apenas códigos simples foram testados, os quais funcionaram tranquilamente. 
