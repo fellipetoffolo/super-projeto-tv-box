@@ -5,11 +5,13 @@ criar um arquivo chamado kiosk.service
   sudo nano etc/systemd/system/kiosk.service
 
 após isso dentro do arquivo deve-se escrever:
+  ```
   [Unit]
   Description=Start <nome da aplicação> Kiosk Mode
   After=graphical.target
 
   [Service]
+  
   Type=simple
   User=<nome do usuário>
   Evironment="DISPLAY=:0
@@ -18,8 +20,8 @@ após isso dentro do arquivo deve-se escrever:
   Restart=always
 
   [Install]
-  wantedBy=graphical.target
-
+  wantedBy=graphical.target 
+  ```
 
 salve o arquivo 
 
