@@ -37,6 +37,7 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## MX9 PRO 5G 8K
 - SoC: Amlogic S905L
 - Armazenamento interno:
@@ -44,13 +45,12 @@
 - Módulo de rede: Icomm-semi SV6051P
 - Arquivo dtb:
   <br> <br>
-  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <img src="" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/4842ff8d-95fc-4bd6-ad48-3d4e27818fc8" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/4842ff8d-95fc-4bd6-ad48-3d4e27818fc8" alt="Captura de tela do projeto" width="500">
   <br>
-
 
 
 ## MXQ PLUS 5G 8K
@@ -60,14 +60,14 @@
 - Módulo de rede: Icomm-semi SV6158
 - Arquivo dtb:
   <br> <br>
-  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/03cac023-010c-41bc-927f-cce354a099f3" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/c57e7e30-af59-49be-9e48-04c02a993211" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/812a3a2d-4f4a-4ccd-bd7b-7953f1246b13" alt="Captura de tela do projeto" width="500">
   <br>
 
-  
+
 ## MXQ PRO 5G 4K
 - SoC: Rockchip RK3228A
 - Armazenamento interno:
@@ -75,11 +75,11 @@
 - Módulo de rede: Realtek RTL8723AS
 - Arquivo dtb:
   <br> <br>
-  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/c9bb9449-e782-48f5-a3d9-de89990cedbe" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/f4eaaa69-f3ba-451b-96f4-239b74d9b34d" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/112f5fb5-3fdc-4620-b57e-78eea37b1c7c" alt="Captura de tela do projeto" width="500">
   <br>
 
 
@@ -90,11 +90,11 @@
 - Módulo de rede: Icomm-semi SV6158.
 - Arquivo dtb:
   <br> <br>
-  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/a5be600a-dce2-49db-9129-2657f9f76431" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/b7cc252a-b4dd-46ac-b0d7-ee979224ed2a" alt="Captura de tela do projeto" width="500">
   <br>
-  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <img src="https://github.com/user-attachments/assets/d5046d5c-51d9-4fe8-9acb-bbc3d531b9b8" alt="Captura de tela do projeto" width="500">
   <br>
 
 
@@ -112,6 +112,7 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e36079f0-2330-4d8c-9ec4-a6846896d813" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## TouroBox
 - SoC: Allwinner H313
 - Armazenamento interno: HDTSHINE S16037G. Módulo de eMMC com 8GB.
@@ -126,12 +127,14 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/c6cd563b-8eea-4728-ae62-0cd9797ebf4e" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## htv HA
 - SoC: Amlogic S905X.
 - Armazenamento interno: 
 - Memória RAM: 
 - Módulo de rede:
 - Arquivo dtb:
+
 
 ## htv H7
 - SoC: Amlogic S905X3.
@@ -147,12 +150,14 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/f7f78bda-2245-435e-be00-382df3051778" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## htv H8
 - SoC: Amlogic S905X4.
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede: 
 - Arquivo dtb:
+
 
 ## UniTV S1
 - Soc: RK3228A
@@ -198,12 +203,14 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/270b2af0-1b21-405d-917e-225269f1efd3" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## btv 11
 - SoC: Amlogic S905X3
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de Rede: AP6330
 - Arquivo dtb:
+
 
 ## btv 13
 - SoC: Amlogic S905X4
@@ -219,6 +226,7 @@
   <img src="https://github.com/user-attachments/assets/56c367be-2241-48d7-9b97-b135050a4dd3" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## btv E13 (btv Express)
 - SoC: Amlogic S905W2
 - Armazenamento interno: Samsung KLM8GIGETF. Chip de 8gb eMMC.
@@ -232,6 +240,7 @@
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/144398e4-7458-4847-9052-e0e414a419bf" alt="Captura de tela do projeto" width="500">
   <br>
+
 
 ## Tigre T10
 - SoC: Allwinner H313
@@ -262,6 +271,7 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/08cdf9af-64d2-4a81-bff7-c81b3d9f2817" alt="Captura de tela do projeto" width="500">
   <br>
 
+
 ## RedPro2
 - SoC: Amlogic s905x3
 - Armazenamento interno: 
@@ -283,6 +293,7 @@
 - Memória RAM: 2gb.
 - Módulo de rede: Realtek RTL8822BS. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
+
 
 ## Knbox R69
 - SoC: Allwinner H3
