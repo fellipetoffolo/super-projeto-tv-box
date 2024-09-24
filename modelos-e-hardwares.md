@@ -1,7 +1,15 @@
 # Modelos e respectivos hardwares
 
+## in X plus! Stick
+- SoC: Rockchip RK3228A.
+- Armazenamento interno: Samsung 437 KLM8G1GEAC-B001. Chip de 8gb eMMC.
+- Memória RAM: Samsung SEC 919 K4E8E304EBEGCF. Chip de 1gb LPDDR4.
+- Módulo de rede:
+- Arquivo dtb:
+
+
 ## in X plus!
-- SoC: Rockchip rk3228A
+- SoC: Rockchip RK3228A
 - Armazenamento interno: SAMSUNG KLM8G1GEAC-B001. Módulo de eMMC com 8GB.
 - Memória RAM: Micron Tech 3TE77 D9PQL, 3EE77 D9PQL, 4LE77 D9PQL e 5HE77 D9PQL. Chips de memória DDR3 DRAM, cada um com 512MB, somando 2GB.
 - Módulo de rede: Icomm-semi SV6256P. Projetado para fornecer conectividade Wi-fi.
@@ -16,7 +24,7 @@
 
 
 ## in X plus! pro
-- SoC: Amlogic s905x4
+- SoC: Amlogic S905X4
 - Armazenamento interno: 64GB 
 - Memória RAM: 4GB
 - Módulo de rede:
@@ -29,9 +37,26 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
   <br>
 
+## MX9 PRO 5G 8K
+- SoC: Amlogic S905L
+- Módulo de rede: Icomm-semi SV6051
+
+## MXQ PLUS 5G 8K
+- SoC: Rockchip RK3228A
+- Módulo de rede: Icomm-semi SV6158
+
+## MXQ PRO 5G 4K
+- SoC: Rockchip RK3228A
+
+## RPC mini
+- SoC: Rockchip RK3228A
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede:
+- Arquivo dtb:
 
 ## R69 8k com Worldtv na caixa
-- SoC: Rockchip rk3228A
+- SoC: Rockchip RK228A
 - Armazenamento interno: Samsung KLM8G1GEAC-B031. Módulo eMMC com 8gb.
 - Memória RAM: Samsung K4B2G0446C-HYH9. Chip de memória DDR3 SDRAM 1gb total.
 - Módulo de rede: iCOMM-SEMI SV6051P 1W951PS. Módulo para Wi-Fi e Bluetooth.
@@ -59,14 +84,14 @@
   <br>
 
 ## htv HA
-- SoC: Amlogic s905x.
+- SoC: Amlogic S905X.
 - Armazenamento interno: 
 - Memória RAM: 
 - Módulo de rede:
 - Arquivo dtb:
 
 ## htv H7
-- SoC: Amlogic s905x3.
+- SoC: Amlogic S905X3.
 - Armazenamento interno: Módulo de 16gb eMMC.
 - Memória RAM: Hynix H5TQ4G63EFR-RDC. Chip de memória DDR3 SDRAM com 2gb.
 - Módulo de rede: Realtek RTL8822CS. Módulo com suporte a Wi-Fi e Bluetooth.
@@ -80,14 +105,14 @@
   <br>
 
 ## htv H8
-- SoC: Amlogic s905x4.
+- SoC: Amlogic S905X4.
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede: 
 - Arquivo dtb:
 
 ## UniTV S1
-- Soc: rk3228a
+- Soc: RK3228A
 - Armazenamento interno:
 - Memória RAM:
 - Módulo de rede: 
@@ -100,7 +125,7 @@
   <img src="https://github.com/user-attachments/assets/8cfe32bd-6a0e-4850-938c-f75ef9fc0b29" alt="Captura de tela do projeto" width="500">
   <br>
 
-  
+
 ## Ximi box plus b11
 - SoC: Allwinner H313
 - Armazenamento interno: Samsung KLM8G1GETF. Chip com 8gb eMMC NAND Flash.
@@ -116,7 +141,6 @@
   <br>
 
 
-  
 ## Ximi tv stick plus
 - SoC: Allwinner H313
 - Armazenamento interno:
@@ -132,9 +156,14 @@
   <br>
 
 ## btv 11
+- SoC: Amlogic S905X3
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de Rede: AP6330
+- Arquivo dtb:
 
 ## btv 13
-- SoC: Amlogic s905x4
+- SoC: Amlogic S905X4
 - Armazenamento interno: 
 - Memória RAM: 
 - Módulo de rede: 
@@ -147,11 +176,11 @@
   <img src="https://github.com/user-attachments/assets/56c367be-2241-48d7-9b97-b135050a4dd3" alt="Captura de tela do projeto" width="500">
   <br>
 
-## btv Express
-- SoC: Amlogic s905w2
+## btv E13 (btv Express)
+- SoC: Amlogic S905W2
 - Armazenamento interno: Samsung KLM8GIGETF. Chip de 8gb eMMC.
 - Memória RAM: Samsung K4B2G0446D. Chip de 1gb DDR2 SDRAM.
-- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/90ae544b-2a1b-4026-af9b-ab922d14a63e" alt="Captura de tela do projeto" width="500">
@@ -190,7 +219,7 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/08cdf9af-64d2-4a81-bff7-c81b3d9f2817" alt="Captura de tela do projeto" width="500">
   <br>
 
-  ## RedPro2
+## RedPro2
 - SoC: Amlogic s905x3
 - Armazenamento interno: 
 - Memória RAM:
@@ -205,27 +234,17 @@
   <br>
 
 
-  ## EAI TV
+## EAI TV
 - SoC: Amlogic s905w.
 - Armazenamento interno: 16gb eMMC.
 - Memória RAM: 2gb.
 - Módulo de rede: Realtek RTL8822BS. Módulo com suporte a Wi-Fi e Bluetooth.
 - Arquivo dtb:
 
-  ## Knbox R69
+## Knbox R69
 - SoC: Allwinner H3
 - Armazenamento interno: Toshiba TRGBMAG6A2JBAIR. Chip de 8gb eMMC.
 - Memória RAM: Micron D9PFK. Chip de 1gb DDR3 SDRAM
 - Módulo de rede: iCOMM-SEMI SV6051P TTB2116. Módulo de Wi-Fi e Bluetooth.
 - Arquivo dtb:
 
-  ## Xplus Stick
-- SoC: Rockchip rk3229.
-- Armazenamento interno: Samsung 437 KLM8G1GEAC-B001. Chip de 8gb eMMC.
-- Memória RAM: Samsung SEC 919 K4E8E304EBEGCF. Chip de 1gb LPDDR4.
-- Módulo de rede:
-- Arquivo dtb:
-
-
-
-  
