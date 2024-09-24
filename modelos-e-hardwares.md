@@ -39,27 +39,70 @@
 
 ## MX9 PRO 5G 8K
 - SoC: Amlogic S905L
-- Módulo de rede: Icomm-semi SV6051
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede: Icomm-semi SV6051P
+- Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <br>
+
+
 
 ## MXQ PLUS 5G 8K
 - SoC: Rockchip RK3228A
+- Armazenamento interno:
+- Memória RAM:
 - Módulo de rede: Icomm-semi SV6158
+- Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <br>
 
+  
 ## MXQ PRO 5G 4K
 - SoC: Rockchip RK3228A
+- Armazenamento interno:
+- Memória RAM:
+- Módulo de rede: Realtek RTL8723AS
+- Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <br>
+
 
 ## RPC mini
 - SoC: Rockchip RK3228A
 - Armazenamento interno:
 - Memória RAM:
-- Módulo de rede:
+- Módulo de rede: Icomm-semi SV6158.
 - Arquivo dtb:
+  <br> <br>
+  <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e6005714-0136-4829-8806-1c68f117de42" alt="Captura de tela do projeto" width="500">
+  <br>
+  <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/44596be3-4fa9-4c5c-a4e9-22dd9eaf65e9" alt="Captura de tela do projeto" width="500">
+  <br>
+
 
 ## R69 8k com Worldtv na caixa
 - SoC: Rockchip RK228A
 - Armazenamento interno: Samsung KLM8G1GEAC-B031. Módulo eMMC com 8gb.
 - Memória RAM: Samsung K4B2G0446C-HYH9. Chip de memória DDR3 SDRAM 1gb total.
-- Módulo de rede: iCOMM-SEMI SV6051P 1W951PS. Módulo para Wi-Fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6051P. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
 <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/4445ddfd-a6ba-45df-8e68-186b23a1cea8" alt="Captura de tela do projeto" width="500">
@@ -73,7 +116,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno: HDTSHINE S16037G. Módulo de eMMC com 8GB.
 - Memória RAM: SK Hynix H5TQ4G63MFR-RDC. Chip de memória DDR3 SDRAM com 2GB.
-- Módulo de rede: Realtek RTL8822CS. Projetado para fornecer conectividade Wi-Fi e Bluetooth.
+- Módulo de rede: Realtek RTL8822CS. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/139fb182-7b0e-4f01-837a-1aacb53d6f76" alt="Captura de tela do projeto" width="500">
@@ -94,7 +137,7 @@
 - SoC: Amlogic S905X3.
 - Armazenamento interno: Módulo de 16gb eMMC.
 - Memória RAM: Hynix H5TQ4G63EFR-RDC. Chip de memória DDR3 SDRAM com 2gb.
-- Módulo de rede: Realtek RTL8822CS. Módulo com suporte a Wi-Fi e Bluetooth.
+- Módulo de rede: Realtek RTL8822CS. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/a5b1cb7a-97ac-46d9-bac0-661c22a256e2" alt="Captura de tela do projeto" width="500">
@@ -130,7 +173,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno: Samsung KLM8G1GETF. Chip com 8gb eMMC NAND Flash.
 - Memória RAM: Micron D9JNC. Chip de memória DDR3 SDRAM com 2gb.
-- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6256P. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
 <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/3d12f967-fc58-491c-93c1-153ebe4c0d31" alt="Captura de tela do projeto" width="500">
@@ -145,7 +188,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno:
 - Memória RAM: SK Hynix H9TQ64A8GTAC. Chip de 1gb DDR3 SDRAM.
-- Módulo de rede: Realtek 8189FTV. Módulo Wi-Fi e Bluetooth.
+- Módulo de rede: Realtek 8189FTV. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/61c6658d-ffc7-492e-be36-54f600e48fb0" alt="Captura de tela do projeto" width="500">
@@ -180,7 +223,7 @@
 - SoC: Amlogic S905W2
 - Armazenamento interno: Samsung KLM8GIGETF. Chip de 8gb eMMC.
 - Memória RAM: Samsung K4B2G0446D. Chip de 1gb DDR2 SDRAM.
-- Módulo de rede: Icomm-semi SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6256P. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/90ae544b-2a1b-4026-af9b-ab922d14a63e" alt="Captura de tela do projeto" width="500">
@@ -194,7 +237,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno: Chip de 8gb eMMC.
 - Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
-- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6256P. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/636775bd-e89b-4939-96a1-2f0730b5c079" alt="Captura de tela do projeto" width="500">
@@ -209,7 +252,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno: Toshiba IC58TEG6DDLBAOW. Chip de 8gb NAND Flash.
 - Memória RAM: Samsung H5T02G43BFR. Chip de 1gb DDR2 SDRAM.
-- Módulo de rede: iCOMM-SEMI SV6256P. Modulo com suporte a Wi-fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6256P. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/7a31d68e-dae5-45b5-bc09-9e1a3a656fec" alt="Captura de tela do projeto" width="500">
@@ -238,13 +281,13 @@
 - SoC: Amlogic s905w.
 - Armazenamento interno: 16gb eMMC.
 - Memória RAM: 2gb.
-- Módulo de rede: Realtek RTL8822BS. Módulo com suporte a Wi-Fi e Bluetooth.
+- Módulo de rede: Realtek RTL8822BS. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
 
 ## Knbox R69
 - SoC: Allwinner H3
 - Armazenamento interno: Toshiba TRGBMAG6A2JBAIR. Chip de 8gb eMMC.
 - Memória RAM: Micron D9PFK. Chip de 1gb DDR3 SDRAM
-- Módulo de rede: iCOMM-SEMI SV6051P TTB2116. Módulo de Wi-Fi e Bluetooth.
+- Módulo de rede: Icomm-semi SV6051P TTB2116. Suporte a Wi-Fi e Bluetooth
 - Arquivo dtb:
 
