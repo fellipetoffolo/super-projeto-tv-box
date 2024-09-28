@@ -1,4 +1,5 @@
 ## Experiência e processo de descaracterização \[Terminado] 
+**O arquivo de imagem pré-construído usado para a descarcaterização desse modelo foi removido do repositório original, caso queira seguí-lo utilize outro arquivo de imagem e siga normalmente** 
 
 A ideia geral para descaracterizar esse modelo era bem simples, mas questões de resolução complexas se apresentaram ao longo do processo. Nesta seção serão descritos os sucessos, as falhas, os desafios e o resultado final.
 
@@ -28,14 +29,14 @@ foi dado o comando
 
   ```sudo insmod sv6x5x.ko ```
   
-para carregar o driver dinamicamente como um módulo de kernel, e assim que o comando foi dado os sinais de Wi-Fi já eram reconhecidos.
+para carregar o driver dinamicamente como um módulo de kernel, e assim que o comando foi dado a interface de rede e os sinais de Wi-Fi já eram reconhecidos.
   
 &nbsp;&nbsp;&nbsp;&nbsp; Dado que a maioria das necessidades básicas (conexão Wi-Fi, interação com desktop, etc.) foram supridas por esse processo de descarcaterização, processos de otimização e melhora de performance serão documentados no arquivo de ressignificação da tvbox. A descaracterização foi finalizada!
 
   Ressalvas:
   1. Apenas inserir o cartão SD com Multitool na tv box não prejudica nem altera seu sistema;
   2. "Criar e formatar partições de disco rígido" no caso do Windows pode ser utilizado para organizar e nomear (tornar detectável) partições de mídias externas.
-  3. Para placas com SoC da Rockchip, Enquanto existir um sistema bootável detectável dentro da tvbox, ela sempre escolherá inicializar por ele, do contrário uma mídia externa é buscada. Caso o sistema bootável esteja corrompido, é possível forçar um curto, entrando no maskrom mode.
+  3. Para placas com SoC da Rockchip, Enquanto existir um sistema bootável detectável dentro da tvbox, ela geralmente escolherá inicializar por ele, do contrário uma mídia externa é buscada. Caso o sistema bootável esteja corrompido, é possível forçar um curto, entrando no maskrom mode.
    
  
    
