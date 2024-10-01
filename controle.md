@@ -4,6 +4,9 @@
 
 #### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ e b11. Buscar processos de descaracterização para algum SoC da Allwinner e iniciar pesquisas a respeito.
 
+### Dia 30/09/2024
+Motivados pela enorme diversidade de chipsets para Wi-Fi, tentaremos contato com os responsáveis por manter o framework de construção de imagens do armbian para adicionar os drivers de rede para diversos módulos Wi-Fi na opção EXTRA_WIFI. Conseguimos encontrar um arquivo de imagem operante para o SoC Allwinner H313 que se mostrou funcional para o modelo Tourobox, porém também sem conexão com Wi-Fi pelo mesmo motivo dos outros modelos. O mesmo processo anterior dos modelos MXQ e X plus foi replicado na RPC mini e ela foi descaracterizada com sucesso, porém também sem Wi-Fi. Tentaremos a mesma imagem da Tourobox na Ximi box plus b11 e T10, também com soc Allwinner H313.
+
 ### Dia 23/09/2024
 Ainda sem sucesso com os drivers de Wi-Fi já compilados nos arquivos de imagem Armbian, decidiu-se utilizar a abordagem de buscar os drivers na Internet e compilá-los. Esta abordagem ainda será testada e se bem sucedida levará ao sucesso na descaracterização dos modelos MXQ PLUS 5G 8K, MXQ PRO 5G 4K e btv b11, pois em todos estes modelos já foi instalado o sistema Armbian, resta apenas obter conectividade com a Internet via Wi-Fi.
 
