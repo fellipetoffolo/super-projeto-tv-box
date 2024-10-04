@@ -27,3 +27,5 @@
 ### https://sergiogracas.alphi.media/dtbs/
 # Imagens para SoC's amlogic s9xx
 ### https://imola.armbian.com/archive/aml-s9xx-box/archive/
+# Link github para o driver do módulo de rede rtl8723ds
+### https://github.com/lwfinger/rtl8723ds
