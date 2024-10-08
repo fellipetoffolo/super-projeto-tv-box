@@ -31,7 +31,7 @@ foi dado o comando
   
 para carregar o driver dinamicamente como um módulo de kernel, e assim que o comando foi dado a interface de rede e os sinais de Wi-Fi já eram reconhecidos.
   
-&nbsp;&nbsp;&nbsp;&nbsp; Dado que a maioria das necessidades básicas (conexão Wi-Fi, interação com desktop, etc.) foram supridas por esse processo de descarcaterização, processos de otimização e melhora de performance serão documentados no arquivo de ressignificação da tvbox. A descaracterização foi finalizada!
+&nbsp;&nbsp;&nbsp;&nbsp; Dado que a maioria das necessidades básicas (conexão Wi-Fi, interação com desktop, etc.) foram supridas por esse processo de descaracterização, processos de otimização e melhora de performance serão documentados no arquivo de ressignificação da tvbox. A descaracterização foi finalizada!
 
   Ressalvas:
   1. Apenas inserir o cartão SD com Multitool na tv box não prejudica nem altera seu sistema;
