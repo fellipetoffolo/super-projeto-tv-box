@@ -18,9 +18,9 @@
 ### 3º Passo: Inserir o cartão SD, configurar o sistema e executar o script de instalação no armazenamento interno da tvbox.
 #### Configure sua tvbox conforme nosso tutorial "primeiros passos após instalação"
 #### Após isso, pressione 
-´´´ Ctrl + Alt + F2 ´´´ 
+``` Ctrl + Alt + F2 ```
 #### para abrir um terminal. Dê o comando 
-´´´ sudo armbian-install ´´´ 
+``` sudo armbian-install ```
 #### e forneça sua senha para entrar no menu de execução do script de instalação. Selecione a opção "Boot from emmc"
 
 
