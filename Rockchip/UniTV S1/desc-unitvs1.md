@@ -7,4 +7,4 @@ Ao tentar a primeira abordagem bootando pelo multitool, já com o arquivo de ima
 
 Para utilizar o rk_develop_tool foi seguido o tutorial para instalação sem o uso de cartão SD constante em [Installation (without SD card, board with eMMC)](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards/) (as etapas do tutorial demandam que isto seja feito em uma máquina linux). O segundo problema foi que após flashar a imagem com o rk_develop_tool, o aparelho não respondia mais... No entanto, não satisfeitos, tentamos utilizar o multitool com adaptador USB cartão SD após isso, e dessa vez o multitool pôde ser acessado. O mesmo passo a passo padrão de para instalar o sistema pelo multitool foi seguido, o que funcionou.
 
-Infelizmente nenhum sinal de Wi-Fi foi detectado devido a falta d eum driver de rede compatível.
+Infelizmente nenhum sinal de Wi-Fi foi detectado devido a falta de um driver de rede compatível.
