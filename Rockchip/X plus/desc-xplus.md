@@ -1,5 +1,5 @@
 ## Experiência e processo de descaracterização \[Terminado] 
-**_O arquivo de imagem pré-construído usado para a descarcaterização desse modelo foi removido do repositório original, caso queira seguí-lo utilize outro arquivo de imagem e siga normalmente_** 
+**_O arquivo de imagem pré-construído usado para a descaracterização desse modelo foi removido do repositório original, caso queira seguí-lo utilize outro arquivo de imagem e siga normalmente_** 
 
 A ideia geral para descaracterizar esse modelo era bem simples, mas questões de resolução complexas se apresentaram ao longo do processo. Nesta seção serão descritos os sucessos, as falhas, os desafios e o resultado final.
 
