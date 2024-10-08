@@ -3,7 +3,7 @@
 
 ### 1º Passo: Baixar a imagem armbian.
   
-----><a href="https://forum.armbian.com/topic/45466-how-to-install-armbian-on-mxq-pro-4k-5g-with-all-winner-h3-processor/#comment-202799">link da imagem bullseye 6.1.11_xfce_desktop<a>
+----><a href="https://github.com/sicXnull/armbian-build/releases/download/v24.8.0-trunk.425/Armbian-unofficial_24.11.0-trunk_X96q_bookworm_current_6.6.44_mate_desktop.img.xz">link da imagem bookworn 6.6.44 mate desktop<a>
 
 ***
 ### 2º Passo: Gravar a imagem baixada para o cartão sd.
