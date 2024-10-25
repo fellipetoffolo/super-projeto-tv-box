@@ -4,6 +4,18 @@
 
 #### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ e b11. Buscar processos de descaracterização para algum SoC da Allwinner e iniciar pesquisas a respeito.
 
+### Dia 21/10/2024
+Alguns modelos apresentaram muita dificuldade em fazer o módulo de Wi-Fi funcionar, mesmo com drivers supostamente presente. Isso ocorreu, em especial, com aqueles que possuem chip AP6330/AP6212/SP6330, que de alguma forma é baseado no módulo de rede da broadcom e precisa de configurações específicas para funcionar.
+
+A imagem de sistema operacional fornecida pelo Educabox para o modelo b11 também se recusou a reconhecer conexões de Internet. O mesmo para RedPro2 e Azamérica i7. Suspeita-se que exista a possibilidade de copiar uma configuração de Wi-fi já presente em /lib/firmware/brcm de um arquivo x para um arquivo y, mudando seu nome com o que o sistema esperaria ler para tornar o Wi-Fi funcional nos modelos mencionados.
+
+Muitos modelos Allwinner, como Azamérica Champions, T10, R69 e Ximi Box plus apresentaram resistência em reconhecer o cartão SD bootado, mas uma forma de contornar este problema está sendo investigada através do uso de ferramentas *open source* especializadas, a saber Phoenix suit e Phoenix USB Pro
+
+### Dia 06/10/2024
+
+Foi obtido um sucesso para o modelo UniTv S1, que não respondeu inicialmente ao multitool, mas aceitou receber uma imagem de sistema pelo software rkdevelop_tool. A imagem, no entanto, não funcionava. Em contrapartida, mesmo com um sistema em loop após instalar a imagem com o rkdevelop_tool, a Tv Box passou a reconhecer a ação do multitool, por onde foi instalado uma imagem efetivamente, que apresentou um funcionamento normal. O driver de Wi-Fi já estava presente para versões do kernel maiores ou iguais a 5.15.25.
+
+
 ### Dia 30/09/2024
 Motivados pela enorme diversidade de chipsets para Wi-Fi, tentaremos contato com os responsáveis por manter o framework de construção de imagens do armbian para adicionar os drivers de rede para diversos módulos Wi-Fi na opção EXTRA_WIFI. Conseguimos encontrar um arquivo de imagem operante para o SoC Allwinner H313 que se mostrou funcional para o modelo Tourobox, porém também sem conexão com Wi-Fi pelo mesmo motivo dos outros modelos. O mesmo processo anterior dos modelos MXQ e X plus foi replicado na RPC mini e ela foi descaracterizada com sucesso, porém também sem Wi-Fi. Tentaremos a mesma imagem da Tourobox na Ximi box plus b11 e T10, também com soc Allwinner H313.
 
