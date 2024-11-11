@@ -19,7 +19,10 @@
 - [RedOne](#redone)  
 - [RedPro2](#redpro2)  
 - [RPC mini](#rpc-mini)  
-- [R69 8k com Worldtv na caixa](#r69-8k-com-worldtv-na-caixa)  
+- [R69 1](#r69-1)
+- [R69 2](#r69-2)
+- [R69 3](#r69-3)
+- [R69 4](#r69-4)  
 - [Tigre T10](#tigre-t10)  
 - [TouroBox](#tourobox)  
 - [UniTV S1](#unitv-s1)  
@@ -243,7 +246,7 @@
   <br>
 
 
-## R69 8k com Worldtv na caixa
+## R69 1
 - SoC: Rockchip RK228A
 - Armazenamento interno: Samsung KLM8G1GEAC-B031. Módulo eMMC com 8gb.
 - Memória RAM: Samsung K4B2G0446C-HYH9. Chip de memória DDR3 SDRAM 1gb total.
@@ -256,6 +259,12 @@
   <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/e36079f0-2330-4d8c-9ec4-a6846896d813" alt="Captura de tela do projeto" width="500">
   <br>
+
+  ## R69 2
+
+  ## R69 3
+
+  ## R69 4
 
 
 ## Tigre T10
