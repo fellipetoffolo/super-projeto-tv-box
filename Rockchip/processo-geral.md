@@ -1,6 +1,6 @@
 # Processo geral e dicas de descaracterização para tv's Box com o SoC Rockchip
 
-#### Siga este tutorial caso você tenha aberto sua tvbox e encontrado o nome "Rockchip RK3228A"/"Rockchip RK3228B"/"Rockchip RK3229" no processador. Caso alguma etapa do processo não ocorra como descrito, procure uma solução em "processo-especifico".
+#### **_Siga este tutorial caso você tenha aberto sua tvbox e encontrado o nome "Rockchip RK3228A"/"Rockchip RK3228B"/"Rockchip RK3229" no processador. Caso alguma etapa do processo não ocorra como descrito, procure uma solução em "processo-especifico"_**.
 
 A comunidade Armbian possui diversas contribuições acumuladas para tornar seu sistema compatível com as placas de processador Rockchip RK3228A.
 Tendo em vista que o processo de descaracterização segue o mesmo princípio para a maioria das placas com este SoC, aqui colocamos o processo geral de descaracaterização, com etapas mais diretas para instalar o sistema Armbian. Em nenhuma hipótese este tutorial resume o processo de instalação do sistema para todos os modelos e as infinitas possibilidades de combinações de SoC, armazenamento interno, módulo de rede e memória RAM que existem no mercado de tvbox, mesmo restritas ao processador da Rockchip, então recomendamos verificar primeiro o arquivo com o tutorial para o seu modelo específico e caso ele mencione este tutorial, siga as instruções aqui postadas.
