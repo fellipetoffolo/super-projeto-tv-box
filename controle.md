@@ -4,7 +4,7 @@
 
 #### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11, tourobox e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações.
 
-### Dia 12/10/2024
+### Dia 12/11/2024
 Uma das várias variantes do modelo R69 foi descaracterizada com sucesso, sendo nesse caso aquela com SoC Amlogic s905l. Ainda assim, foram constatados problemas de travamento e carregamento, portanto mais testes serão feitos com dtb e afins. O bootloader "u-boot-s905x-s912", no entanto, com certeza é o correto.
 Aparentemente será inevitável incorporar o uso de ferramentas de _burn_ por cabo USB macho-macho, como USB burning tool e phoenix suit, pois alguns modelos não repondem a inicialização após inserir cartão SD bootado e nem apresentam um botão de reset.
 
