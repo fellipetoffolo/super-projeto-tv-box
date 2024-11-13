@@ -1,6 +1,6 @@
 # Processo geral e dicas de descaracterização para tv's Box com o SoC Rockchip
 
-#### Siga este tutorial caso você tenha aberto sua tvbox e encontrado o nome "Rockchip RK3228A"/"Rockchip RK3228B"/"Rockchip RK3229" no processador
+#### Siga este tutorial caso você tenha aberto sua tvbox e encontrado o nome "Rockchip RK3228A"/"Rockchip RK3228B"/"Rockchip RK3229" no processador. Caso alguma etapa do processo não ocorra como descrito, procure uma solução em "processo-especifico".
 
 A comunidade Armbian possui diversas contribuições acumuladas para tornar seu sistema compatível com as placas de processador Rockchip RK3228A.
 Tendo em vista que o processo de descaracterização segue o mesmo princípio para a maioria das placas com este SoC, aqui colocamos o processo geral de descaracaterização, com etapas mais diretas para instalar o sistema Armbian. Em nenhuma hipótese este tutorial resume o processo de instalação do sistema para todos os modelos e as infinitas possibilidades de combinações de SoC, armazenamento interno, módulo de rede e memória RAM que existem no mercado de tvbox, mesmo restritas ao processador da Rockchip, então recomendamos verificar primeiro o arquivo com o tutorial para o seu modelo específico e caso ele mencione este tutorial, siga as instruções aqui postadas.
@@ -33,7 +33,7 @@ Faça download e instalação do [Balena Etcher](https://etcher.balena.io/) em s
 
 
 ### Etapa 3
-Procure por um arquivo de imagem do sistema operacional Armbian compatível com tvbox Rockchip. Estes arquivos podem ser encontrados em várias discussões e links espalhados pelo fórum Armbian, além da possibilidade de construí-los diretamente pelo Framework fornecido pela comunidade. Alguns arquivos de imagem podem ser encontrados no tópico "links-importantes.md".
+Procure por um arquivo de imagem do sistema operacional Armbian compatível com tvbox Rockchip. Estes arquivos podem ser encontrados em várias discussões e links espalhados pelo fórum Armbian, além da possibilidade de construí-los diretamente pelo Framework fornecido pela comunidade. Alguns arquivos de imagem podem ser encontrados no tópico "links-importantes.md". Caso tenha dúvida sobre como identificar arquivos de imagem do sistema Armbian ou qual escolher, verifique nossa explicação sobre como escolher arquivos de imagem em "arquivo-de-imagem"
 
 ### Etapa 4
 Insira o cartão SD no computador.
@@ -46,4 +46,18 @@ Selecione a opção "Select target", procure e ecolha o cartão SD que foi inser
 Selecione a opção "Flash!" e aguarde.
 
 ### Etapa 5
-Após a etapa anterior, o cartão SD já deve estar operando normalmente com o multitool, mas o arquivo do sistema Armbian ainda não entrou em cena. Isso porquê precisamos expandir a partição (armazenamento) do multitool para que ele possa comportar um arquivo de imagem do sistema, que geralmente é grande. Para isso, precisamos ejetar o cartão SD com segurança do computador e colocá-lo na tvbox desligada com a fonte de alimentação desligada. Após isso devemos conectar a fonte de alimentação
+Após a etapa anterior, o cartão SD já deve estar operando normalmente com o multitool, mas o arquivo do sistema Armbian ainda não entrou em cena. Isso porquê precisamos expandir a partição (armazenamento) do multitool para que ele possa comportar um arquivo de imagem do sistema, que geralmente é grande. Para isso, precisamos ejetar o cartão SD com segurança do computador e colocá-lo na tvbox desligada com a fonte de alimentação desligada. Após isso devemos conectar a fonte de alimentação e a interface do programa multitool deve aparecer normalmente com a mensagem "expanding partition", com caixas de texto em uma tela azul, conforme a Figura abaixo:
+
+O usuário deve selecionar "shutdown" para desligar a tv box, já que a partição do cartão SD foi expandida com sucesso. Após isso, deve-se remover a fonte de alimentação e o cartão SD e inserir o cartão SD no computador novamente, desta vez movendo o arquivo de imagem de sistema operacional obtido na etapa 3 para dentro da pasta "images", conforme a Figura abaixo. Após isso, basta ejetar o cartão SD e inserí-lo novamente na TV Box desligada, e ligá-la.
+
+A tela do multitool vai abrir mais uma vez, apresentando algumas opções. As opções mais relevantes para usuários casuais são "Backup flash", que faz uma cópia do firmware original da tv box, permitindo que o sistema seja recuperado caso haja corrupção dos arquivos essenciais e "Burn image to flash", que instala efetivamente algum sistema através do arquivo de imagem presente na pasta "images". Para efetivar a instalação do sistema, basta selecionar "Burn image to flash" e aguardar. Após isso é importante selecionar "shutdown", aguardar o desligamento e remover a fonte de alimentação e o cartão SD nesta ordem. Por fim, liga-se a tv box para verificar se a descaracterização foi bem sucedida.
+
+Caso todos os passos tenham gerado o resultado esperado, considera-se a TV Box descaracterizada!
+
+O sistema Armbian oferece opções de customização na primeira inicialização da TV Box. O usuário pode optar por desbravar este mundo sozinho ou se apoiar em nosso tutorial para configurar o Armbian durante a primeira inicialização: .
+
+Disclaimers:
+
+1. Apenas inserir o cartão SD com Multitool na tv box não prejudica nem altera seu sistema atual;
+2. "Criar e formatar partições de disco rígido" no caso do Windows pode ser utilizado para organizar e nomear (tornar detectável) partições de mídias externas, como cartões SD.
+3. Existem casos em que SoC's Rockchip não responderam ao multitool. Algumas abordagens podem resolver ou não este problema, para tanto verifique nossas outras abordagens.
