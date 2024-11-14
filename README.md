@@ -18,7 +18,7 @@ O objetivo deste projeto é agrupar protocolos de descaracterização para o mai
   - Subdiretórios para cada modelo específico de TvBox Rockchip.
 - /material-de-apoio/: Glossário e informações adicionais importantes.
 - /tutorial-ferramentas/: Tutoriais de ferramentas frequentemente utilizadas.
-  - /gravacao-armazenamento-interno/
+  - /gravacao-armazenamento-interno/: Tutoriais de ferramentas para gravar sistema diretamente no armazenamento interno da TvBox.
   - /gravacao-sd/: Tutoriais de ferramentas para criação de cartões SD bootáveis.
 - /controle.md: Mantém um histórico com datas do desenvolvimento do projeto.
 - /informacoes-modelos-e-hardwares: Contém todas as informações obtidas dos modelos de TvBox já analisados.
