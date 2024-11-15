@@ -1,39 +1,194 @@
-## Experiência e processo de descaracterização \[Terminado] 
-**_O arquivo de imagem pré-construído usado para a descaracterização desse modelo foi removido do repositório original, caso queira seguí-lo utilize outro arquivo de imagem e siga normalmente_** 
+# <img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="30"/> Descaracterização do modelo X Plus
 
-Inicialmente foi seguido o tutorial encontrado no fórum armbian, em um tópico que pode ser acessado por esse link:
-[CSC Armbian for tv boxes RK322X](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards/)
+## 🔎 Sumário
 
-O tutorial trata apenas de SBC's com SoC's rk322x, que é o caso do modelo in X plus.
+- [Informações Gerais](#-informações-gerais)
+  - [Descrição do modelo](#descrição-do-modelo)
+  - [Imagem do modelo](#imagem-do-modelo)
+  - [Sistema operacional original](#sistema-operacional-original)
+  - [Suporte de hardware](#suporte-de-hardware)
+  - [Limitaçoes conhecidas](#limitações-conhecidas)
+- [Desempenho](#-desempenho)
+- [Ferramentas utilizadas](#-ferramentas-utilizadas)
+  - [Hardware](#hardware)
+  - [Software](#software)
+- [Processo resumido](#-processo-resumido)
+  - [Cuidados necessários](#cuidados-necessários)
+  - [Passo a passo](#passo-a-passo)
+- [Processo detalhado](#-processo-detalhado)
+- [Erros comuns](#-erros-comuns)
 
-Pela descrição do tutorial, alguns requisitos eram necessários:
-1. Multitool, uma ferramenta para lidar com as questões de comunicação entre hardware e _software_;
-2. Uma imagem de sistema operacional compatível ( a imagem utilizada inicialmente foi uma build do armbian. Mais informações no link [Build Preparation](https://docs.armbian.com/Developer-Guide_Build-Preparation/) );
-3. Um cartão SD.
+## 💻 Informações gerais
 
-&nbsp;&nbsp;&nbsp;&nbsp; O Multitool, cuja imagem foi obtida no link de download pelo tutorial, foi bootado no cartão SD pelo Balena Etcher. O objetivo seria copiar o arquivo de imagem do sistema que se pretende instalar para a pasta "images" do Multitool, agora bootado no cartão SD. Isto, no entanto não foi possível em um primeiro momento, dado que a partição "MULTITOOL" do cartão SD que continha o arquivo "images" não era grande o suficiente para comportar um arquivo .img. Esse problema foi resolvido apenas inserindo o cartão SD na tvbox, que fez com que a partição "MULTITOOL" fosse expandida. Também foi dada a opção de salvar um backup do sistema presenta na SBC naquele dado momento. Com a partição expandida, foi possível inserir o arquivo .img obtido pela build do repositório Armbian do github no arquivo "images" do cartão SD e inserí-lo novamente na tv box. A opção de flashar a imagem no sistema foi escolhida.
-  
-&nbsp;&nbsp;&nbsp;&nbsp; Inicialmente o sistema inicializou como previsto, porém após a criação do usuário e configuração inicial não era possível acessar nenhuma funcionalidade no desktop (interface). O comando Ctrl+Alt+F1 foi utilizado para acessar as funcionalidades de linha de comando, mas o número de comandos funcionais estava restrito devido à falta de acesso a internet. Para contornar esse problema, foi feita uma ancoragem com cabo USB pelo celular, que conferiu um acesso e atribuiu um IP ao dispositivo. Isso foi feito para verificar a operabilidade da interface de ethernet
-  
-&nbsp;&nbsp;&nbsp;&nbsp;  [older images](https://armbian.hosthatch.com/archive/rk322x-box/archive/). Ao utilizar uma versão atual de imagem pré-construída, verificamos que o desktop e aplicações do sistema podiam ser acessados normalmente, porém nenhuma conexão com internet era reconhecida e esse problema persistiu até encontrarmos uma abordagem viável resolvê-lo. Mesmo assim, o dispositivo descaracterizado (sem conexão comn a internet) foi utilizado para aprendizado das características do sistema Armbian em si, bem como entendimento das partes independentes que compôem o sistema como um todo. Em meio a essa exploração, percebeu-se que nos drivers localizados em
-  
-  ```/lib/modules/$(uname -r)/kernel/drivers/net/wireless (drivers para conexão Wi-Fi)```
-  
-não havia nenhum driver correspondente ao módulo de rede identificado no hardware, que é o chip SV6256P da Icomm-semi e isso forneceu uma pista para entender o porquê da Internet não estar funcionando. Algumas pesquisas foram feitas na tentativa de encontrar o driver faltante, porém sem sucesso.
-  
-&nbsp;&nbsp;&nbsp;&nbsp; Tendo esperança de que uma regressão nas versões do Armbian pudesse trazer a conexão Wi-Fi, outros arquivos de imagem com versões anteriores foram testados, em especial as versões 22.02.1 para servidor e a versão 21.5.1 para desktop. Surpreendentemente, apesar de não possuírem conexão com a internet logo após o processo de instalação, foi possível encontrar o driver de Internet Wi-Fi para o módulo de rede presente no hardware da TV box, exatamente onde deveriam estar os drivers para conexão Wi-Fi. Dessa forma, após entrar no diretório 
-  
-  ```lib/modules/$(uname -r)/kernel/drivers/net/wireless/ssv6x5x```
-  
-foi dado o comando 
+### Descrição do modelo
 
-  ```sudo insmod sv6x5x.ko ```
-  
-para carregar o driver dinamicamente como um módulo de kernel, e assim que o comando foi dado a interface de rede e os sinais de Wi-Fi já eram reconhecidos.
-  
-&nbsp;&nbsp;&nbsp;&nbsp; Dado que a maioria das necessidades básicas (conexão Wi-Fi, interação com desktop, etc.) foram supridas por esse processo de descaracterização, processos de otimização e melhora de performance serão documentados no arquivo de ressignificação da tvbox. A descaracterização foi finalizada!
+É um modelo relativamente simples de ser descaracterizado, mas alguns passos extras devem ser feitos para garantir que o Wi-fi funcione adequadamente.
+Verifique as especificações completas de hardware da X Plus [aqui](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/main/informacoes-modelos-e-hardwares.md#in-x-plus).
 
+### Imagem do modelo
+
+<img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02" alt="Imagem 1 do hardware" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459" alt="Imagem 2 do hardware" width="300"/>
+
+### Sistema operacional original
+
+Android (pré-instalado).
+
+### Suporte de hardware
+- Wi-fi: Suportado parcialmente no Armbian.
+- Bluetooth: <!-- Necessário confirmar -->
+- Ethernet: Suporte completo.
+
+
+### Limitações conhecidas
+- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar imagens específicas do sistema operacional para funcionar adequadamente.
+- Desempenho: abaixo da média.
+
+## 📈 Desempenho
+
+Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!-- Necessário criar arquivo de metodologia e linkar aqui -->
+
+| Atividades                   | Avaliação |
+| ---------------------------- | --------- |
+| Navegar em páginas           | 🟠 MÉDIO |
+| Assistir vídeos              | 🔴 RUIM  |
+| Jogar                        | 🔴 RUIM  |
+| Utilizar como servidor       | 🟢 BOM   |
+
+## 🛠 Ferramentas utilizadas
+
+### Hardware
+
+- Computador ou notebook: utilizado para manipular os arquivos necessários e criar um cartão SD bootável.
+- Cartão SD: utilizado para gravar o sistema operacional Armbian na X Plus.
+- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a X Plus.
+
+### Software
+
+- Balena Etcher, Rufus ou dd: utilizado para gravar o multitool no cartão SD.
+- Multitool: utilizado para gravar o sistema operacional Armbian no armazenamento interno da X Plus. 
+
+## 📄 Processo resumido
+
+### Cuidados necessários
+
+- Sempre ejete o cartão SD pelo sistema operacional antes de removê-lo.
+- Baixe a imagem correta do Armbian, para evitar problemas com Wi-fi.
+- Sempre selecione "Shutdown" ao desligar a X Plus com multitool iniciado.
+
+### Passo a passo
+
+1. Utilize Balena Etcher, Rufus ou dd para criar um SD bootável, utilizando a imagem do multitool.
+2. Redimensione as partições do multitool. Para isso:
+   - Remova o cartão SD do computador/notebook.
+   - Insira na X Plus e ligue-a.
+   - Desligue a X Plus e insira o cartão SD novamente.
+3. Copiar imagem do Armbian para o diretório "images" no multitool.
+4. Inserir cartão SD na X Plus e gravar a imagem do Armbian no armazenamento interno da X Plus.
+   - OPCIONAL: realizar backup da imagem original da X Plus.
+5. Ligar a X Plus sem o cartão SD.
+6. Realizar configurações iniciais do Armbian.
+7. Iniciar driver Wi-fi.
+8. Remover driver Wi-fi da blacklist do sistema.
+
+## 📖 Processo detalhado
+
+### Preparação
+
+1. Baixe os software e arquivos necessários.
+  - Software de criação de mídia bootável (baixe apenas um)
+     - [Balena Etcher (Tutorial de instalação e uso)](https://etcher.balena.io/)
+     - [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
+     - [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
+  - Imagem do Armbian
+     - [Armbian com interface gráfica](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EdRFhkzL309CmdtL13XVPZABvpNkqTUbQvxo-w272nMrmQ?e=VOyTvT) 
+     - Armbian sem interface gráfica 
+  - Multitool
+    - [Tutorial de instalação e uso](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards)
+    
+2. Utilize um dos programas anteriores para gravar a imagem do multitool no cartão SD.
+  - Após a gravação, note que as partições do multitools são pequenas e não há espaço para a imagem. Por isso, o próximo passo é necessário.
+3. Remova o cartão SD do computador/notebook.
+  - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrompimento. 
+4. Insira o cartão SD na X Plus e ligue-a.
+5. Selecione a opção "Shutdown" e desligue a X Plus.
+6. Insira o cartão SD novamente no computador/notebook.
+7. Mova a imagem desejada do Armbian para o diretório "MULTITOOL/images".
+8. Remova o cartão SD do notebook novamente (lembre-se de ejetar antes).
+
+### Instalação
+
+1. Insira o cartão SD (já com multitool e a imagem do Armbian) na X Plus e ligue-a.
+2. Selecione a opção "Burn image to flash".
+   - OPCIONAL: fazer backup da imagem original da X Plus. Ao fazer backup, a imagem original será armazenada em "MULTITOOL/backup".
+3. Selecione o armazenamento interno (só haverá um).
+4. Selecione a imagem que será gravada no armazenamento interno (a que foi baixada e movida para "MULTITOOL/images").
+5. Aguarde o processo de gravação terminar.
+6. Após terminar, selecione "Shutdown" e desligue a X Plus.
+7. Remova o cartão SD da X Plus.
+
+### Configuração do Armbian
+
+1. Ligue a X Plus sem o cartão SD.
+2. Digite a senha do root (usuário administrador).
+3. Digite o nome de usuário. Por padrão, sempre definimos como "tvbox".
+4. Digite e confirme a senha do usuário. Por padrão, sempre definimos como "40028922".
+5. Abra o terminal (bash).
+6. Digite o seguinte comando para ativar o driver Wi-fi:
+   - ```bash
+     sudo insmod /lib/modules/$(uname -r)/kernel/drivers/net/wireless/ssv6x5x/ssv6x5x.ko
+     ```
+7. Edite o arquivo "/etc/modprobe.d/blacklist-rk322x-box.conf" e remova a linha "blacklist ssv6x5x".
+  - Exemplo utilizando o editor de texto nano:
+     ```bash
+     sudo nano /etc/modprobe.d/blacklist-rk322x-box.conf
+     ```
+    - Remova a linha "blacklist ssv6x5x".
+    - CTRL + X (para sair).
+    - Y (para confirmar alterações).
+    - ENTER (para confirmar nome do arquivo).
+
+## ❌ Erros comuns
+
+### Interface gráfica demorando muito para carregar
+
+Para contornar isso, é possível entrar com o terminal simples e iniciar a interface gráfica posteriormente. Para isso:
+- CTRL + ALT + F1: Para entrar no terminal.
+- Para iniciar interface gráfica:
+  ```bash
+  startx
+  ```
   
-   
- 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
