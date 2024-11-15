@@ -7,6 +7,10 @@
 ### Dia 14/11/2024
 Uma nova variante da R69 foi avaliada. Conhecida como KNBOX R69, com um processador aparente AllWinner H3, foi colocada à prova sob a inserção de um cartão SD bootado tanto pela entrada do cartão quanto pelo adaptador USB, pressionando o suposto botão de reset por uma quantidade diferente de tempo a cada tentativa. Tudo foi inútil, no entanto. Apesar disso algumas suspeitas continuam... Esse processo foi testado tanto com um SD bootado com uma imagem para AllWinner H3, quanto com uma imagem para Amlogic s905l, só para desencargo de consciência. Ao conectar com Android Debugging Bridge (ADB), alguns arquivos da Amlogic foram encontrados, por isso a tentativa e suspeita quanto a veracidade do processador...
 
+Parte 2
+Descobrimos que nada faz sentido e é tudo uma mentira. KNBOX R69 na verdade reconheceu um sistema Amlogic, mas apenas após darmos um curto  nos pinos indicados por uma seta branca no armazenamento interno ao mesmo tempo em que o botão de reset era segurado. O dtb correto parece ser meson-gxl-s905x-p212.dtb btw.
+
+
 ### Dia 12/11/2024
 Uma das várias variantes do modelo R69 foi descaracterizada com sucesso, sendo nesse caso aquela com SoC Amlogic s905l. Ainda assim, foram constatados problemas de travamento e carregamento, portanto mais testes serão feitos com dtb e afins. O bootloader "u-boot-s905x-s912", no entanto, com certeza é o correto.
 Aparentemente será inevitável incorporar o uso de ferramentas de _burn_ por cabo USB macho-macho, como USB burning tool e phoenix suit, pois alguns modelos não repondem a inicialização após inserir cartão SD bootado e nem apresentam um botão de reset.
