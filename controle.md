@@ -1,3 +1,6 @@
+## 🗺️ Link da Tabela de Mapeamento dos modelos
+- [Mapeamento dos Diversos Modelos TV BOX](https://unioestebr-my.sharepoint.com/:x:/g/personal/erick_mulher_unioeste_br/EW3v6BX7ek5MsUwlNYhS7HoBPytVYmlZkW_rri7IkowKrQ?e=bad0Am)
+
 # Processos em andamento
 
 ## META DA SEMANA: 
