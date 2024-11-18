@@ -56,7 +56,7 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 | Jogar                        | 🔴 RUIM  |
 | Utilizar como servidor       | 🟢 BOM   |
 
-## 🛠 Ferramentas utilizadas
+## 🛠 Ferramentas utilizadas para descaracterização
 
 ### Hardware
 
@@ -83,7 +83,7 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 2. Redimensione as partições do multitool. Para isso:
    - Remova o cartão SD do computador/notebook.
    - Insira na X Plus e ligue-a.
-   - Desligue a X Plus e insira o cartão SD novamente.
+   - Desligue a X Plus e insira o cartão SD no computador/notebook novamente.
 3. Copiar imagem do Armbian para o diretório "images" no multitool.
 4. Inserir cartão SD na X Plus e gravar a imagem do Armbian no armazenamento interno da X Plus.
    - OPCIONAL: realizar backup da imagem original da X Plus.
