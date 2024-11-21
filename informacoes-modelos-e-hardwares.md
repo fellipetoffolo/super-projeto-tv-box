@@ -78,10 +78,17 @@
 
 ## htv HA
 - SoC: Amlogic S905X.
-- Armazenamento interno: 
-- Memória RAM: 
+- Armazenamento interno: 10.85
+- Memória RAM: 2GB
 - Módulo de rede:
-- Arquivo dtb:
+- Arquivo dtb: meson-gxl-s905x-p212.dtb
+<br><br>
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/amlogic_ha_frontal.jpeg" alt="Captura de tela do projeto" width="500">
+<br>
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/h.a./frente_modificada.png" alt="Captura de tela do projeto" width="500">
+<br>
+<img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/h.a./traseira_nao_modificada.jpeg" alt="Captura de tela do projeto" width="500">
+<br>
 
 
 ## htv H7
