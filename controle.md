@@ -5,7 +5,19 @@
 
 ## META DA SEMANA: 
 
-#### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11, tourobox e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações.
+#### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11 e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações. Tentar fazer um cluster com X plus
+
+
+### Dia 26/11/2024
+Dois modelos com um SoC um tanto anômalo foram catalogados: RedOne e HIGHtv. O SoC em questão é o IK316, mas algumas discussões no fórum Armbian a respeito de uma TV Box com este SoC chegaram a conclusão de que é uma grafia falsa sob um processador Allwinner H313 ou H616. No momento da discussão, a imagem utilizada pelos usuários foi uma modificação de uma imagem para o OrangePi Zero 2, que possui um processador Allwinner H616. O objetivo então é testar o modelo com imagem para H313 e H616, e caso nenhuma funcione será necessário obeter mais informações através de testes e discussões.
+
+Será testado se a R69 com logo reflexivo, que possui SoC Allwinner H2+, responde a uma imagem para Amlogic ou se ela realmente é uma Allwinner H2+.
+
+Averiguamos que infelizmente não será tão fácil obter o driver de Wi-Fi para a Tourobox, já que o código fonte não foi fornecido pelo fabricante e o módulo de rede é um chip incomum. Ainda há esperanças para o driver de Wi-Fi da R69, porém ele não foi encontrado nativo em arquivos de imagem com sistemas de versões mais recentes. Talvez o dtb correto para a R69 Amlogic seja na verdade meson-gxl-s905d-phicom-nw.dtb.
+
+Foi feita uma tentativa de conectar duas X plus através de um cabo de ethernet, mas sem sucesso, pois após definir os ips estaticamente, os pings não foram reconhecidos uma pela outra. Um ponto positivo é que foi possível configurar a interface de ethernet (eth0) tranquilamente.
+
+A imagem Armbian_community_24.11.0-trunk.351_Aml-s9xx-box_bookworm_current_6.6.58_gnome_desktop.img foi testada com u-boot-s905x3 e dtb meson-sm1-sei610 para os modelos duosat, btv11, athomics nomads e RedPro2. Todas acessaram o sistema inicialmente contido no cartão SD como é de costume, exceto a RedPro2, que demandou que o botão "Recovery" fosse pressionado com um clipe de papel por alguns segundos. Infelizmente, todos os modelos apresentaram algum problema na hora inicializar, que provavelmente se deve a toda a problemática dos u-boots desenvolvidos há muito tempo e não mais suportados pelo desenvolvedor balbes150 (os modelos s905x3 não eram tão comuns nessa época). O mais correto a se fazer é buscar alternativas como as apresentadas em uma discussão do fórum armbian para tornar possível inicializar pelos sistemas advindos de arquivos de imagens usuais. A solução sugerida é inicializar o sistema a partir do u-boot proprietário, ou seja, aquele que já está presente na TVB. A discussão pode ser acessada pelo seguinte link: [Discussão](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/). Infelizmente nem o u-boot-s905x-s912 funcionou corretamente, apesar de acender as experanças, tornando acessível o console rudimentar do initramfs, que possui opções de depuração extremamente limitadas para se entender qual é o real problema.
 
 ### Dia 14/11/2024
 Uma nova variante da R69 foi avaliada. Conhecida como KNBOX R69, com um processador aparente AllWinner H3, foi colocada à prova sob a inserção de um cartão SD bootado tanto pela entrada do cartão quanto pelo adaptador USB, pressionando o suposto botão de reset por uma quantidade diferente de tempo a cada tentativa. Tudo foi inútil, no entanto. Apesar disso algumas suspeitas continuam... Esse processo foi testado tanto com um SD bootado com uma imagem para AllWinner H3, quanto com uma imagem para Amlogic s905l, só para desencargo de consciência. Ao conectar com Android Debugging Bridge (ADB), alguns arquivos da Amlogic foram encontrados, por isso a tentativa e suspeita quanto a veracidade do processador...
