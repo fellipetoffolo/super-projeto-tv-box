@@ -8,6 +8,18 @@
 #### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11 e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações. Tentar fazer um cluster com X plus
 
 
+### Dia 07/12/2024
+Sem sucesso, o modelo RedPro 2 passou por uma tentativa de descaracterização. Através de uma imagem de sistema fornecida pelo projeto ophub, com o dtb meson-sm1-x96maxplus.dtb e u-boot correspondente, o modelo inicializou normalmente, mas alguns problemas foram identificados para instalar o sistema no armazenamento interno, pois após a tentativa, o modelos foi brickado. Algumas suspeitas são:
+
+1. Pacotes encontrados em repositórios remotos eram necessários, e sem conexão com a internet eles eram inatingíveis.
+2. O armazenamento interno não foi corretamente reconhecido.
+3. O dtb não descrevia o hardware de forma satisfatória para permitir a execução do sistema a partir do armazenamento interno.
+
+Essas hipóteses serão avaliadas numa próxima tentativa.
+
+Outro ponto interessante de se mencionar é que progresso foi obtido na tentativa de compilar manualmente um driver de rede para a R69. Utilizando as opções do framework foi possível construir uma imagem de servidor diretamente com os headers instalados com a opção INSTALL_HEADERS="yes". Os headers estão presentes no diretório /usr/src. O próximo passo será obter o código fonte do driver sv6051 e compilar.
+
+
 ### Dia 26/11/2024
 Dois modelos com um SoC um tanto anômalo foram catalogados: RedOne e HIGHtv. O SoC em questão é o IK316, mas algumas discussões no fórum Armbian a respeito de uma TV Box com este SoC chegaram a conclusão de que é uma grafia falsa sob um processador Allwinner H313 ou H616. No momento da discussão, a imagem utilizada pelos usuários foi uma modificação de uma imagem para o OrangePi Zero 2, que possui um processador Allwinner H616. O objetivo então é testar o modelo com imagem para H313 e H616, e caso nenhuma funcione será necessário obeter mais informações através de testes e discussões.
 
