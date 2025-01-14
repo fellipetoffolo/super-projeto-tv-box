@@ -291,7 +291,7 @@
 - SoC: Allwinner H313
 - Armazenamento interno: HDTSHINE S16037G. Módulo de eMMC com 8GB.
 - Memória RAM: SK Hynix H5TQ4G63MFR-RDC. Chip de memória DDR3 SDRAM com 2GB.
-- Módulo de rede: Realtek RTL8822CS. Suporte a Wi-Fi e Bluetooth
+- Módulo de rede: S9082H. Suporte a Wi-Fi
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/139fb182-7b0e-4f01-837a-1aacb53d6f76" alt="Captura de tela do projeto" width="500">
@@ -301,6 +301,8 @@
   <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/c6cd563b-8eea-4728-ae62-0cd9797ebf4e" alt="Captura de tela do projeto" width="500">
   <br>
 
+## TouroBox Pro
+- Módulo de rede: LG642 A184
 
 ## UniTV S1
 - Soc: RK3228A
