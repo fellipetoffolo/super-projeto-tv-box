@@ -19,13 +19,13 @@
   - autoreconf -i
   - É possível que para o comando autoreconf -i haja um erro de compilação envolvendo a MACRO "AM_CONFIG_HEADER" na linha 8 do arquivo configure.ac como pode ser visto na figura abaixo:
     
-    <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/erro_de_macro_AM_CONFIG_HEADER.png" alt="Erro de macro AM_CONFIG_HEADERS" width="800">
+    <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/erro_de_macro_AM_CONFIG_HEADER.png" alt="Erro de macro AM_CONFIG_HEADERS" width="900">
   - Para resolvê-lo, basta substituí-ka pela macro sugerida, AC_CONFIG_HEADERS.
     
-   <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_de_macro.png" alt="Atualizacao da macro para AC_CONFIG_HEADERS" width="800">
+   <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_de_macro.png" alt="Atualizacao da macro para AC_CONFIG_HEADERS" width="900">
   - Também será necessário modificar o valor "5" presente no buffer para 600 na linha 1491 do arquivo main.cpp.    
 
-  <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_buffer.png" alt="Atualizacao de buffer" width="800">
+  <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_buffer.png" alt="Atualizacao de buffer" width="900">
 
   
   
