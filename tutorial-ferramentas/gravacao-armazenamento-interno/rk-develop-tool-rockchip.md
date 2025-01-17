@@ -1,6 +1,6 @@
 # 🔽 Tutorial de Instalação 
 ### Neste tutorial, é ensinado a instalação da ferramenta rkdeveloptool, ferramenta que permite a instalação de imagens ISO da Rockchip em seus diversos SoC's diretamente.
-#### 1) Instalação dos arquivos com código-fonte para compilação do programa e suas dependências: 
+#### 1) Instalação dos arquivos com código-fonte para compilação do programa e suas dependências (Instalação do WSL necessária): 
   1.1) Clonar o seguinte repositório do github para sua pasta local (Certifique-se de estar no diretório no qual deseja armazenar o clone):
   - git clone https://github.com/rockchip-linux/rkdeveloptool.git
     
@@ -26,6 +26,8 @@
   - Também será necessário modificar o valor "5" presente no buffer para 600 na linha 1491 do arquivo main.cpp.    
 
   <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_buffer.png" alt="Atualizacao de buffer" width="900">
+
+📦 
 
   
   
