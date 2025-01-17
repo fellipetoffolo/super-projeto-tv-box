@@ -21,9 +21,9 @@
   - Para resolvê-lo, basta substituí-ka pela macro sugerida, AC_CONFIG_HEADERS.
     
    <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_de_macro.png" alt="Atualizacao da macro para AC_CONFIG_HEADERS" width="800">
-  - Também será necessário modificar o valor "5" presente no buffer para 600 na linha 1491 do arquivo main.cpp.
-    
-    <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_buffer.png" alt="Atualizacao de buffer" width="800">
+  - Também será necessário modificar o valor "5" presente no buffer para 600 na linha 1491 do arquivo main.cpp.    
+
+  <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/solucao_erro_buffer.png" alt="Atualizacao de buffer" width="800">
   
      
   
