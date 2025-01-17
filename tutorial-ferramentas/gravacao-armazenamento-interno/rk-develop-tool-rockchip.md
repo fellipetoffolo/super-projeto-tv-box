@@ -12,6 +12,13 @@
   - sudo apt install libudev-dev  
   
   - sudo apt install dh-autoreconf
+
+  1.3) Compilação do rkdeveloptool (Certifique-se de estar na pasta clonada "rkdeveloptool"):
+
+  - É possível que para o seguinte comando haja um erro de compilação envolvendo a MACRO "AM_CONFIG_HEADER" na linha 8 do arquivo configure.ac, para resolvê-lo, basta substituí-la pela macro mais recente, AC_CONFIG_HEADERS. Também será necessário modificar o valor "5" presente no buffer para 600 na linha 1493 do arquivo main.cpp
+    <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/erro_de_macro_AM_CONFIG_HEADER.png" alt="Erro de macro AM_CONFIG_HEADER" width="800">
+  - autoreconf -i
+  
      
   
   
