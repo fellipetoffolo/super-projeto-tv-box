@@ -7,7 +7,10 @@
   <img src="https://github.com/renanBatalha/imagens_tutorial_rk_develop_tool/blob/main/imagens_tutorial/clone_github.png" alt="captura de tela da clonagem de repositório" width="800">
   1.2) Para corrigir erros de compilação e problemas de dependência utilize o seguinte comando, libusb é uma biblioteca usada em C para gerenciar dispositivos usb:
   - sudo apt install pkg-config libusb-1.0-0-dev  
+  
   - sudo apt install libudev-dev  
-  - sudo apt install dh-autoreconf  
+  
+  - sudo apt install dh-autoreconf
+     
   
   
