@@ -18,9 +18,18 @@
 - [Processo detalhado](#-processo-detalhado)
 - [Erros comuns](#-erros-comuns)
 
-## 💻 Informações gerais
+## 💻 Informações gerais 
 
-### Descrição do modelo
+
+### Valores de hardware (Obtidas por meio da plataforma AIDA64)
+
+
+| Medida                   | Valor detectado| Valor nominal |
+| ------------------------ | -------------- | ------------- |
+| CPU RK3228A              |     1200 Mhz   |     1,2 Ghz   |
+| Armazenamento interno    |     4940 MB    |      8 GB     |
+| Memória RAM              |      2009 MB   |      2 GB     |
+
 
 É um modelo relativamente simples de ser descaracterizado, mas alguns passos extras devem ser feitos para garantir que o Wi-fi funcione adequadamente.
 Verifique as especificações completas de hardware da X Plus [aqui](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/main/informacoes-modelos-e-hardwares.md#in-x-plus).
@@ -35,15 +44,15 @@ Verifique as especificações completas de hardware da X Plus [aqui](https://git
 
 Android (pré-instalado).
 
-### Suporte de hardware
+### Suporte de rede (módulo iccom-semi sv6212p - driver ssv6x5x)
 - Wi-fi: Suportado parcialmente no Armbian.
-- Bluetooth: <!-- Necessário confirmar -->
+- Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
 - Ethernet: Suporte completo.
 
 
 ### Limitações conhecidas
-- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar imagens específicas do sistema operacional para funcionar adequadamente.
-- Desempenho: abaixo da média.
+- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar versões específicas do sistema operacional para funcionar adequadamente.
+- Desempenho: abaixo da média, supostamente devido à um problema com drivers da placa de vídeo integrada.
 
 ## 📈 Desempenho
 
