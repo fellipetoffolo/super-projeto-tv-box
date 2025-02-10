@@ -1,18 +1,21 @@
-# <img src="/.assets/redpro-box.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo X Plus
+# <img src="/.assets/redpro-box.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo RedPro2
 
 ## 🔎 Sumário
 
 - [Informações Gerais](#-informações-gerais)
-  - [Descrição do modelo](#valore-de-hardware)
+  - [Valores de Hardware](#valore-de-hardware)
   - [Imagem do modelo](#imagem-do-modelo)
   - [Sistema operacional original](#sistema-operacional-original)
-  - [Suporte de hardware](#suporte-de-rede)
+  - [Suporte de rede](#suporte-de-rede)
 - [Desempenho](#-desempenho)
-- [Ferramentas utilizadas](#-ferramentas-utilizadas-para-descaracterização)
+- [Ferramentas utilizadas para descaracterização](#-ferramentas-utilizadas-para-descaracterização)
   - [Hardware](#hardware)
   - [Software](#software)
-  - [Cuidados necessários](#cuidados-necessários)
 - [Processo detalhado](#-processo-detalhado)
+  - [Cuidados necessários](#cuidados-necessários)
+  - [Preparação para instalação](#preparação-para-instalação)
+  - [Configuração inicial do Armbian](#configuração-inicial-do-armbian)
+  - [Instalação do sistema no armazenamento interno](#instalação-do-sistema-no-armazenmento-interno)
 - [Erros comuns](#-erros-comuns)
 
 ## 💻 Informações gerais 
@@ -33,7 +36,7 @@
 ### Imagem do modelo
 
 <img src="/.assets/redpro-box.jpeg" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.jpeg" alt="Imagem 1 do hardware" width="300"/>
+<img src="/.assets/redpro-placa.jpeg" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
@@ -68,13 +71,15 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 
 - Balena Etcher, Rufus ou dd: utilizado para gravar o sistema no cartão SD.
 
+
+
+
+## 📖 Processo detalhado
+
 ### Cuidados necessários
 
 - Sempre ejete o cartão SD pelo sistema operacional antes de removê-lo do computador.
 - Baixe a imagem correta do Armbian. Os testes indicaram que as imagens customizadas fornecidas pelo repositório [ophub](https://github.com/ophub/amlogic-s9xxx-armbian/releases) tem uma maior compatibilidade para este modelo de processador em relação aos sistemas oficiais do projeto Armbian. As demais apresentaram diversos problemas de inicialização.
-
-
-## 📖 Processo detalhado
 
 ### Preparação para instalação
 
@@ -103,7 +108,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.
 
 
-### Configuração do Armbian
+### Configuração inicial do Armbian
 
 Após iniacializar o sistema pela primeira vez, é pedido ao usuário que forneça algumas informações de configuração, como nome de usuário, senha, configuração de zonas de tempo e afins. O processo é bem intuitivo. mas caso haja dúvida, utilize o nosso [guia para configuração inicial do Armbian](#).
 
@@ -111,7 +116,7 @@ Após iniacializar o sistema pela primeira vez, é pedido ao usuário que forne�
 
 ⚠️Cuidado⚠️: Esta ação vai apagar todos os dados presentes no armazenamento da sua TV Box, convém fazer um backup.
 
-⚠️Lembre-se⚠️: para cumprir esta etapa, é muito importante que uma cópia do u-boot correto tenha sido feita, conforme a etapa 5 da **Preparação para instalação**.
+⚠️Lembre-se⚠️: para cumprir esta etapa, é muito importante que uma cópia do u-boot correto tenha sido feita, conforme a etapa 5 da [**Preparação para instalação**](#preparação-para-instalação).
 
 Após a configuração, execute o comando 
 
@@ -126,7 +131,7 @@ E confirme o que for pedido
 
 ## ❌ Erros comuns
 
-1. Caso não seja identificado sinal de vídeo após cumprida a etapa 8 da "Preparação para instalação", verifique se o cabo HDMI funciona e está corretamente conectado. Em caso afirmativo, tudo indica que o sistema foi identificado, mas não é compatível.
+1. Caso não seja identificado sinal de vídeo após cumprida a etapa 8 da "Preparação para instalação", verifique se o cabo HDMI funciona e está conectado corretamente. Em caso afirmativo, tudo indica que o sistema foi identificado, mas não é compatível.
 2. Caso a TV Box inicialize pelo sistema original, é provável que o botão de reset não tenha isdo pressionado por tempo suficiente ou que no cartão SD não tenha sido encontrado um sistema para inicializar. Convém tentar conectar o cartão SD às entradas USB por meio de um adaptador.
 
 

@@ -1,21 +1,21 @@
-# <img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="30"/> Descaracterização do modelo X Plus
+# <img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="30"/> Descaracterização do modelo H8
 
 ## 🔎 Sumário
 
 - [Informações Gerais](#-informações-gerais)
-  - [Descrição do modelo](#descrição-do-modelo)
+  - [Valores de Hardware](#valore-de-hardware)
   - [Imagem do modelo](#imagem-do-modelo)
   - [Sistema operacional original](#sistema-operacional-original)
-  - [Suporte de hardware](#suporte-de-hardware)
-  - [Limitaçoes conhecidas](#limitações-conhecidas)
+  - [Suporte de rede](#suporte-de-rede)
 - [Desempenho](#-desempenho)
-- [Ferramentas utilizadas](#-ferramentas-utilizadas)
+- [Ferramentas utilizadas para descaracterização](#-ferramentas-utilizadas-para-descaracterização)
   - [Hardware](#hardware)
   - [Software](#software)
-- [Processo resumido](#-processo-resumido)
-  - [Cuidados necessários](#cuidados-necessários)
-  - [Passo a passo](#passo-a-passo)
 - [Processo detalhado](#-processo-detalhado)
+  - [Cuidados necessários](#cuidados-necessários)
+  - [Preparação para instalação](#preparação-para-instalação)
+  - [Configuração inicial do Armbian](#configuração-inicial-do-armbian)
+  - [Instalação do sistema no armazenamento interno](#instalação-do-sistema-no-armazenmento-interno)
 - [Erros comuns](#-erros-comuns)
 
 ## 💻 Informações gerais 
@@ -35,9 +35,9 @@
 
 ### Imagem do modelo
 
-<img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02" alt="Imagem 1 do hardware" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459" alt="Imagem 2 do hardware" width="300"/>
+<img src="/.assets/h8-box" alt="Imagem do case" width="300"/>
+<img src="/.assets/h8-placa" alt="Imagem 1 do hardware" width="300"/>
+
 
 ### Sistema operacional original
 
@@ -66,13 +66,16 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 
 - Balena Etcher, Rufus ou dd: utilizado para gravar o sistema no cartão SD.
 
+
+
+## 📖 Processo detalhado
+
+
 ### Cuidados necessários
 
 - Sempre ejete o cartão SD pelo sistema operacional antes de removê-lo do computador.
 - Baixe a imagem correta do Armbian, os testes indicaram que tem uma maior compatibilidade àquelas fornecidas pelo repositório [ophub](https://github.com/ophub/amlogic-s9xxx-armbian/releases). As demais apresentaram diversos problemas.
 
-
-## 📖 Processo detalhado
 
 ### Preparação para instalação
 
@@ -105,7 +108,7 @@ _Disclaimer1: Caso algum termo não seja compreendido, verifique-o na seção [g
 
 Após iniacializar o sistema pela primeira vez, é pedido ao usuário que forneça algumas informações de configuração, como nome de usuário, senha, configuração de zonas de tempo e afins. O processo é bem intuitivo. mas caso haja dúvida, utilize o nosso [guia para configuração do Armbian](#).
 
-### Instalação do sistema no armazenmento interno **Em desenvolvimento**
+### Instalação do sistema no armazenmento interno (**Em desenvolvimento**)
 
 ⚠️Cuidado⚠️: Esta ação vai apagar todos os dados presentes no armazenamento da sua TV Box, convém fazer um backup.
 
