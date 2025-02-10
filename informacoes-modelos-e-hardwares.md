@@ -141,7 +141,7 @@
 - SoC: Amlogic S905X4
 - Armazenamento interno: 64GB 
 - Memória RAM: 4GB
-- Módulo de rede:
+- Módulo de rede: rtl8211f
 - Arquivo dtb:
   <br> <br>
   <img src="https://github.com/renanBatalha/tv_box_imagens/blob/main/xplux_pro.jpeg" alt="Captura de tela do projeto" width="500">

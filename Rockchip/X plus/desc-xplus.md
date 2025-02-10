@@ -3,13 +3,13 @@
 ## 🔎 Sumário
 
 - [Informações Gerais](#-informações-gerais)
-  - [Descrição do modelo](#descrição-do-modelo)
+  - [Valores de Hardware](#valores-de-hardware)
   - [Imagem do modelo](#imagem-do-modelo)
   - [Sistema operacional original](#sistema-operacional-original)
-  - [Suporte de hardware](#suporte-de-hardware)
+  - [Suporte de rede](#suporte-de-rede)
   - [Limitaçoes conhecidas](#limitações-conhecidas)
 - [Desempenho](#-desempenho)
-- [Ferramentas utilizadas](#-ferramentas-utilizadas)
+- [Ferramentas utilizadas para descaracterização](#-ferramentas-utilizadas-para-descaracterização)
   - [Hardware](#hardware)
   - [Software](#software)
 - [Processo resumido](#-processo-resumido)
@@ -18,9 +18,18 @@
 - [Processo detalhado](#-processo-detalhado)
 - [Erros comuns](#-erros-comuns)
 
-## 💻 Informações gerais
+## 💻 Informações gerais 
 
-### Descrição do modelo
+
+### Valores de hardware (Obtidas por meio da plataforma AIDA64)
+
+
+| Medida                   | Valor detectado| Valor nominal |
+| ------------------------ | -------------- | ------------- |
+| CPU RK3228A              |     1200 Mhz   |     1,2 Ghz   |
+| Armazenamento interno    |     4940 MB    |      8 GB     |
+| Memória RAM              |      2009 MB   |      2 GB     |
+
 
 É um modelo relativamente simples de ser descaracterizado, mas alguns passos extras devem ser feitos para garantir que o Wi-fi funcione adequadamente.
 Verifique as especificações completas de hardware da X Plus [aqui](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/main/informacoes-modelos-e-hardwares.md#in-x-plus).
@@ -28,22 +37,22 @@ Verifique as especificações completas de hardware da X Plus [aqui](https://git
 ### Imagem do modelo
 
 <img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02" alt="Imagem 1 do hardware" width="300"/>
+<img src="/.assets/xplus-placa.jpeg" alt="Imagem 1 do hardware" width="300"/>
 <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459" alt="Imagem 2 do hardware" width="300"/>
 
 ### Sistema operacional original
 
 Android (pré-instalado).
 
-### Suporte de hardware
+### Suporte de rede (módulo iccom-semi sv6212p - driver ssv6x5x)
 - Wi-fi: Suportado parcialmente no Armbian.
-- Bluetooth: <!-- Necessário confirmar -->
+- Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
 - Ethernet: Suporte completo.
 
 
 ### Limitações conhecidas
-- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar imagens específicas do sistema operacional para funcionar adequadamente.
-- Desempenho: abaixo da média.
+- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar versões específicas do sistema operacional para funcionar adequadamente.
+- Desempenho: abaixo da média, supostamente devido à um problema com drivers da placa de vídeo integrada.
 
 ## 📈 Desempenho
 
@@ -103,7 +112,7 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
      - [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
   - Imagem do Armbian
      - [Armbian com interface gráfica](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EdRFhkzL309CmdtL13XVPZABvpNkqTUbQvxo-w272nMrmQ?e=VOyTvT) 
-     - Armbian sem interface gráfica 
+     - Armbian servidor 
   - Multitool
     - [Tutorial de instalação e uso](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards)
     

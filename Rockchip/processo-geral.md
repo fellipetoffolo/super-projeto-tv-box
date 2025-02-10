@@ -10,12 +10,12 @@ Este tutorial é baseado em um tópico postado no fórum Armbian disponível no 
 ## Parte 1: preparação
 Primeiramente, é necessário possuir alguns equipamentos físicos para fazer a instalação do sistema Armbian numa tvbox. Estes equipamentos são:
 1. Cartão SD: vai armazenar o sistema que será instalado na tv box.
-2. Computador: vai preparar o cartão SD para instalar o sistema na tv box através de um programa chamado Balena Etcher
+2. Computador: vai preparar o cartão SD para instalar o sistema na tv box através de um programa chamado Balena Etcher.
 3. Tv box, uma fonte de alimentação, um cabo HDMI e um monitor (pode ser uma televisão).
 
 De maneira semelhante, alguns programas e arquivos serão necessários:
-1. Balena Etcher
-2. Arquivo com o sistema armbian específico para tvbox com SoC Rockchip RK322X
+1. Balena Etcher.
+2. Arquivo com o sistema armbian específico para tvbox com SoC Rockchip RK322X.
 3. Arquivo com o programa Multitool: vai carregar o sistema instalado na tv box.
 
 ## Parte 2: passo a passo
@@ -27,13 +27,13 @@ Acesse o [link](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-
 
 
 ### Etapa 2
-Faça download e instalação do [Balena Etcher](https://etcher.balena.io/) em seu computador.
+Faça download e instalação do [Balena Etcher](https://etcher.balena.io/) em seu computador (como alternativa, pode ser utilizado o Rufus).
 
  <img src="https://github.com/user-attachments/assets/5c8e6408-ac5b-45c7-b859-2ad2d78882d7" alt="Captura de tela do projeto" width="400">
 
 
 ### Etapa 3
-Procure por um arquivo de imagem do sistema operacional Armbian compatível com tvbox Rockchip. Estes arquivos podem ser encontrados em várias discussões e links espalhados pelo fórum Armbian, além da possibilidade de construí-los diretamente pelo Framework fornecido pela comunidade. Alguns arquivos de imagem podem ser encontrados no tópico "links-importantes.md". Caso tenha dúvida sobre como identificar arquivos de imagem do sistema Armbian ou qual escolher, verifique nossa explicação sobre como escolher arquivos de imagem em "arquivo-de-imagem"
+Procure por um arquivo de imagem do sistema operacional Armbian compatível com tvbox Rockchip. Estes arquivos podem ser encontrados em várias discussões e links espalhados pelo fórum Armbian, além da possibilidade de construí-los diretamente pelo Framework fornecido pelo projeto. Alguns arquivos de imagem podem ser encontrados no tópico "links-importantes.md". Caso tenha dúvida sobre como identificar arquivos de imagem do sistema Armbian ou qual escolher, verifique nossa explicação sobre como escolher arquivos de imagem em "arquivo-de-imagem".
 
 ### Etapa 4
 Insira o cartão SD no computador.
@@ -59,5 +59,5 @@ O sistema Armbian oferece opções de customização na primeira inicialização
 Disclaimers:
 
 1. Apenas inserir o cartão SD com Multitool na tv box não prejudica nem altera seu sistema atual;
-2. "Criar e formatar partições de disco rígido" no caso do Windows pode ser utilizado para organizar e nomear (tornar detectável) partições de mídias externas, como cartões SD.
-3. Existem casos em que SoC's Rockchip não responderam ao multitool. Algumas abordagens podem resolver ou não este problema, para tanto verifique nossas outras abordagens.
+2. "Criar e formatar partições de disco rígido" no caso do Windows pode ser utilizado para organizar e nomear (tornar detectável) partições de mídias externas, como de cartões SD.
+3. Existem casos em que SoC's Rockchip não responderam ao multitool. Algumas abordagens podem resolver ou não este problema, para tanto verifique nossas outras abordagens ou explicações mais aprofundadas em [problemas.md](problemas.md).
