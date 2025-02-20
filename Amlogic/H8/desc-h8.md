@@ -35,8 +35,8 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/h8-box" alt="Imagem do case" width="300"/>
-<img src="/.assets/h8-placa" alt="Imagem 1 do hardware" width="300"/>
+<img src="/.assets/h8-box.jpeg" alt="Imagem do case" width="300"/>
+<img src="/.assets/h8-placa.jpeg" alt="Imagem 1 do hardware" width="300"/>
 
 
 ### Sistema operacional original
