@@ -4,6 +4,7 @@
 - [Valores de Hardware](#valores-de-hardware) 
 - [Imagem do Modelo](#imagem-do-modelo)
 - [Sistema Operacional Original](#sistema-operacional-original)
+- [Suporte de Rede](#suporte-de-rede)
 
 
 ### Valores de Hardware (Obtidas por meio da plataforma AIDA64)
@@ -28,3 +29,11 @@
 |--------|-------|
 |Android | 11.1  |
 |Kernel  | editar|
+
+
+### Suporte de Rede 
+
+|Módulo          |Driver | WiFi        | Ethernet      | Bluetooth     | 
+|----------------|-------|-------------|---------------|---------------|
+|RealTek 8189FTV |Editar |🟢 Funciona  |🟠 Não Testado|🟠 Não Testado |
+
