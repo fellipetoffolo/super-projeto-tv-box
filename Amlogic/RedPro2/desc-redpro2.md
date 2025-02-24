@@ -35,12 +35,15 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/redpro-box.jpeg" alt="Imagem do case" width="300"/>
+<img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
 <img src="/.assets/redpro-placa.jpeg" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
-Android (pré-instalado).
+|SO      |Versão  |
+|--------|--------|
+|Android | 9      |
+|Kernel  | 4.9.113|
 
 ### Suporte de rede (módulo AMPAK AP6212 - driver brcmfmac4330-sdio)
 - Wi-fi: Supostamente é suportado pelo Armbian.
