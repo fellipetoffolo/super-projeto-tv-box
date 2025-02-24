@@ -18,9 +18,9 @@
 
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
-| CPU S905                 |       editar    |     editar    |
-| Armazenamento interno    |       4.38GB    |      editar   |
-| Memória RAM              |       editar    |      2 GB     |
+| CPU S905                 |       1200 MB    |     2,0 GHz  |
+| Armazenamento interno    |       4382 MB    |      8 GB    |
+| Memória RAM              |       2023 MB    |      2 GB    |
 
 
 ### Imagem do Modelo
@@ -31,17 +31,15 @@
 ### Sistema Operacional Original
 
 
-|SO      |Versão |
-|--------|-------|
-|Android | 11.1  |
-|Kernel  | editar|
+Android: 11.1
+Kernel: 3.14.29
 
 
 ### Suporte de Rede 
 
 |Módulo          |Driver | WiFi        | Ethernet      | Bluetooth     | 
 |----------------|-------|-------------|---------------|---------------|
-|RealTek 8189FTV |Editar |🟢 Funciona  |🟠 Não Testado|🟠 Não Testado |
+|RealTek 8189FTV |8189fs |🟢 Funciona  |🟠 Não Testado|🟠 Não Testado |
 
 
 ## 📈 Desempenho
@@ -82,6 +80,7 @@ _Disclaimer1: Caso algum termo não seja compreendido, verifique-o na seção [g
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
 8. Insira o cartão SD na Astro11 desligada e conectada à um monitor/televisão por cabo HDMI.
 9. Diferente de outros modelos TV Box mostrados aqui, não há necessidade de pressionar o botão reset para inicializar o sistema Armbian.
+10. Essa versão armbian vem configurada com um usuário por padrão, portanto, para entrar no sistema basta logar com o login "root" e a senha "1234".
 
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.
 
