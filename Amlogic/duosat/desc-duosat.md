@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo b11
+# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
 
 ## 🔎 Sumário
 
@@ -29,8 +29,8 @@
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
 | CPU S905X3               |     1908 Mhz    |     1,9 Ghz   |
-| Armazenamento interno    |     9975 MB     |      16 GB    |
-| Memória RAM              |      2008 MB    |      2 GB     |
+| Armazenamento interno    |     24,68 GB    |      32 GB    |
+| Memória RAM              |      2006 MB    |      2 GB     |
 
 
 ### Imagem do modelo
@@ -51,13 +51,13 @@ Android (pré-instalado).
 ## 📈 Desempenho
 
 Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!-- Necessário criar arquivo de metodologia e linkar aqui -->
-
+**Ainda não testado**
 | Atividades                   | Avaliação |
 | ---------------------------- | --------- |
-| Navegar em páginas           | 🟢 BOM   |
-| Assistir vídeos              | 🟢 BOM   |
-| Jogar                        | 🟠 MÉDIO |
-| Utilizar como servidor       | 🟢 BOM   |
+| Navegar em páginas           |    |
+| Assistir vídeos              |    |
+| Jogar                        |  |
+| Utilizar como servidor       |    |
 
 ## 🛠 Ferramentas utilizadas para descaracterização
 
