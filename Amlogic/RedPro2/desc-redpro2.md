@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo RedPro2
+# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo RedPro2
 
 ## 🔎 Sumário
 
@@ -36,7 +36,7 @@
 ### Imagem do modelo
 
 <img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.jpeg" alt="Imagem do hardware" width="300"/>
+<img src="/.assets/redpro-placa.png" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
