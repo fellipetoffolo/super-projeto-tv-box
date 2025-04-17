@@ -29,8 +29,8 @@
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
 | CPU S905X3               |     1908 Mhz    |     1,9 Ghz   |
-| Armazenamento interno    |     9975 MB     |      16 GB    |
-| Memória RAM              |      2008 MB    |      2 GB     |
+| Armazenamento interno    |     11,13 GB    |      16 GB    |
+| Memória RAM              |      2000 MB    |      2 GB     |
 
 
 ### Imagem do modelo
