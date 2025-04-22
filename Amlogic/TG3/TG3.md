@@ -31,7 +31,7 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/tg3-box.png" alt="Imagem 1 da Box" width="300"/>
+<img src="/.assets/tg3-box.png" alt="Imagem 1 da Box" width="300" style="transform: rotate(90deg);"/>
 <img src="/.assets/tg3-placa.png" alt="Imagem 1 do hardware" width="300"/>
 
 ### Sistema operacional original
