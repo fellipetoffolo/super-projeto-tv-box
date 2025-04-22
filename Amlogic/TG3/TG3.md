@@ -31,8 +31,8 @@
 
 ### Imagem do modelo
 
-<img src="https://unioestebr-my.sharepoint.com/personal/renan_silva15_unioeste_br/Imagens_Armbian/imagens(fotos)/tg3-placa.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/#.jpeg" alt="Imagem 1 do hardware" width="300"/>
+<img src="/.assets/tg3-box.png" alt="Imagem 1 da Box" width="300"/>
+<img src="/.assets/tg3-placa.png" alt="Imagem 1 do hardware" width="300"/>
 
 ### Sistema operacional original
 
