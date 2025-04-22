@@ -31,7 +31,7 @@
 
 ### Imagem do modelo
 
-<img src="https://unioestebr-my.sharepoint.com/personal/renan_silva15_unioeste_br/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Frenan_silva15_unioeste_br%2FDocuments%2FImagens_Armbian%2Fimagens%20%28fotos%29%2Ftg3-placa%2Epng&parent=%2Fpersonal%2Frenan_silva15_unioeste_br%2FDocuments%2FImagens_Armbian%2Fimagens%20%28fotos%29" alt="Imagem do case" width="300"/>
+<img src="https://unioestebr-my.sharepoint.com/personal/renan_silva15_unioeste_br/Imagens_Armbian/imagens(fotos)/tg3-placa.png" alt="Imagem do case" width="300"/>
 <img src="/.assets/#.jpeg" alt="Imagem 1 do hardware" width="300"/>
 
 ### Sistema operacional original
