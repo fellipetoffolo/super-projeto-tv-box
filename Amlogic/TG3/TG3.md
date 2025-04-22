@@ -1,4 +1,4 @@
-# <img src="/.assets/#.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo X Plus
+<img src="/.assets/tg3-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo TG 3
 
 ## 🔎 Sumário
 
