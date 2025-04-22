@@ -38,7 +38,7 @@
 
 Android [INSERIR-VERSÃO] (pré-instalado).
 
-### Suporte de rede (módulo [INSERIR-NOME-DO-MODELO] - driver [INSERIR-NOME-DO-MODELO])
+### Suporte de rede (módulo rtl8723ds)
 - Wi-fi: Supostamente é suportado pelo Armbian.
 - Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
 - Ethernet: Suporte completo.
@@ -86,7 +86,7 @@ Valores para inserir:
 
 _Disclaimer1: Caso algum termo não seja compreendido, verifique-o na seção [glossário](material-de-apoio/glossario.md)_
 
-_Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlogic S905X3 tiveram problema de compatibilidade com as imagens oficiais geradas pelo projeto Armbian, isso se deve em especial por causa do u-boot, responsável por inicializar o sistema. Para isso foram encontradas duas soluções: modificiar manualmente os scripts para inicializar o sistema através de bootloader proprietário, ou utilizar imagens de um projeto extra-oficial, que possuem u-boots selecionados para cada arquivo [dtb](material-de-apoio/glossario.md#dtb). Aqui utilizaremos a segunda solução._
+_Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlogic S905X tiveram problema de compatibilidade com as imagens oficiais geradas pelo projeto Armbian, isso se deve em especial por causa do u-boot, responsável por inicializar o sistema. Para isso foram encontradas duas soluções: modificiar manualmente os scripts para inicializar o sistema através de bootloader proprietário, ou utilizar imagens de um projeto extra-oficial, que possuem u-boots selecionados para cada arquivo [dtb](material-de-apoio/glossario.md#dtb). Aqui utilizaremos a segunda solução._
 
 1. Baixe os software e arquivos necessários no computador/notebook.
   - Software de criação de mídia bootável (baixe apenas um de sua escolha)
@@ -103,7 +103,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
 5. Faça uma cópia do arquivo u-boot-tx3-bz.bin, também presente no diretório raiz do cartão SD, e renomeie essa cópia para u-boot.ext.
 6. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
-7. Insira o cartão SD na RedPro2 desligada e conectada à um monitor/televisão por cabo HDMI.
+7. Insira o cartão SD na TG 3 desligada e conectada à um monitor/televisão por cabo HDMI.
 8. Pressione o botão reset com um clip de papel desdobrado (o botão pode ser encontrado dentro de um "furo" na parte debaixo da TV Box) e conecte a fonte de alimentação enquanto o botão ainda estiver pressionado. Mantenha o botão de reset pressionado e solte assim que algum sinal de vídeo for observado no monitor/televisão. 
 
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.
