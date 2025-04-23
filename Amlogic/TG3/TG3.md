@@ -36,12 +36,13 @@
 
 ### Sistema operacional original
 
-Android [INSERIR-VERSÃO] (pré-instalado).
+Android: 7.1.2 Kernel: (a registrar).
 
-### Suporte de rede (módulo rtl8723ds)
-- Wi-fi: Supostamente é suportado pelo Armbian.
-- Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
-- Ethernet: Suporte completo.
+### Suporte de rede 
+
+|Módulo          |Driver | WiFi        | Ethernet      | Bluetooth     | 
+|----------------|-------|-------------|---------------|---------------|
+|RealTek 8723ds |8189fs |🟢 Funciona  |🟠 Não Testado|🔴 Não          |
 
 
 ## 📈 Desempenho
@@ -71,14 +72,13 @@ Valores para inserir:
 
 ### Software
 
-- Balena Etcher, Rufus ou dd: utilizado para gravar o multitool no cartão SD.
+- Balena Etcher, Rufus ou dd: utilizado para gravar a imagem no cartão SD.
 
 ### Cuidados necessários
 
 - Sempre ejete o cartão SD pelo sistema operacional antes de removê-lo do computador.
 [OPCIONAL]:
 - Baixe a imagem correta do Armbian. Os testes indicaram que as imagens customizadas fornecidas pelo repositório [ophub](https://github.com/ophub/amlogic-s9xxx-armbian/releases) tem uma maior compatibilidade para este modelo de processador em relação aos sistemas oficiais do projeto Armbian. As demais apresentaram diversos problemas de inicialização.
-
 
 ## 📖 Processo detalhado
 
@@ -99,8 +99,8 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
     
 2. No computador/notebook, insira o cartão SD e Utilize um dos programas anteriores para gravar a imagem no cartão SD.
 3. Entre no diretório raiz do cartão SD após a gravação da imagem, onde diversas pastas e arquivos com extensão .bin podem ser encontrados.
-4. Abra o arquivo uEnv.txt com um editor de texto qualquer e substitua o que estiver escrito após a última barra na linha que começa por "fdt" por "meson-sm1-tx3-bz-oc.dtb". Salve o arquivo e feche.
-5. Faça uma cópia do arquivo u-boot-tx3-bz.bin, também presente no diretório raiz do cartão SD, e renomeie essa cópia para u-boot.ext.
+4. Abra o arquivo uEnv.txt com um editor de texto qualquer e substitua o que estiver escrito após a última barra na linha que começa por "fdt" por "meson-gxl-s905x-p212.dtb". Salve o arquivo e feche.
+5. Faça uma cópia do arquivo "u-boot-s905x-s912.bin", também presente no diretório raiz do cartão SD, e renomeie essa cópia para "u-boot.ext".
 6. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
 7. Insira o cartão SD na TG 3 desligada e conectada à um monitor/televisão por cabo HDMI.
