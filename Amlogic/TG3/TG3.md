@@ -42,7 +42,7 @@ Android: 7.1.2 Kernel: (a registrar).
 
 |Módulo          |Driver | WiFi        | Ethernet      | Bluetooth     | 
 |----------------|-------|-------------|---------------|---------------|
-|RealTek 8723ds |8189fs |🟢 Funciona  |🟠 Não Testado|🔴 Não          |
+|RealTek 8723ds |8723ds |🟢 Funciona  |🟠 Não Testado|🔴 Não          |
 
 
 ## 📈 Desempenho
