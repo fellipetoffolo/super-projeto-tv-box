@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo b11
+# <img src="/.assets/b11-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo b11
 
 ## 🔎 Sumário
 
@@ -35,8 +35,8 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.png" alt="Imagem do hardware" width="300"/>
+<img src="/.assets/b11-box.png" alt="Imagem do case" width="300"/>
+<img src="/.assets/b11-placa.png" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
@@ -64,8 +64,8 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 ### Hardware
 
 - Computador ou notebook: utilizado para manipular os arquivos necessários e criar um cartão SD bootável.
-- Cartão SD: utilizado para gravar o sistema operacional Armbian na H7.
-- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a H7.
+- Cartão SD: utilizado para gravar o sistema operacional Armbian na B11.
+- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a B11.
 
 ### Software
 
@@ -102,7 +102,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
 5. Faça uma cópia do arquivo u-boot-x96maxplus.bin, também presente no diretório raiz do cartão SD, e renomeie essa cópia para u-boot.ext.
 6. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
-7. Insira o cartão SD na H7 desligada e conectada à um monitor/televisão por cabo HDMI.
+7. Insira o cartão SD na B11 desligada e conectada à um monitor/televisão por cabo HDMI.
 8. Pressione o botão reset com um clip de papel desdobrado ou um palito de dente (o botão pode ser encontrado dentro de um "furo" na parte debaixo da TV Box) e conecte a fonte de alimentação enquanto o botão ainda estiver pressionado. Mantenha o botão de reset pressionado e solte assim que algum sinal de vídeo for observado no monitor/televisão. 
 
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.
