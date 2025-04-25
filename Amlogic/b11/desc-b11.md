@@ -93,7 +93,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
      - Alternativa: [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
      - Alternativa: [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
   - Imagem do Armbian (variante do projeto ophub)
-     - [Armbian 25.02.0 server]([https://unioestebr-my.sharepoint.com/:f:/g/personal/renan_silva15_unioeste_br/EgX-OMIr2Q1GpH9q7WuRknwBvWYxFO-e-zYgTKVD5hTeow?e=SLO2Jq]) 
+     - [Armbian 25.02.0 server](https://unioestebr-my.sharepoint.com/:f:/g/personal/renan_silva15_unioeste_br/EgX-OMIr2Q1GpH9q7WuRknwBvWYxFO-e-zYgTKVD5hTeow?e=SLO2Jq) 
 
     
 2. No computador/notebook, insira o cartão SD e Utilize um dos programas anteriores para gravar a imagem no cartão SD.
