@@ -1,77 +1,57 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo R69
+# <img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Frente.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo R69
 
 ## 🔎 Sumário
-
-- [Informações Gerais](#-informações-gerais)
-  - [Valores de Hardware](#valore-de-hardware)
-  - [Imagem do modelo](#imagem-do-modelo)
-  - [Sistema operacional original](#sistema-operacional-original)
-  - [Suporte de rede](#suporte-de-rede)
+- [Valores de Hardware](#valores-de-hardware) 
+- [Imagem do Modelo](#imagem-do-modelo)
+- [Sistema Operacional Original](#sistema-operacional-original)
+- [Suporte de Rede](#suporte-de-rede)
 - [Desempenho](#-desempenho)
-- [Ferramentas utilizadas para descaracterização](#-ferramentas-utilizadas-para-descaracterização)
-  - [Hardware](#hardware)
-  - [Software](#software)
-- [Processo detalhado](#-processo-detalhado)
-  - [Cuidados necessários](#cuidados-necessários)
-  - [Preparação para instalação](#preparação-para-instalação)
-  - [Configuração inicial do Armbian](#configuração-inicial-do-armbian)
-  - [Instalação do sistema no armazenamento interno](#instalação-do-sistema-no-armazenmento-interno)
-- [Erros comuns](#-erros-comuns)
-
-## 💻 Informações gerais 
-
-⚠️ _Até o momento não foi obtido nenhum suporte para Wi-Fi, mas [discussões no fórum Armbian](https://forum.armbian.com/topic/16696-armbian-for-tanix-tx3-amlogic-s905x3-with-sp6330-wifibluetooth-module/) sugerem que ele pode ser configurado seguindo uma série de passos._
+- [Processo Detalhado](#-processo-detalhado)
+- [Preparação para Instalação](#preparação-para-instalação)
+- [Configuração Inicial do Armbian](#configuração-inicial-do-armbian)
+- [Instalação do Sistema no Armazenamento Interno](#instalação-do-sistema-no-armazenmento-interno)
+- [Erros Comuns](#-erros-comuns)
 
 
-### Valores de hardware (Obtidas por meio da plataforma AIDA64)
+### Valores de Hardware (Obtidas por meio da plataforma AIDA64)
 
 
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
-| CPU S905X3               |     1908 Mhz    |     1,9 Ghz   |
-| Armazenamento interno    |     9975 MB     |      16 GB    |
-| Memória RAM              |      2008 MB    |      2 GB     |
+| CPU S905L                |       1200 MB    |     2,0 GHz  |
+| Armazenamento interno    |       8 GB       |      8 GB    |
+| Memória RAM              |       1 GB       |      1 GB    |
 
 
-### Imagem do modelo
+### Imagem do Modelo
 
-<img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.png" alt="Imagem do hardware" width="300"/>
+<img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Frente.jpeg" alt="Imagem do case" width="300"/>
+<img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Placa.jpeg" alt="Imagem do hardware" width="300"/>
 
-### Sistema operacional original
+### Sistema Operacional Original
 
-Android (pré-instalado).
 
-### Suporte de rede (módulo Realtek rtl8822cs - driver rtl8822cs)
-- Wi-fi: Suporte completo.
-- Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
-- Ethernet: Suporte completo.
+Android: 11.1
+Kernel: 3.14.29
+
+
+### Suporte de Rede 
+
+|Módulo          |Driver | WiFi        | Ethernet      | Bluetooth     | 
+|----------------|-------|-------------|---------------|---------------|
+|  sv6051        |-      |🟢 Funciona? |🟠 Não Testado|🟠 Não Testado |
 
 
 ## 📈 Desempenho
 
 Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!-- Necessário criar arquivo de metodologia e linkar aqui -->
 
-| Atividades                   | Avaliação |
-| ---------------------------- | --------- |
-| Navegar em páginas           | 🟢 BOM   |
-| Assistir vídeos              | 🟢 BOM   |
-| Jogar                        | 🟠 MÉDIO |
-| Utilizar como servidor       | 🟢 BOM   |
-
-## 🛠 Ferramentas utilizadas para descaracterização
-
-### Hardware
-
-- Computador ou notebook: utilizado para manipular os arquivos necessários e criar um cartão SD bootável.
-- Cartão SD: utilizado para gravar o sistema operacional Armbian na H7.
-- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a H7.
-
-### Software
-
-- Balena Etcher, Rufus ou dd: utilizado para gravar o sistema no cartão SD.
-
-
+| Atividades                   | Avaliação     |
+| ---------------------------- | --------------|
+| Navegar em páginas           | 🟠 MÉDIO      |
+| Assistir vídeos              | 🔴 RUIM       |
+| Jogar                        | 🔴 RUIM       |
+| Utilizar como servidor       | 🟢 BOM        |
 
 
 ## 📖 Processo detalhado
@@ -79,40 +59,36 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 ### Cuidados necessários
 
 - Sempre ejete o cartão SD pelo sistema operacional antes de removê-lo do computador.
-- Baixe a imagem correta do Armbian. Os testes indicaram que as imagens customizadas fornecidas pelo repositório [ophub](https://github.com/ophub/amlogic-s9xxx-armbian/releases) tem uma maior compatibilidade para este modelo de processador em relação aos sistemas oficiais do projeto Armbian. As demais apresentaram diversos problemas de inicialização.
 
 ### Preparação para instalação
 
 _Disclaimer1: Caso algum termo não seja compreendido, verifique-o na seção [glossário](material-de-apoio/glossario.md)_
-
-_Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlogic S905X3 tiveram problema de compatibilidade com as imagens oficiais geradas pelo projeto Armbian, isso se deve em especial por causa do u-boot, responsável por inicializar o sistema. Para isso foram encontradas duas soluções: modificiar manualmente os scripts para inicializar o sistema através de bootloader proprietário, ou utilizar imagens de um projeto extra-oficial, que possuem u-boots selecionados para cada arquivo [dtb](material-de-apoio/glossario.md#dtb). Aqui utilizaremos a segunda solução._
 
 1. Baixe os software e arquivos necessários no computador/notebook.
   - Software de criação de mídia bootável (baixe apenas um de sua escolha)
      - Recomendado: [Balena Etcher (Tutorial de instalação e uso)](https://etcher.balena.io/)
      - Alternativa: [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
      - Alternativa: [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
-  - Imagem do Armbian (variante do projeto ophub)
-     - [Armbian 25.02.0 server](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EdRFhkzL309CmdtL13XVPZABvpNkqTUbQvxo-w272nMrmQ?e=VOyTvT) 
-
-    
+  - Imagem do Armbian (Baixado Direto dos Repositórios Armbian)
+     - [Armbian_23.8.1 Kernel 6.1.50 com desktop e interface gráfica XFCE](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EaMfoWEEQWFGht_rpmmdIwsBmxEnIoooOVDvoRENLUruSQ?e=3G2EVQ) 
 2. No computador/notebook, insira o cartão SD e Utilize um dos programas anteriores para gravar a imagem no cartão SD.
 3. Entre no diretório raiz do cartão SD após a gravação da imagem, onde diversas pastas e arquivos com extensão .bin podem ser encontrados.
-4. Abra o arquivo uEnv.txt com um editor de texto qualquer e substitua o que estiver escrito após a última barra na linha que começa por "fdt" por "meson-sm1-x96-air.dtb". Salve o arquivo e feche.
-5. Faça uma cópia do arquivo u-boot-x96maxplus.bin, também presente no diretório raiz do cartão SD, e renomeie essa cópia para u-boot.ext.
-6. Remova o cartão SD do computador/notebook.
+4. Abra a pasta "extlinux" e em seguida, com um editor de texto, o arquivo "extlinux.conf" e cole o seguinte texto no único caminho de arquivo FDT que não apresenta "#", o substituindo por FDT dtb/amlogic/meson-gxl-s905w-tx3-mini.dtb. Caso ele já esteja lá, não faça nada.
+5. Copie e cole o arquivo "u-boot-s905x-912.bin", presente no diretório raiz do cartão SD, em seu próprio diretório de "u-boots".
+6. Renomeie o seguinte arquivo .bin na pasta raiz, "u-boot-s905x-912.bin(1)" por "u-boot.ext" alterando seu formato.
+7. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
-7. Insira o cartão SD na H7 desligada e conectada à um monitor/televisão por cabo HDMI.
-8. Pressione o botão reset com um clip de papel desdobrado ou um palito de dente (o botão pode ser encontrado dentro de um "furo" na parte debaixo da TV Box) e conecte a fonte de alimentação enquanto o botão ainda estiver pressionado. Mantenha o botão de reset pressionado e solte assim que algum sinal de vídeo for observado no monitor/televisão. 
+8. Insira o cartão SD na R69 desligada e conectada à um monitor/televisão por cabo HDMI.
+9. Diferente de outros modelos TV Box mostrados aqui, não há necessidade de pressionar o botão reset para inicializar o sistema Armbian.
+10. Essa versão armbian vem configurada com um usuário por padrão, portanto, para entrar no sistema basta logar com o login "root" e a senha "1234".
 
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.
 
-
-### Configuração inicial do Armbian
+### Configuração Inicial do Armbian
 
 Após iniacializar o sistema pela primeira vez, é pedido ao usuário que forneça algumas informações de configuração, como nome de usuário, senha, configuração de zonas de tempo e afins. O processo é bem intuitivo. mas caso haja dúvida, utilize o nosso [guia para configuração inicial do Armbian](#).
 
-### Instalação do sistema no armazenmento interno 
+### Instalação do Sistema no Armazenmento Interno 
 
 ⚠️Cuidado⚠️: Esta ação vai apagar todos os dados presentes no armazenamento da sua TV Box, convém fazer um backup.
 
@@ -129,10 +105,10 @@ E confirme o que for pedido
 
 
 
-## ❌ Erros comuns
+## ❌ Erros Comuns
 
 1. Caso não seja identificado sinal de vídeo após cumprida a etapa 8 da "Preparação para instalação", verifique se o cabo HDMI funciona e está conectado corretamente. Em caso afirmativo, tudo indica que o sistema foi identificado, mas não é compatível.
-2. Caso a TV Box inicialize pelo sistema original, é provável que o botão de reset não tenha isdo pressionado por tempo suficiente ou que no cartão SD não tenha sido encontrado um sistema para inicializar. Convém tentar conectar o cartão SD às entradas USB por meio de um adaptador.
+
 
 
 
