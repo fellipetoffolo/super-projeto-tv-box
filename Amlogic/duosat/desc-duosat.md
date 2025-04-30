@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
+# <img src="/.assets/" alt="Imagem do case" width="30"/> Descaracterização do modelo DuoSat
 
 ## 🔎 Sumário
 
@@ -20,7 +20,7 @@
 
 ## 💻 Informações gerais 
 
-⚠️ _Até o momento não foi obtido nenhum suporte para Wi-Fi, mas [discussões no fórum Armbian](https://forum.armbian.com/topic/16696-armbian-for-tanix-tx3-amlogic-s905x3-with-sp6330-wifibluetooth-module/) sugerem que ele pode ser configurado seguindo uma série de passos._
+⚠️ _Até o momento não foi obtido nenhum suporte para Wi-Fi.
 
 
 ### Valores de hardware (Obtidas por meio da plataforma AIDA64)
@@ -35,15 +35,15 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.png" alt="Imagem do hardware" width="300"/>
+<img src="/.assets/" alt="Imagem do case" width="300"/>
+<img src="/.assets/" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
 Android (pré-instalado).
 
-### Suporte de rede (módulo Realtek rtl8822cs - driver rtl8822cs)
-- Wi-fi: Suporte completo.
+### Suporte de rede (módulo amlogic)
+- Wi-fi: Sem suporte.
 - Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
 - Ethernet: Suporte completo.
 
@@ -54,18 +54,18 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 **Ainda não testado**
 | Atividades                   | Avaliação |
 | ---------------------------- | --------- |
-| Navegar em páginas           |    |
-| Assistir vídeos              |    |
-| Jogar                        |  |
-| Utilizar como servidor       |    |
+| Navegar em páginas           | 🟢 BOM   |
+| Assistir vídeos              | 🟢 BOM   |
+| Jogar                        | 🟢 BOM   |
+| Utilizar como servidor       | 🟢 BOM   |
 
 ## 🛠 Ferramentas utilizadas para descaracterização
 
 ### Hardware
 
 - Computador ou notebook: utilizado para manipular os arquivos necessários e criar um cartão SD bootável.
-- Cartão SD: utilizado para gravar o sistema operacional Armbian na H7.
-- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a H7.
+- Cartão SD: utilizado para gravar o sistema operacional Armbian na DuoSat.
+- Monitor, teclado, mouse e cabo HDMI: utilizado para interagir com a DuoSat.
 
 ### Software
 
@@ -102,7 +102,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
 5. Faça uma cópia do arquivo u-boot-x96maxplus.bin, também presente no diretório raiz do cartão SD, e renomeie essa cópia para u-boot.ext.
 6. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
-7. Insira o cartão SD na H7 desligada e conectada à um monitor/televisão por cabo HDMI.
+7. Insira o cartão SD na DuoSat desligada e conectada à um monitor/televisão por cabo HDMI.
 8. Pressione o botão reset com um clip de papel desdobrado ou um palito de dente (o botão pode ser encontrado dentro de um "furo" na parte debaixo da TV Box) e conecte a fonte de alimentação enquanto o botão ainda estiver pressionado. Mantenha o botão de reset pressionado e solte assim que algum sinal de vídeo for observado no monitor/televisão. 
 
 ⚠️Lembre-se⚠️: o sistema está funcionando por meio do cartão SD, ou seja, caso removido, o firmware original da tv box ascenderá novamente, mas nunca retire o cartão SD com o aparelho ligado. Um tópico mais a frente ensinará a gravar o sistema no armazenamento interno, apagando todo o firmware original da TV Box.

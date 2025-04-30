@@ -3,7 +3,7 @@
 ## 🔎 Sumário
 
 - [Informações Gerais](#-informações-gerais)
-  - [Descrição do modelo](#descrição-do-modelo)
+  - [Valores de hardware](#valores-de-hardware)
   - [Imagem do modelo](#imagem-do-modelo)
   - [Sistema operacional original](#sistema-operacional-original)
   - [Suporte de hardware](#suporte-de-hardware)
@@ -21,12 +21,12 @@
 ## 💻 Informações gerais
 
 
-### Valores de hardware (Obtidas por meio da plataforma AIDA64)
+### Valores de hardware (Obtidos por meio da plataforma AIDA64)
 
 
 | Medida                   | Valor detectado| Valor nominal |
 | ------------------------ | -------------- | ------------- |
-| CPU RK3228A              |     1296 Mhz   |     1,2 Ghz   |
+| CPU RK3228A              |     1296 Mhz   |     1,2 GHz   |
 | Armazenamento interno    |     4436 MB    |      8 GB     |
 | Memória RAM              |      995 MB    |      1 GB     |
 
@@ -76,10 +76,30 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 
 ### Software
 
-- Balena Etcher, Rufus ou dd: utilizado para gravar o multitool no cartão SD.
-- Multitool: utilizado para gravar o sistema operacional Armbian no armazenamento interno da UniTV S1. 
+- rkdevelop tool, que pode ser encontrado no link
 
 ## 📄 Processo resumido
+
+Para Windows:
+
+1. instalar e abrir o WSL para ter acesso às funcionalidades do Linux, mesmo em Windows.
+2. Instalar e configurar a ferramenta rkdevelop tool no terminal do WSL.
+3. No powershell do Windows: Instalar usbipd, um utilitário para gerenciamento de conexões USB via powershell ou cmd.
+4. No terminal do WSL: Instalar o lsusb para mostrar dispositivos usb conectados.
+5. conectar a TV Box ao computador/notebook através de um cabo USB macho-macho.
+6. Verificar se o comando usbipd list retorna algum dispositivo com nome "Rockchip" ou "Rockusb Device".
+  - Em caso negativo, reconecte a TV Box, mas antes de inserir o cabo USB pressione o botão reset com um clip de papel ou palito de dente. Em cado positivo, continue para o própximo passo.
+7. 
+
+  Após assegurar que tudo está conectado corretamente, no WSL dê o comando rkdeveloptool rd 3 e verifique se o dispositivo se mantém conectado com lsusb.
+  - Caso eletenha sido desconectado do WSL, repita o processo para passar o dispositivo do Windows para o WSL.S 
+
+
+Para Linux:
+
+1. Instalar e configurar a ferramenta rkdevelop tool.
+2. Instalar o lsusb para mostrar dispositivos usb conectados.
+3. Conectar a TV Box ao computador/notebook através de um cabo USB macho-macho.
 
 ### Cuidados necessários
 
