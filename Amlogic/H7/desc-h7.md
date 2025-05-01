@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
+# <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/h7-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
 
 ## 🔎 Sumário
 
@@ -35,8 +35,8 @@
 
 ### Imagem do modelo
 
-<img src="/.assets/redpro-box.png" alt="Imagem do case" width="300"/>
-<img src="/.assets/redpro-placa.png" alt="Imagem do hardware" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/h7-box.png" alt="Imagem do case" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/h7-box.png" alt="Imagem do hardware" width="300"/>
 
 ### Sistema operacional original
 
