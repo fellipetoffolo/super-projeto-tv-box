@@ -26,7 +26,7 @@
 ### Imagem do Modelo
 
 <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/ha-box.png" alt="Imagem do case" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/ha-placa.jpeg" alt="Imagem do hardware" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/ha-placa.png" alt="Imagem do hardware" width="300"/>
 
 ### Sistema Operacional Original
 
