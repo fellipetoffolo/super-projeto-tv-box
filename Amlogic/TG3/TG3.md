@@ -94,7 +94,7 @@ _Disclaimer2: Muitos modelos com [SoC](material-de-apoio/glossario.md#SoC) Amlog
      - Alternativa: [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
      - Alternativa: [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
   - Imagem do Armbian (variante do projeto ophub)
-     - [Armbian 20.10.0 bullseye(adiconar o link)]() 
+     - [Armbian_23.8.1 Kernel 6.1.50 com desktop e interface gráfica XFCE](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/ha-placa.png) 
 
     
 2. No computador/notebook, insira o cartão SD e Utilize um dos programas anteriores para gravar a imagem no cartão SD.
