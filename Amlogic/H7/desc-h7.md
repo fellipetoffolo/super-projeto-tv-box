@@ -1,4 +1,4 @@
-# <img src="/.assets/redpro-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
+# <img src="/.assets/h7-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo H7
 
 ## 🔎 Sumário
 
