@@ -98,8 +98,6 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
    - OPCIONAL: realizar backup da imagem original da RCP mini.
 5. Ligar a RCP mini sem o cartão SD.
 6. Realizar configurações iniciais do Armbian.
-7. Iniciar driver Wi-fi.
-8. Remover driver Wi-fi da blacklist do sistema.
 
 ## 📖 Processo detalhado
 
