@@ -36,10 +36,9 @@ Verifique as especificações completas de hardware da RCP mini [aqui](https://g
 
 ### Imagem do modelo
 
-<img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="300"/>
-<img src="/.assets/rcpmini-box.png" alt="Imagem 1 do hardware" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459" alt="Imagem 2 do hardware" width="300"/>
-<img src="/.assets/rcpmini-placa.png" alt="Imagem 1 do hardware" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/rcpmini-box.png" alt="Imagem do case" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/rcpmini-placa.png" alt="Imagem do case" width="300"/>
+
 
 ### Sistema operacional original
 
