@@ -31,7 +31,7 @@
 | Memória RAM              |      1009 MB   |      1 GB     |
 
 
-É um modelo relativamente simples de ser descaracterizado, mas alguns passos extras devem ser feitos para garantir que o Wi-fi funcione adequadamente.
+É um modelo relativamente simples de ser descaracterizado.
 Verifique as especificações completas de hardware da RCP mini [aqui](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/main/informacoes-modelos-e-hardwares.md#rpc-mini).
 
 ### Imagem do modelo
