@@ -70,7 +70,7 @@ _Disclaimer1: Caso algum termo não seja compreendido, verifique-o na seção [g
      - Alternativa: [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
      - Alternativa: [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
   - Imagem do Armbian (Baixado Direto dos Repositórios Armbian)
-     - [X96q Armbian_25.2.3 Kernel 6.12.20 com desktop e interface gráfica MATE](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EaAGVXmzL4VEtZWiTdYdYksBQ0bB81bMHmrC7qJ2vAuEZw?e=aYuQKC) 
+     - [H6 Armbian_24.11.0 Kernel 6.6.44 com desktop e interface gráfica xfce](https://unioestebr-my.sharepoint.com/:f:/g/personal/renan_silva15_unioeste_br/EqHcdypdHa9Pv_f-PVuo-iIBmPCIqzTHJy4T-UmWCaJpcw?e=VFOSBx) 
 2. No computador/notebook, insira o cartão SD e Utilize um dos programas anteriores para gravar a imagem no cartão SD.
 3. Remova o cartão SD do computador/notebook.
   - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrupção. 
