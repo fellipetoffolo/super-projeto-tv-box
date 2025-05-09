@@ -1,4 +1,4 @@
-# <img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Frente.jpeg" alt="Imagem do case" width="30"/> Descaracterização do modelo R69
+# <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/r69-box.png" alt="Imagem do case" width="30"/> Descaracterização do modelo R69
 
 ## 🔎 Sumário
 - [Valores de Hardware](#valores-de-hardware) 
@@ -25,8 +25,8 @@
 
 ### Imagem do Modelo
 
-<img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Frente.jpeg" alt="Imagem do case" width="300"/>
-<img src="https://github.com/renanBatalha/FotografiaTVBox/blob/Main/R69/R69Placa.jpeg" alt="Imagem do hardware" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/r69-box.png" alt="Imagem do case" width="300"/>
+<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/r69-placa.png" alt="Imagem do hardware" width="300"/>
 
 ### Sistema Operacional Original
 
