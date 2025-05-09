@@ -3,7 +3,6 @@
 ## 🔎 Sumário
 - [Valores de Hardware](#valores-de-hardware) 
 - [Imagem do Modelo](#imagem-do-modelo)
-- [Sistema Operacional Original](#sistema-operacional-original)
 - [Suporte de Rede](#suporte-de-rede)
 - [Desempenho](#-desempenho)
 - [Processo Detalhado](#-processo-detalhado)
@@ -18,7 +17,7 @@
 
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
-| CPU H313                 |       1344 MHz  |     x         |
+| CPU H6                   |       1344 MHz  |     x         |
 | Armazenamento interno    |       32        |      32 GB    |
 | Memória RAM              |       3GB       |      3 GB     |
 
@@ -28,11 +27,6 @@
 <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/azamericai7-box.png" alt="Imagem do case" width="300"/>
 <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/blob/Cortella/.assets/azamericai7-placa.png" alt="Imagem do hardware" width="300"/>
 
-### Sistema Operacional Original
-
-
-Android: 10
-Kernel:  4.9.170
 
 
 ### Suporte de Rede 
