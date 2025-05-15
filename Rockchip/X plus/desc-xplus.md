@@ -1,57 +1,62 @@
-# <img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="30"/> Descaracterização do modelo X Plus
+# <img src="../../.assets/xplus-perfil.png" alt="Imagem de perfil" width="30"/> Descaracterização do modelo X Plus
 
 ## 🔎 Sumário
 
-- [Informações Gerais](#-informações-gerais)
-  - [Descrição do modelo](#descrição-do-modelo)
+- [Informações Gerais](#💻-informações-gerais)
+  - [Valores de Hardware](#valores-de-hardware)
   - [Imagem do modelo](#imagem-do-modelo)
   - [Sistema operacional original](#sistema-operacional-original)
-  - [Suporte de hardware](#suporte-de-hardware)
+  - [Suporte de rede](#suporte-de-rede)
   - [Limitaçoes conhecidas](#limitações-conhecidas)
-- [Desempenho](#-desempenho)
-- [Ferramentas utilizadas](#-ferramentas-utilizadas)
+- [Desempenho](#📈-desempenho)
+- [Ferramentas utilizadas para descaracterização](#🛠-ferramentas-utilizadas-para-descaracterização)
   - [Hardware](#hardware)
   - [Software](#software)
-- [Processo resumido](#-processo-resumido)
+- [Descaracterização: Processo resumido](#📄-descaracterização-processo-resumido)
   - [Cuidados necessários](#cuidados-necessários)
   - [Passo a passo](#passo-a-passo)
-- [Processo detalhado](#-processo-detalhado)
+- [Descaracterização: Processo detalhado](#📖-descaracterização-processo-detalhado)
 - [Erros comuns](#-erros-comuns)
 
 ## 💻 Informações gerais
 
-### Descrição do modelo
+### Valores de hardware
 
-É um modelo relativamente simples de ser descaracterizado, mas alguns passos extras devem ser feitos para garantir que o Wi-fi funcione adequadamente.
-Verifique as especificações completas de hardware da X Plus [aqui](https://github.com/fellipetoffolo/super-projeto-tv-box/blob/main/informacoes-modelos-e-hardwares.md#in-x-plus).
+(Os valores na tabela abaixo foram obtidos por meio da plataforma AIDA64)
+
+| Medida                   | Valor detectado| Valor nominal |
+| ------------------------ | -------------- | ------------- |
+| CPU RK3228A              |     1200 MHz   |     1,2 GHz   |
+| Armazenamento interno    |     4940 MB    |      8 GB     |
+| Memória RAM              |      2009 MB   |      2 GB     |
 
 ### Imagem do modelo
 
-<img src="https://github.com/user-attachments/assets/670f65d9-02a0-4135-96d1-3a953d144429" alt="Imagem do case" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/d7c07132-ab52-41b4-951e-c5bb3b73ca02" alt="Imagem 1 do hardware" width="300"/>
-<img src="https://github.com/fellipetoffolo/super-projeto-tv-box/assets/173747180/47a2b9da-c7d0-4a31-97cd-17c309474459" alt="Imagem 2 do hardware" width="300"/>
+<img src="../../.assets/xplus-placa.png" alt="Imagem do modelo" width="300"/>
+<img src="../../.assets/xplus-box.png" alt="Imagem do circuito" width="300"/>
 
 ### Sistema operacional original
 
 Android (pré-instalado).
 
-### Suporte de hardware
+### Suporte de rede
+
+O módulo de rede identificado para esse modelo é o: **iccom-semi SV6212P**, para o qual o driver correspondente é **ssv6x5x**
+
 - Wi-fi: Suportado parcialmente no Armbian.
-- Bluetooth: <!-- Necessário confirmar -->
+- Bluetooth: Ainda não testado.<!-- Necessário confirmar -->
 - Ethernet: Suporte completo.
 
-
 ### Limitações conhecidas
-- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar imagens específicas do sistema operacional para funcionar adequadamente.
-- Desempenho: abaixo da média.
+
+- Driver Wi-fi: possui suporte limitado pelo Armbian, sendo necessário utilizar versões específicas do sistema operacional para funcionar adequadamente.
+- Desempenho: abaixo da média, supostamente devido à um problema com drivers da placa de vídeo integrada.
 
 ## 📈 Desempenho
 
-Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!-- Necessário criar arquivo de metodologia e linkar aqui -->
-
 | Atividades                   | Avaliação |
 | ---------------------------- | --------- |
-| Navegar em páginas           | 🟠 MÉDIO |
+| Navegar em páginas           | 🟠 RUIM |
 | Assistir vídeos              | 🔴 RUIM  |
 | Jogar                        | 🔴 RUIM  |
 | Utilizar como servidor       | 🟢 BOM   |
@@ -69,7 +74,7 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 - Balena Etcher, Rufus ou dd: utilizado para gravar o multitool no cartão SD.
 - Multitool: utilizado para gravar o sistema operacional Armbian no armazenamento interno da X Plus. 
 
-## 📄 Processo resumido
+## 📄 Descaracterização: processo resumido
 
 ### Cuidados necessários
 
@@ -92,32 +97,37 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 7. Iniciar driver Wi-fi.
 8. Remover driver Wi-fi da blacklist do sistema.
 
-## 📖 Processo detalhado
+## 📖 Descaracterização: Processo detalhado
 
 ### Preparação
 
 1. Baixe os software e arquivos necessários.
-  - Software de criação de mídia bootável (baixe apenas um)
-     - [Balena Etcher (Tutorial de instalação e uso)](https://etcher.balena.io/)
-     - [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
-     - [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
-  - Imagem do Armbian
-     - [Armbian com interface gráfica](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EdRFhkzL309CmdtL13XVPZABvpNkqTUbQvxo-w272nMrmQ?e=VOyTvT) 
-     - Armbian sem interface gráfica 
-  - Multitool
-    - [Tutorial de instalação e uso](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards)
-    
+
+- Software de criação de mídia bootável (baixe apenas um)
+  - [Balena Etcher (Tutorial de instalação e uso)](https://etcher.balena.io/)
+  - [Rufus (Tutorial de instalação e uso)](https://rufus.ie/pt_BR/)
+  - [dd (Tutorial de instalação e uso)](https://medium.com/@emusyoka759/creating-a-bootable-usb-in-ubuntu-with-dd-9fb3debc0814)
+- Imagem do Armbian
+  - [Armbian com interface gráfica](https://unioestebr-my.sharepoint.com/:u:/g/personal/renan_silva15_unioeste_br/EdRFhkzL309CmdtL13XVPZABvpNkqTUbQvxo-w272nMrmQ?e=VOyTvT)
+  - Armbian servidor
+- Multitool
+  - [Tutorial de instalação e uso](https://forum.armbian.com/topic/34923-csc-armbian-for-rk322x-tv-box-boards)
+
 2. Utilize um dos programas anteriores para gravar a imagem do multitool no cartão SD.
-  - Após a gravação, note que as partições do multitools são pequenas e não há espaço para a imagem. Por isso, o próximo passo é necessário.
+
+- Após a gravação, note que as partições do multitools são pequenas e não há espaço para a imagem. Por isso, o próximo passo é necessário.
+
 3. Remova o cartão SD do computador/notebook.
-  - Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrompimento. 
+
+- Ejete o cartão SD pelo sistema operacional antes de removê-lo, para evitar possível corrompimento. 
+
 4. Insira o cartão SD na X Plus e ligue-a.
 5. Selecione a opção "Shutdown" e desligue a X Plus.
 6. Insira o cartão SD novamente no computador/notebook.
 7. Mova a imagem desejada do Armbian para o diretório "MULTITOOL/images".
 8. Remova o cartão SD do notebook novamente (lembre-se de ejetar antes).
 
-### Instalação
+### Instalação do sistema na TV Box
 
 1. Insira o cartão SD (já com multitool e a imagem do Armbian) na X Plus e ligue-a.
 2. Selecione a opção "Burn image to flash".
@@ -136,26 +146,33 @@ Confira nossa [metodologia de avaliação](material-de-apoio/glossario.md). <!--
 4. Digite e confirme a senha do usuário. Por padrão, sempre definimos como "40028922".
 5. Abra o terminal (bash).
 6. Digite o seguinte comando para ativar o driver Wi-fi:
-   - ```bash
-     sudo insmod /lib/modules/$(uname -r)/kernel/drivers/net/wireless/ssv6x5x/ssv6x5x.ko
-     ```
+
+  ```bash
+  sudo insmod /lib/modules/$(uname -r)/kernel/drivers/net/wireless/ssv6x5x/ssv6x5x.ko
+  ```
+
 7. Edite o arquivo "/etc/modprobe.d/blacklist-rk322x-box.conf" e remova a linha "blacklist ssv6x5x".
-  - Exemplo utilizando o editor de texto nano:
-     ```bash
-     sudo nano /etc/modprobe.d/blacklist-rk322x-box.conf
-     ```
-    - Remova a linha "blacklist ssv6x5x".
-    - CTRL + X (para sair).
-    - Y (para confirmar alterações).
-    - ENTER (para confirmar nome do arquivo).
+
+- Exemplo utilizando o editor de texto nano:
+
+  ```bash
+  sudo nano /etc/modprobe.d/blacklist-rk322x-box.conf
+  ```
+
+- Remova a linha "blacklist ssv6x5x".
+- CTRL + X (para sair).
+- Y (para confirmar alterações).
+- ENTER (para confirmar nome do arquivo).
 
 ## ❌ Erros comuns
 
 ### Interface gráfica demorando muito para carregar
 
 Para contornar isso, é possível entrar com o terminal simples e iniciar a interface gráfica posteriormente. Para isso:
+
 - CTRL + ALT + F1: Para entrar no terminal.
 - Para iniciar interface gráfica:
+
   ```bash
   startx
   ```

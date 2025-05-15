@@ -1,5 +1,5 @@
 
-## Glossário
+### Glossário
 
 #### Armazenamento interno:
 <!-- Armazenamento interno -->
@@ -75,7 +75,7 @@
 
 #### NAND:
 <!-- NAND -->
-> Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória. Junto do [eMMC](#emmc-embedded-multimediacard) e do [eMCP](#emcp-embedded-multi-chip-package)) é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
+> Tipo de memória flash não volátil usada em dispositivos de armazenamento como SSDs e cartões de memória. Junto do [eMMC](#emmc-embedded-multimediacard) e do [eMCP](#emcp-embedded-multi-chip-package) é um dos tipos de armazenamento interno que podem estar presentes na placa de uma TV box.
 
 #### NAND Flash:
 <!-- NAND Flash -->
@@ -140,5 +140,3 @@
 #### TV Box:
 <!-- TV Box -->
 > Dispositivo de placa única (SBC) ou computador de pequeno porte com sistema operacional Android e arquitetura ARM, projetado para streaming de vídeos e outras aplicações de mídia.
-
-

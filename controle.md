@@ -3,9 +3,39 @@
 
 # Processos em andamento
 
+## TV's Box que não foram possíveis de descaracterizar:
+ - Tigre T10: não reconheceu sistema a partir do cartão SD;
+ - Asamérica Champions: Não reconheceu o sistema a partir do cartão SD;
+ - Ximi Box plus b11: Não reconheceu o sistema a partir do cartão SD;
+ - DC BOX: Não reconheceu o sistema a partir do cartão SD;
+ - 
+
+
 ## META DA SEMANA: 
 
-#### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11 e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações. Tentar fazer um cluster com X plus
+#### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11 e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações. Tentar fazer um cluster com UniTV S1. Descaracterizar e docuemntar com sucesso H7 e duosat.
+
+### Dia 31/01/2024
+
+Alguns sucessos foram obtidos desde a última atualização. O modelo RedOne provou possui aramzenamento interno NAND puro, não sendo possível instalar o sistema no mesmo, no entanto é possível utilizá-lo por meio de um cartão SD, sem Internet Wi-Fi infelizmente.
+
+O modelo HIGH TV foi descaracterizado com sucesso, com o sistema instalado no armazenamento, porém também sem Internet Wi-Fi. Ambas HIGH TV e RedOne possuem o SoC IK 316, que na verdade é uma réplica do Allwinner H313.
+
+É um grande desafio fazer as imagens oficiais do Armbian funcionarem nos processadores Amlogic S905X3, sendo preferível utilizar a abordagem com imagens não oficiais, fornecidas pelo [ophub](https://github.com/ophub/amlogic-s9xxx-armbian). No caso, as imagens do ophub permitiram descracterizar com sucesso a btv b11 e a RedPro 2. A primeira seguiu o tutorial do [Inrddev](https://github.com/lnrddev/tvbox/blob/main/documentacao/guiainstalacao_amlogic.md), que foi bem direto, enquanto a RedPro2 utilizou uma imagem qualquer com o dtb de número 21 da família meson-sm1 e u-boot correspondente. É importante ressaltar que a instalação no armazenamento interno do segundo modelo só funcionou ao dar o comando sudo armbian-install -m no para negar o uso do u-boot mainline e utilizar o correto. Sem Internet via Wi-Fi em ambos, porém a Red apresentou 5 interfaces de rede e uma configuração que revele wlan0 está em iminência de ser descoberta (módulo de rede AMPAK AP6212).
+
+O rkdevtool pôde ser configurado e construído, instalando sistemas diretamente no armazenamento interno dos modelos rockchip. O tutorial será postado em breve.
+
+Uma possível solução para os problemas de Wi-Fi de todos os modelos S905X3 é o que diz o caso de ZuiMelanieForno no fórum Armbian, que envolve a criação de uma imagem pelo framework Armbian com os parâmetros corretos.
+
+O código-fonte de alguns módulos de rede foram encontrados espalhados pelos repositórios do github, mas nenhum efetivamente testado e construído via Make (Instruções de construção precárias).
+
+Algumas ferramentas semelhantes ao RKdevtool se mostraram para Amlogic, mas nenhuma possui um suporte tão bom quanto seu equivalente rockchip. Elas cumprem funções diferentes, desde empacotamento de arquivos em um arquivo .img, até extração de firmware e instalação direta em eMMC. Algumas delas são: Amlogic CustomizationTool, USB_Burning Tool e ampart.
+
+Descoberto o modelo htv5, que possui processador S905, que confirmadamente não pode ter nada instalado no armazenamento interno de sua placa.
+
+Restam os modelos duosat e H7 para que todos os representantes do S905X3 (exceto athomics nomads) tenham sido descaracterizados com sucesso.
+
+A ximi box plus b11 (Allwinner H313) não responde de jeito nenhum a cartão SD/adaptador USB, porém ao abrir a embalagem, felizmente foi possível conectar no computador via cabo USB ao pressionar um botão escondido grafado "update". Nenhuma ferramente encontrada foi capaz de flashar uma imagem direta no aramzenamento, no entanto.
 
 
 ### Dia 07/12/2024
