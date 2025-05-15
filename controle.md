@@ -3,6 +3,14 @@
 
 # Processos em andamento
 
+## TV's Box que não foram possíveis de descaracterizar:
+ - Tigre T10: não reconheceu sistema a partir do cartão SD;
+ - Asamérica Champions: Não reconheceu o sistema a partir do cartão SD;
+ - Ximi Box plus b11: Não reconheceu o sistema a partir do cartão SD;
+ - DC BOX: Não reconheceu o sistema a partir do cartão SD;
+ - 
+
+
 ## META DA SEMANA: 
 
 #### Encontrar, compilar e inserir drivers Wi-Fi como módulos de kernel nos modelos MXQ, b11 e r69 1 (amlogic s905l). Variar parâmetros de build no framework de construção de arquivos de imagem do Armbian a fim de entender melhor as configurações. Tentar fazer um cluster com UniTV S1. Descaracterizar e docuemntar com sucesso H7 e duosat.

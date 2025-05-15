@@ -1,0 +1,4 @@
+# Metodologia de avaliação
+
+Baseado no artigo [Metodologia para diagnóstico e benchmarking de tvs box](https://sip.prg.ufla.br/publico/trabalhos_conclusao_curso/acessar_tcc_por_curso/ciencia_da_computacao/index.php?dados=20241202020091), autorado por João Gabriel Kondarzewski Zanella, optou-se por apresentar não só protocolos de descracterização no projeto, mas também resultados de benchmarking das TV Box estudadas, explicitando seu desempenho.
+A metodologia consiste em medir capacidades gráficas e de processador no sistema nativo Android das TV Box e, posteriormente, no sistema Armbian com o modelo já descaracterizado. Isso é feito, para verificar o ganho ou a perda de performance dependendo das diferentes características de cada sistema, reforçando quais aplicações são mais indicadas para cada modelos de TV Box e se a descaracterização para um outro fim é relamente viável.
