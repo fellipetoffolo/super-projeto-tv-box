@@ -1,4 +1,4 @@
-# <img src="../../.assets/h7-perfil.png" alt="Imagem de perfil" width="30" height="30"/> Descaracterização do modelo H7
+# <img src="https://github.com/fellipetoffolo/super-projeto-tv-box/raw/main/.assets/h7-perfil.png" alt="Imagem de perfil" width="30" height="30"/> Descaracterização do modelo H7
 
 ## 🔎 Sumário
 
