@@ -26,14 +26,15 @@
 
 | Medida                   | Valor detectado | Valor nominal |
 | ------------------------ | --------------  | ------------- |
-| CPU S905X3               |     1908 Mhz    |     1,9 Ghz   |
-| Armazenamento interno    |     9975 MB     |      16 GB    |
-| Memória RAM              |      2008 MB    |      2 GB     |
+| CPU S905X3               |     1,908 Ghz   |     1,9 Ghz   |
+| Armazenamento interno    |     9,975 GB    |      16 GB    |
+| Memória RAM              |      2,008 GB   |      2 GB     |
 
 ### Imagem do modelo
 
-<img src="../../.assets/h7-placa.png" alt="Imagem do circuito" width="300"/>
-<img src="../../.assets/h7-box.png" alt="Imagem do modelo" width="300"/>
+|Box          | Circuito   |
+|-------------|------------|
+| <img src="../../.assets/h7-box.png" alt="Imagem do modelo" width="265"/> | <img src="../../.assets/h7-placa.png" alt="Imagem do circuito" width="250"/>
 
 ### Sistema operacional original
 
@@ -123,5 +124,5 @@ E confirme o que for pedido
 
 ## ❌ Erros comuns
 
-1. Caso não seja identificado sinal de vídeo após cumprida a etapa 8 da "Preparação para instalação", verifique se o cabo HDMI funciona e está conectado corretamente. Em caso afirmativo, tudo indica que o sistema foi identificado, mas não é compatível.
+1. Caso não seja identificado sinal de vídeo após cumprida a etapa 8 do tópico "Inicializando o Armbian na TV Box pelo cartão SD", verifique se o cabo HDMI funciona e está conectado corretamente. Em caso afirmativo, tudo indica que o sistema foi identificado, mas não é compatível.
 2. Caso a TV Box inicialize pelo sistema original, é provável que o botão de reset não tenha isdo pressionado por tempo suficiente ou que no cartão SD não tenha sido encontrado um sistema para inicializar. Convém tentar conectar o cartão SD às entradas USB por meio de um adaptador.
